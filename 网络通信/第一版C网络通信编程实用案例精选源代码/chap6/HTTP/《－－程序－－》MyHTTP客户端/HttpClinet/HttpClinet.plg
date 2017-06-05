@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HttpClinet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/HttpClinet.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\caucy\Work\VC+Network\《－－第八章的内容－－》\HTTP\第六章\《－－程序－－》MyHTTP客户端\HttpClinet\HttpClinetDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP103.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HttpClinet.pdb" /debug /machine:I386 /out:"Debug/HttpClinet.exe" /pdbtype:sept  ".\Debug\HttpClinet.obj" ".\Debug\HttpClinetDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\HttpClinet.res" "
+<h3>Output Window</h3>
+Compiling...
+HttpClinetDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+HttpClinet.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

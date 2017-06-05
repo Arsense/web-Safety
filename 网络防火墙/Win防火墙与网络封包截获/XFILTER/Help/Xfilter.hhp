@@ -1,0 +1,42 @@
+[OPTIONS]
+Compatibility=1.1
+Compiled file=Xfilter.chm
+Contents file=Xfilter.hhc
+Default Window=Help
+Default topic=.\html\cont0.htm
+Display compile progress=No
+Flat=Yes
+Full-text search=Yes
+Index file=Xfilter.hhk
+Language=0x804 中文(中国)
+
+[WINDOWS]
+Help="Xfilter 帮助","Xfilter.hhc","Xfilter.hhk","html\cont0.htm",,,,,,0x2520,,0x300e,,,,,0,,,
+
+
+[FILES]
+Html\cont0.htm
+Html\cont1.htm
+Html\cont2.htm
+Html\cont3.htm
+Html\cont4.htm
+Html\cont5.htm
+Html\cont6.htm
+Html\cont7.htm
+Html\cont8.htm
+Html\cont9.htm
+
+[ALIAS]
+IDH_Cont0=cont0.htm
+IDH_Cont1=cont1.htm
+IDH_Cont2=cont2.htm
+IDH_Cont3=cont3.htm
+IDH_Cont4=cont4.htm
+IDH_Cont5=cont5.htm
+IDH_Cont6=Cont6.htm
+IDH_Cont7=Cont7.htm
+IDH_Cont8=Cont8.htm
+IDH_Cont9=cont9.htm
+
+[MAP]
+#include Xfilter.h

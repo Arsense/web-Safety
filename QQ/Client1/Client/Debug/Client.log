@@ -1,0 +1,33 @@
+﻿生成启动时间为 2016/4/28 21:25:59。
+     1>项目“H:\mycode\QQ\Client1\Client\Client.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Client.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\Client.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         F:\网络安全\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Client.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\网络安全\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Client.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp ClientDlg.cpp Login.cpp MyEdit.cpp MyTracker.cpp
+         MyTracker.cpp
+     1>h:\mycode\qq\client1\client\mytracker.cpp(154): error C2065: “_afxHatchBrush”: 未声明的标识符
+     1>h:\mycode\qq\client1\client\mytracker.cpp(162): error C2065: “_afxHatchBrush”: 未声明的标识符
+     1>h:\mycode\qq\client1\client\mytracker.cpp(174): error C2065: “_afxHatchBrush”: 未声明的标识符
+     1>h:\mycode\qq\client1\client\mytracker.cpp(193): error C3861: “GetHandleMask”: 找不到标识符
+     1>h:\mycode\qq\client1\client\mytracker.cpp(198): error C2065: “TrackerHit”: 未声明的标识符
+     1>h:\mycode\qq\client1\client\mytracker.cpp(198): error C2146: 语法错误: 缺少“)”(在标识符“i”的前面)
+     1>h:\mycode\qq\client1\client\mytracker.cpp(198): error C2059: 语法错误:“)”
+     1>h:\mycode\qq\client1\client\mytracker.cpp(198): error C3861: “GetHandleRect”: 找不到标识符
+         MyEdit.cpp
+         Login.cpp
+         ClientDlg.cpp
+     1>h:\mycode\qq\client1\client\clientdlg.cpp(953): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>h:\mycode\qq\client1\client\clientdlg.cpp(1119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>h:\mycode\qq\client1\client\clientdlg.cpp(1124): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         Client.cpp
+         正在生成代码...
+     1>已完成生成项目“H:\mycode\QQ\Client1\Client\Client.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.74

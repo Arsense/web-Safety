@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/4/17 13:37:28。
+     1>项目“H:\mycode\QQ\QQServer\QQServer\QQServer.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\QQServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\网络安全\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\QQServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\网络安全\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\QQServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt QQServer.cpp QQServerDlg.cpp
+         QQServerDlg.cpp
+     1>h:\mycode\qq\qqserver\qqserver\qqserverdlg.cpp(170): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+         QQServer.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\QQServer.res" QQServer.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\QQServer.exe.embed.manifest.res" Debug\QQServer_manifest.rc 
+       Link:
+         F:\网络安全\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\QQ\QQServer\Debug\QQServer.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\QQServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\mycode\QQ\QQServer\Debug\QQServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\QQ\QQServer\Debug\QQServer.lib" /MACHINE:X86 Debug\QQServer.res
+         Debug\QQServer.exe.embed.manifest.res
+         Debug\QQServer.obj
+         Debug\QQServerDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\QQServer.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\QQServer.exe.embed.manifest" /manifest Debug\QQServer.exe.intermediate.manifest "F:\网络安全\VS2010\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\QQServer.exe.embed.manifest.res" Debug\QQServer_manifest.rc 
+       LinkEmbedManifest:
+         F:\网络安全\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\QQ\QQServer\Debug\QQServer.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\QQServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\mycode\QQ\QQServer\Debug\QQServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\QQ\QQServer\Debug\QQServer.lib" /MACHINE:X86 Debug\QQServer.res
+         Debug\QQServer.exe.embed.manifest.res
+         Debug\QQServer.obj
+         Debug\QQServerDlg.obj
+         Debug\stdafx.obj
+         QQServer.vcxproj -> H:\mycode\QQ\QQServer\Debug\QQServer.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\QQServer.unsuccessfulbuild”。
+         正在对“Debug\QQServer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\QQ\QQServer\QQServer\QQServer.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.61

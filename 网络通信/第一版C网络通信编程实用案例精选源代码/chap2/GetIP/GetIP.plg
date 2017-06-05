@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GetIP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/GetIP.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\GetIP.rc"" 
+Creating temporary file "C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GetIP.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\GetIP.cpp"
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\GetIPDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP90.tmp" 
+Creating temporary file "C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP91.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GetIP.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP91.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GetIP.pdb" /debug /machine:I386 /out:"Debug/GetIP.exe" /pdbtype:sept  ".\Debug\GetIP.obj" ".\Debug\GetIPDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\GetIP.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GetIP.cpp
+GetIPDlg.cpp
+H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\GetIPDlg.cpp(176) : warning C4101: 'szT' : unreferenced local variable
+H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\GetIPDlg.cpp(187) : warning C4101: 'str' : unreferenced local variable
+H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\GetIPDlg.cpp(189) : warning C4101: 'j' : unreferenced local variable
+H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetIP\GetIPDlg.cpp(188) : warning C4101: 'addr' : unreferenced local variable
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GetIP.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

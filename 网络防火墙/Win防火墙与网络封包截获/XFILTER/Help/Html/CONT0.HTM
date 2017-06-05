@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<style>A:link {
+	TEXT-DECORATION: underline
+}
+.105V {
+	FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt
+}
+td {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+.90VE {
+	FONT-FAMILY: arial; FONT-SIZE: 9pt
+}
+A:visited{COLOR:blue}
+A:hover {
+	COLOR: red
+}
+A.bb {
+	TEXT-DECORATION: underline
+}
+A.bbr {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+</style>
+<script language="vbscript">
+	function add_onsubmit()
+		if	add.sComputerID.value="" then 
+			msgbox "必须输入计算机编号。"
+			add_onsubmit=false
+		elseif len(add.sComputerID.value )<3 then
+			msgbox "计算机编号必须为 3 位，不够 3 位前面补 0，请重新输入。"
+			add_onsubmit=false
+		else
+			add_onsubmit=checkIP(add.sComputerIP.value)
+		end if 
+	end function
+	
+	function checkIP(strIP)
+		checkIP=true
+		if strIP="" then
+			msgbox "必须输入 IP 地址，请按 255.255.255.255 格式输入。"
+			checkIP=false
+		else
+			dim IPlen,ip1,ip2,ip3,ip4
+			dim i,j
+			dim tmpStr
+			
+			j=1
+			IPlen=len(strIP)
+			for i=1 to IPlen
+				tmpStr=mid(strip,i,1)
+				if tmpStr<>"." then
+					select case j
+						case 1:ip1=ip1 & tmpStr
+						case 2:ip2=ip2 & tmpStr
+						case 3:ip3=ip3 & tmpStr
+						case 4:ip4=ip4 & tmpStr
+					end select
+				else
+					j=j+1
+				end if
+				
+			next 
+			
+			if j<>4 or ip2="" or ip3="" or ip4="" or not isnumeric(ip1) _
+				or not isnumeric(ip2) or not isnumeric(ip3) or not isnumeric(ip4) _
+				or len(ip1)>3 or len(ip2)>3 or len(ip3)>3 or len(ip4)>3 then
+				
+				msgbox "IP 地址不合法，请按 255.255.255.255 格式输入。"
+				checkIP=false
+			else
+				if cint(ip1)<0 or cint(ip1)>255 or cint(ip2)<0 or cint(ip2)>255 or _
+					cint(ip3)<0 or cint(ip3)>255 or cint(ip4)<0 or cint(ip4)>255 then
+					msgbox "IP 地址不合法，请按 255.255.255.255 格式输入，每个单元必须为 0-255。"
+					checkIP=false
+				else
+					add.sComputerIP.value=cint(ip1) & "." & cint(ip2) & "." & cint(ip3) & "." & cint(ip4)
+				end if
+			end if
+		end if
+	end function
+</script>
+
+</head>
+<body>
+
+<table border="0" cellPadding="0" cellSpacing="0" height="100%" width="100%">
+  <tbody> 
+  <tr> 
+    <td height="145" rowSpan="7" width="9"></td>
+    <td height="145" rowSpan="7" vAlign="top" colspan="4"> 
+      <p><b><font size="3">功能简介</font></b></p>
+      <p>　　Xfilter 个人防火墙是用来监视TCP/IP封包，并根据设定的规则对网络封包做拦截或放行的动作，从而可以对TCP/IP封包做一层过滤来达到防止黑客攻击的目的。 
+      </p>
+      <p>　　Xfilter个人防火墙的主要功能之一就是完成对未经授权程序联网动作的拦截。另外它还有封包监视和记录日志的功能。封包监视可以将进出网络的封包直观的显示在屏幕上供我们观察分析。日志会将封包记录下来，供日后查看分析，日志功能非常重要，往往事发后可以作为调查的重要依据。 
+      </p>
+      <p>　　黑客攻击有多种手段，其中具有很好隐蔽性和潜伏性的同时也是最具有危害性的就可以说是木马程序了，它可能是你在上网时一次不经意点击而驻留在你的计算机里。它可能立即发作来破坏你的计算机系统，这种木马程序带有病毒的性质，它的破坏是可见的，然而更为可怕的是它一直潜伏在你的计算机中，远程服务器程序可以通过这支木马程序来操纵你的计算机，而你却一点也没有察觉。当然也有的偷偷向网络传送你的私人数据，它可以不知不觉的窃取你计算机中的所有资料，包括你的通讯录、文档、程序、Email密码甚至你的网上银行密码都有可能被窃取，相对来讲，这种隐藏的杀手一旦爆发，带来的损失也是最严重的。</p>
+      <p>　　 防火墙程序的主要功能之一就是拦截未经授权的网络访问动作。你可以授权已知的程序可以访问网络，而未经授权的要访问网络时，就需要提出申请，有你来进行授权。如果程序被拒绝访问网络，它将不能有任何访问网络的动作，也就是说它将不能向网络外发送任何数据，从而一些未知的木马程序会被挡在网络之外而保护私人数据的安全。 
+      </p>
+      <p><b><font size="3">请参阅</font></b> </p>
+      <p>　　 <a href="cont1.htm">弹出菜单</a> - <a href="cont2.htm">图标说明</a> - <a href="cont3.htm">主界面操作</a> 
+        - <a href="cont4.htm">封包监视</a> - <a href="cont5.htm">日志查询</a> - <a href="cont6.htm">控管规则</a> 
+        - <a href="cont7.htm">系统设置</a> - <a href="cont8.htm">关于</a> - <a href="cont9.htm">用户注册</a></p>
+      </td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  </tbody> 
+</table>
+
+</body>
+</html>

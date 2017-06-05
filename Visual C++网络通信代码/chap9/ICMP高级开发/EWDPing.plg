@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EWDPing - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo".\Debug/EWDPing.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\EWDPing.rc"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP9E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Debug/EWDPing.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\EWDPing.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\EWDPingDlg.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\Icmp.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\PingOptionsDlg.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\RegKey.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\SysTCPIP.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP9E.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP9F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Debug/EWDPing.pch" /Yc"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap9\ICMP高级开发\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP9F.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSPA0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:".\Debug/EWDPing.pdb" /debug /machine:I386 /out:".\Debug/EWDPing.exe" 
+".\Debug\EWDPing.obj"
+".\Debug\EWDPingDlg.obj"
+".\Debug\Icmp.obj"
+".\Debug\PingOptionsDlg.obj"
+".\Debug\RegKey.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SysTCPIP.obj"
+".\Debug\EWDPing.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSPA0.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+EWDPing.cpp
+EWDPingDlg.cpp
+Icmp.cpp
+PingOptionsDlg.cpp
+RegKey.cpp
+SysTCPIP.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+EWDPing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

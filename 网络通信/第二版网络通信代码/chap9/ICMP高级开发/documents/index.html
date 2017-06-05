@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type"       content="text/html;       charset=iso-8859-1">
+<meta name="GENERATOR" content="/www/htdocs/earthwalkdesigns//earcgi/EWDHtml.cgi">
+<!--                                                       -->
+<!--      *******************************************      -->
+<!--      *                                         *      -->
+<!--      * EarthWalk Designs Programming Services. *      -->
+<!--      *        WWW.EarthWalkDesigns.Com         *      -->
+<!--      *                                         *      -->
+<!--      *  Jay Wheeler (Jay@EarthWalkDesigns.com) *      -->
+<!--      *              December 1997              *      -->
+<!--      *                                         *      -->
+<!--      *******************************************      -->
+<!--                                                       -->
+<!-- This page was designed by Jay Wheeler. -->
+<title>EWDPing - Ping/TraceRoute</title>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#990033" vlink="#333399" alink="#ff0000">
+<font size=" 3 " face=" Century Schoolbook ">
+<center>
+<a href="http://www.earthwalkdesigns.com/EWSoftware/CIcmp/"><img src="EarthWalk.gif" border="0" align="center" ></a>
+<br>
+<font size="+2">
+<b>EWDPing Ping/TraceRoute Application
+</b></font>
+<br>
+<img src="Colorbar.gif" border="0" align="center" ><br>
+</center>
+<ul>
+<dl>
+  <dt><a href="#Overview">Overview</a>
+    <dd>Overview of EWDPing - Ping/TraceRoute Utility
+  <dt><a href="#Disclaimer">Disclaimer</a>
+  <dt><a href="Methods.html">Methods</a>
+  <dt><a href="Variables.html">Program Variables</a>
+  <dt><a href="Install.html">Installing into a project</a>
+  <p>
+  <dt><h3>Classes Used</h3>
+    <dl>
+     <dt><a href="http://www.earthwalkdesigns.com/EWSoftware/CIcmp">
+         CIcmp</a>
+         <dd>An object class derived from the MFC CSocket object class to 
+             provide access to RAW sockets and ICMP 
+             (Internet Control Message Protocol) functions.
+      <dt><a href="http://www.earthwalkdesigns.com/EWSoftware/CRegKey">CRegKey</a>
+         <dd>An object class to provide to WindowsNT/95 system registry objects.
+      <dt><a href="http://www.earthwalkdesigns.com/EWSoftware/CSysTCPIP">CSysTCPIP</a>
+         <dd>An object class to provide access to some of the TCP/IP related 
+             information stored in the system registry on Windows NT using 
+             Microsoft's Winsock 2 interface.
+    </dl>
+</dl>
+</ul>
+<p>
+
+<center>
+<hr width="50%">
+</center>
+<p>
+<a name="Overview"><b>Overview</b></a>
+<br>
+<ul>
+  EWDPing is a sample program which illustrates the use of the
+  <a href="http://www.earthwalkdesigns.com/EWSoftware/CIcmp">CIcmp</a> class to
+  provide access to RAW sockets and ICMP (Internet Command Message Protocol).
+  <p>
+  This program implements the ICMP <b>Echo Request</b> message (commonly 
+  known as PING) to check the on-line status of an Internet host, and TTL to 
+  trace the route to the Internet host.
+  <p>
+  The <i>.zip</i> file contains the source for EWDPing as well as the source for
+  the EarthWalk Design classes:
+  <p>
+  <ul>
+    <b><a href="http://www.earthwalkdesigns.com/EWSoftware/CIcmp">CIcmp</a></b>,
+    <br>
+    <b><a href="http://www.earthwalkdesigns.com/EWSoftware/CRegKey">CRegKey</a></b>
+    and 
+    <br>
+   <b><a href="http://www.earthwalkdesigns.com/EWSoftware/CSysTCPIP">CSysTCPIP</a></b>.
+  </ul>
+  <p>
+  The program also makes use of a system timer to prevent "hanging" on a 
+  non-responsive gateway.  Timer operations are discussed in the 
+  <a href="http://www.earthwalkdesigns.com/EWSoftware/Tutorials/Timers">
+  MFC Timers</a> tutorial.
+  <p>
+  This is a demonstration program and, as such, probably contains some
+  logic flaws.  There are still a number of functions which could be added
+  to improve the user interface, but that was not the purpose of this program.
+  Its' sole purpose is to demonstrate the useage of the <b>CIcmp</b> class.
+  <p>
+  Documentation for the functions and variables are presented within the
+  programs' source.
+</ul>
+
+<p>
+<center>
+<hr width="50%">
+</center>
+<p>
+
+<a name="Disclaimer"><b>Disclaimer</b></a>
+<ul>
+  This software is released into the public domain as is and			
+  without warranty.													
+  <p>
+  Use it in good health, and please let me know if it was useful.		
+  If you make improvements or fixed problems, please drop me an		
+  e-mail describing your changes at
+  <p>
+  <ul>
+    <b>Jay@EarthWalkDesigns.COM</b>
+  </ul>
+  <p>
+  I will try to incorporate			
+  them into this package so that others may benefit from your			
+  improvements.
+  <p>
+  Enjoy!																
+</ul>
+
+
+<p>
+<center>
+<img src="Colorbar.gif" border="0" align="center" ><br>
+</center>
+<font size="-1">
+Copyright (c) 1997,1998. EarthWalk Designs.
+<br>
+Direct all inquiries to:<a href="mailto:jay@earthwalkdesigns.com">Jay Wheeler</a>
+at EarthWalkDesigns.com
+</font>
+</body>
+</html>
+

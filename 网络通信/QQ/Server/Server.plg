@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSP9633.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Server.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\源代码\网络通信\QQ\Server\Server.cpp"
+]
+Creating command line "cl.exe @"C:\Users\伟\AppData\Local\Temp\RSP9633.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Server.pdb" /debug /machine:I386 /out:"Debug/Server.exe" /pdbtype:sept  ".\Debug\Server.obj" ".\Debug\ServerDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Server.res" "
+<h3>Output Window</h3>
+Compiling...
+Server.cpp
+h:\源代码\网络通信\qq\server\server.cpp(75) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Error executing cl.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/Server.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Server.sbr" ".\Debug\ServerDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Server.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

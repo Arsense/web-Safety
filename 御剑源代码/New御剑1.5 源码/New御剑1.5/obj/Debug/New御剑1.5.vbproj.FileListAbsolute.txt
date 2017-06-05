@@ -1,0 +1,66 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\bin\Debug\New御剑1.5.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\bin\Debug\New御剑1.5.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\bin\Debug\New御剑1.5.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\obj\Debug\New御剑1._5.Resources.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\obj\Debug\New御剑1.5.vbproj.GenerateResource.Cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\obj\Debug\New御剑1.5.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\obj\Debug\New御剑1.5.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\obj\Debug\New御剑1.5.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\New御剑1.5\obj\Debug\New御剑1._5.FrmMain.resources
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\obj\Debug\New御剑1.5.exe
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\obj\Debug\New御剑1.5.pdb
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\bin\Debug\New御剑1.5.exe
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\bin\Debug\New御剑1.5.pdb
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\obj\Debug\ResolveAssemblyReference.cache
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\obj\Debug\New御剑1._5.FrmMain.resources
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\obj\Debug\New御剑1._5.Resources.resources
+F:\御剑1.5(NEW)\New御剑1.5\New御剑1.5\obj\Debug\New御剑1.5.vbproj.GenerateResource.Cache
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\obj\Debug\New御剑1.5.exe
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\obj\Debug\New御剑1.5.pdb
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\bin\Debug\New御剑1.5.exe
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\bin\Debug\New御剑1.5.pdb
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\obj\Debug\ResolveAssemblyReference.cache
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\obj\Debug\New御剑1._5.FrmMain.resources
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\obj\Debug\New御剑1._5.Resources.resources
+F:\御剑1.5(NEW) - 副本\New御剑1.5\New御剑1.5\obj\Debug\New御剑1.5.vbproj.GenerateResource.Cache
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.exe
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.pdb
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.exe
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.pdb
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\ResolveAssemblyReference.cache
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.FrmMain.resources
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.Resources.resources
+F:\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.vbproj.GenerateResource.Cache
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.exe
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.pdb
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.exe
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.pdb
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\ResolveAssemblyReference.cache
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.Form1.resources
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.FrmMain.resources
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.Resources.resources
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\GenerateResource.read.1.tlog
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\GenerateResource.write.1.tlog
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.exe.config
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\旧硬盘数据\F盘\御剑1.5(NEW)\New御剑1.5 - 副本\New御剑1.5\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.exe.config
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.exe
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.pdb
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.exe
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\bin\Debug\New御剑1.5.pdb
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.Form1.resources
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.FrmMain.resources
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1._5.Resources.resources
+C:\Users\Administrator\Desktop\New御剑1.5 - 副本\New御剑1.5\obj\Debug\New御剑1.5.vbproj.GenerateResource.Cache
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\bin\Debug\New御剑1.5.exe.config
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\obj\Debug\New御剑1.5.exe
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\obj\Debug\New御剑1.5.pdb
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\bin\Debug\New御剑1.5.exe
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\bin\Debug\New御剑1.5.pdb
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\obj\Debug\New御剑1.5.vbprojResolveAssemblyReference.cache
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\obj\Debug\New御剑1._5.Form1.resources
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\obj\Debug\New御剑1._5.FrmMain.resources
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\obj\Debug\New御剑1._5.Resources.resources
+H:\代码\御剑源代码\New御剑1.5 源码\New御剑1.5\obj\Debug\New御剑1.5.vbproj.GenerateResource.Cache

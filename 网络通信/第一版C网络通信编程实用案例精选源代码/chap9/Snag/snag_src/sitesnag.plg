@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SiteSnag - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/SiteSnag.res" /d "NDEBUG" "F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\经过我二次改动的代码\snag_src\SiteSnag.rc"" 
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP321.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SiteSnag.pdb" /machine:I386 /out:"Release/SiteSnag.exe" 
+".\Release\ConfigureSetting.obj"
+".\Release\FilePars.obj"
+".\Release\HTMLParser.obj"
+".\Release\InputProjectDlg.obj"
+".\Release\InputURLDlg.obj"
+".\Release\InternetDownload.obj"
+".\Release\MyDocument.obj"
+".\Release\MyFrame.obj"
+".\Release\MyTreeCtrl.obj"
+".\Release\MyView.obj"
+".\Release\SiteDownload.obj"
+".\Release\StdAfx.obj"
+".\Release\SiteSnag.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP321.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+SiteSnag.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

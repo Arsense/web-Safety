@@ -1,0 +1,63 @@
+; -- XFTOWIN.INF --
+;
+; Sample Filter Miniport INF file
+;
+; Copyright (c) 2001-2002, xstudio technology
+; ----------------------------------------------------------------------
+[Version]
+signature  = "$Windows NT$"
+Class      = Net
+ClassGUID  = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider   = %Msft%
+DriverVer  = 12/24/2001,1.00.0.1
+
+[ControlFlags]
+ExcludeFromSelect = xfiltermp
+
+[DestinationDirs]
+DefaultDestDir=12
+; No files to copy 
+
+[Manufacturer]
+%Msft% = MSFT
+
+[MSFT]
+%xfilterMP_Desc% = xfilterMP.ndi, xfiltermp
+
+[xfilterMP.ndi]
+Characteristics = 0x29 ;NCF_NOT_USER_REMOVABLE | NCF_VIRTUAL | NCF_HIDDEN
+CopyFiles = 
+
+[xfilterMP.ndi.Services]
+AddService = xfilter,0x2, xfilterMP.AddService
+
+
+[xfilterMP.AddService]
+DisplayName    = %xfilterMP_Desc%
+ServiceType    = 1 ;SERVICE_KERNEL_DRIVER
+StartType      = 3 ;SERVICE_DEMAND_START
+ErrorControl   = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\xpassthru.sys
+LoadOrderGroup = PNP_TDI
+AddReg         = xfilterMP.AddService.AddReg
+
+
+[xfilterMP.AddService.AddReg]
+; ----------------------------------------------------------------------
+; Add any miniport-specific parameters here.  These are params that your
+; filter device is going to use.
+;
+;HKR, Parameters, ParameterName,  0x10000, "MultiSz", "Parameter", "Value"
+;HKR, Parameters, ParameterName2, 0x10001, 4
+
+[Strings]
+Msft = "Xstudio"
+xfilterMP_Desc = "Xstudio Sample Filter Miniport"
+
+[SourceDisksNames]
+;None 
+
+[SourceDisksFiles]
+;None
+
+

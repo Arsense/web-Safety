@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HttpSvr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/HttpSvr.res" /d "_DEBUG" /d "_AFXDLL" "G:\caucy\Work\VC+Network\《－－第八章的内容－－》\HTTP\第六章\修改的 HTTPSVR\HttpSvr.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8AE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:".\Debug/httpsvr.pdb" /debug /machine:I386 /out:".\Debug/httpsvr.exe" 
+".\Debug\GenPage.obj"
+".\Debug\Http.obj"
+".\Debug\HttpDoc.obj"
+".\Debug\HttpSvr.obj"
+".\Debug\HttpView.obj"
+".\Debug\Listen.obj"
+".\Debug\MainFrm.obj"
+".\Debug\NamePage.obj"
+".\Debug\NoRoot.obj"
+".\Debug\ReqSock.obj"
+".\Debug\Request.obj"
+".\Debug\RootDlg.obj"
+".\Debug\RootPage.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HttpSvr.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8AE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+httpsvr.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

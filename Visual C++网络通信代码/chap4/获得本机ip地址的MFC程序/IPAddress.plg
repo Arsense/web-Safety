@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IPAddress - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/IPAddress.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\获得本机ip地址的MFC程序\IPAddress.rc"" 
+Creating command line "link.exe wsock32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/IPAddress.pdb" /debug /machine:I386 /out:"Debug/IPAddress.exe" /pdbtype:sept  ".\Debug\IPAddress.obj" ".\Debug\IPAddressDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\IPAddress.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+IPAddress.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

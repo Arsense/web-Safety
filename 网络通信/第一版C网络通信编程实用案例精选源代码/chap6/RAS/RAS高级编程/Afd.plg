@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Afd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Afd.res" /d "_DEBUG" "G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\Afd.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Afd.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\Afd.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\AfdDlg.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\AFDialPanel.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\AlexfPerf.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\FaceWnd.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\HyperLink.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\IMapi.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\ModulVer.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\Page1.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\Page2.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\Page3.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\Page4.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\PhoneNumberDlg.cpp"
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\trayicon.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Afd.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBA.tmp" with contents
+[
+RASAPI32.LIB WINMM.LIB version.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Afd.pdb" /debug /machine:I386 /out:"Debug/Afd.exe" /pdbtype:sept 
+".\Debug\Afd.obj"
+".\Debug\AfdDlg.obj"
+".\Debug\AFDialPanel.obj"
+".\Debug\AlexfPerf.obj"
+".\Debug\FaceWnd.obj"
+".\Debug\HyperLink.obj"
+".\Debug\IMapi.obj"
+".\Debug\ModulVer.obj"
+".\Debug\Page1.obj"
+".\Debug\Page2.obj"
+".\Debug\Page3.obj"
+".\Debug\Page4.obj"
+".\Debug\PhoneNumberDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\trayicon.obj"
+".\Debug\Afd.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Afd.cpp
+AfdDlg.cpp
+AFDialPanel.cpp
+AlexfPerf.cpp
+FaceWnd.cpp
+HyperLink.cpp
+IMapi.cpp
+ModulVer.cpp
+Page1.cpp
+Page2.cpp
+Page3.cpp
+Page4.cpp
+PhoneNumberDlg.cpp
+trayicon.cpp
+Generating Code...
+Linking...
+LINK : LNK6006: program database G:\part2\《－－－代码－－－》\第八章\RAS\RAS高级编程\Debug\Afd.pdb missing; performing full link
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBC.tmp" with contents
+[
+/nologo /o"Debug/Afd.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Afd.sbr"
+".\Debug\AfdDlg.sbr"
+".\Debug\AFDialPanel.sbr"
+".\Debug\AlexfPerf.sbr"
+".\Debug\FaceWnd.sbr"
+".\Debug\HyperLink.sbr"
+".\Debug\IMapi.sbr"
+".\Debug\ModulVer.sbr"
+".\Debug\Page1.sbr"
+".\Debug\Page2.sbr"
+".\Debug\Page3.sbr"
+".\Debug\Page4.sbr"
+".\Debug\PhoneNumberDlg.sbr"
+".\Debug\trayicon.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBC.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Afd.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

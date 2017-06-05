@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "New御剑1.5", "New御剑1.5\New御剑1.5.vbproj", "{E2D1DC9B-E20A-4EF5-A079-75A9EF56EEDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D1DC9B-E20A-4EF5-A079-75A9EF56EEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D1DC9B-E20A-4EF5-A079-75A9EF56EEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D1DC9B-E20A-4EF5-A079-75A9EF56EEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D1DC9B-E20A-4EF5-A079-75A9EF56EEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

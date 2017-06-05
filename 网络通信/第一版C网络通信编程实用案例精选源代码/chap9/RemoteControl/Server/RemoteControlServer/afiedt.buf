@@ -1,0 +1,10 @@
+select * from fmstgrs_db2
+where fmoutge_nbr in
+( select fmoutge_nbr
+  from fmstgrs_db2
+  minus
+  select fmoutge_nbr
+  from fmwkcrw_db2
+  where fm_status_cde = 'COMPLETED'
+  and update_allowed_ind = 'Y')
+/

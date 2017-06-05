@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<style>A:link {
+	TEXT-DECORATION: underline
+}
+.105V {
+	FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt
+}
+td {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+.90VE {
+	FONT-FAMILY: arial; FONT-SIZE: 9pt
+}
+A:visited{COLOR:blue}
+A:hover {
+	COLOR: red
+}
+A.bb {
+	TEXT-DECORATION: underline
+}
+A.bbr {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+</style>
+<script language="vbscript">
+	function add_onsubmit()
+		if	add.sComputerID.value="" then 
+			msgbox "必须输入计算机编号。"
+			add_onsubmit=false
+		elseif len(add.sComputerID.value )<3 then
+			msgbox "计算机编号必须为 3 位，不够 3 位前面补 0，请重新输入。"
+			add_onsubmit=false
+		else
+			add_onsubmit=checkIP(add.sComputerIP.value)
+		end if 
+	end function
+	
+	function checkIP(strIP)
+		checkIP=true
+		if strIP="" then
+			msgbox "必须输入 IP 地址，请按 255.255.255.255 格式输入。"
+			checkIP=false
+		else
+			dim IPlen,ip1,ip2,ip3,ip4
+			dim i,j
+			dim tmpStr
+			
+			j=1
+			IPlen=len(strIP)
+			for i=1 to IPlen
+				tmpStr=mid(strip,i,1)
+				if tmpStr<>"." then
+					select case j
+						case 1:ip1=ip1 & tmpStr
+						case 2:ip2=ip2 & tmpStr
+						case 3:ip3=ip3 & tmpStr
+						case 4:ip4=ip4 & tmpStr
+					end select
+				else
+					j=j+1
+				end if
+				
+			next 
+			
+			if j<>4 or ip2="" or ip3="" or ip4="" or not isnumeric(ip1) _
+				or not isnumeric(ip2) or not isnumeric(ip3) or not isnumeric(ip4) _
+				or len(ip1)>3 or len(ip2)>3 or len(ip3)>3 or len(ip4)>3 then
+				
+				msgbox "IP 地址不合法，请按 255.255.255.255 格式输入。"
+				checkIP=false
+			else
+				if cint(ip1)<0 or cint(ip1)>255 or cint(ip2)<0 or cint(ip2)>255 or _
+					cint(ip3)<0 or cint(ip3)>255 or cint(ip4)<0 or cint(ip4)>255 then
+					msgbox "IP 地址不合法，请按 255.255.255.255 格式输入，每个单元必须为 0-255。"
+					checkIP=false
+				else
+					add.sComputerIP.value=cint(ip1) & "." & cint(ip2) & "." & cint(ip3) & "." & cint(ip4)
+				end if
+			end if
+		end if
+	end function
+</script>
+
+</head>
+<body>
+
+<table border="0" cellPadding="0" cellSpacing="0" height="100%" width="100%">
+  <tbody> 
+  <tr> 
+    <td height="145" rowSpan="7" width="9"></td>
+    <td height="145" rowSpan="7" vAlign="top" colspan="4"> 
+      <p><b><font size="3">图标说明</font></b></p>
+      <blockquote>
+        <p>系统任务栏上的图标，会根据软件不同的状态做出不同的反映。 </p>
+        <p>1． 篮色屏幕图标：询问，表示软件处于询问状态，在这种工作状态下，当遇到控管规则列表里没有授权的程序要访问网络时首先会询问用户是否允许这个程序通过网络。</p>
+        <p> 2． 绿色屏幕图标：放行所有，表示直接允许所有的应用程序访问网络。 </p>
+        <p>3． 红色屏幕图标：拒绝所有，表示直接禁止所有的应用程序访问网络。 </p>
+        <p>4． 惊叹号图标：在网络连接被拒绝后，会闪烁惊叹号图表提示用户有封包被拦截。 </p>
+        <p>5． 信息图标：Xfilter 可以自动获取本软件的网站上发布的系统消息，并闪烁信息图标提示用户收到新的消息。 </p>
+        </blockquote>
+      <p><b><font size="3">请参阅</font></b> </p>
+      <p>　　<a href="cont0.htm">功能简介</a> - <a href="cont1.htm">弹出菜单</a> - <a href="cont3.htm">主界面操作</a> 
+        - <a href="cont4.htm">封包监视</a> - <a href="cont5.htm">日志查询</a> - <a href="cont6.htm">控管规则</a> 
+        - <a href="cont7.htm">系统设置</a> - <a href="cont8.htm">关于</a> - <a href="cont9.htm">用户注册</a></p>
+    </td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  </tbody> 
+</table>
+
+</body>
+</html>

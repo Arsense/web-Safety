@@ -1,0 +1,114 @@
+<html>
+<head>
+<meta NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<style>A:link {
+	TEXT-DECORATION: underline
+}
+.105V {
+	FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt
+}
+td {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+.90VE {
+	FONT-FAMILY: arial; FONT-SIZE: 9pt
+}
+A:visited{COLOR:blue}
+A:hover {
+	COLOR: red
+}
+A.bb {
+	TEXT-DECORATION: underline
+}
+A.bbr {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+</style>
+<script language="vbscript">
+	function add_onsubmit()
+		if	add.sComputerID.value="" then 
+			msgbox "必须输入计算机编号。"
+			add_onsubmit=false
+		elseif len(add.sComputerID.value )<3 then
+			msgbox "计算机编号必须为 3 位，不够 3 位前面补 0，请重新输入。"
+			add_onsubmit=false
+		else
+			add_onsubmit=checkIP(add.sComputerIP.value)
+		end if 
+	end function
+	
+	function checkIP(strIP)
+		checkIP=true
+		if strIP="" then
+			msgbox "必须输入 IP 地址，请按 255.255.255.255 格式输入。"
+			checkIP=false
+		else
+			dim IPlen,ip1,ip2,ip3,ip4
+			dim i,j
+			dim tmpStr
+			
+			j=1
+			IPlen=len(strIP)
+			for i=1 to IPlen
+				tmpStr=mid(strip,i,1)
+				if tmpStr<>"." then
+					select case j
+						case 1:ip1=ip1 & tmpStr
+						case 2:ip2=ip2 & tmpStr
+						case 3:ip3=ip3 & tmpStr
+						case 4:ip4=ip4 & tmpStr
+					end select
+				else
+					j=j+1
+				end if
+				
+			next 
+			
+			if j<>4 or ip2="" or ip3="" or ip4="" or not isnumeric(ip1) _
+				or not isnumeric(ip2) or not isnumeric(ip3) or not isnumeric(ip4) _
+				or len(ip1)>3 or len(ip2)>3 or len(ip3)>3 or len(ip4)>3 then
+				
+				msgbox "IP 地址不合法，请按 255.255.255.255 格式输入。"
+				checkIP=false
+			else
+				if cint(ip1)<0 or cint(ip1)>255 or cint(ip2)<0 or cint(ip2)>255 or _
+					cint(ip3)<0 or cint(ip3)>255 or cint(ip4)<0 or cint(ip4)>255 then
+					msgbox "IP 地址不合法，请按 255.255.255.255 格式输入，每个单元必须为 0-255。"
+					checkIP=false
+				else
+					add.sComputerIP.value=cint(ip1) & "." & cint(ip2) & "." & cint(ip3) & "." & cint(ip4)
+				end if
+			end if
+		end if
+	end function
+</script>
+
+</head>
+<body>
+
+<table border="0" cellPadding="0" cellSpacing="0" height="100%" width="100%">
+  <tbody> 
+  <tr> 
+    <td height="145" rowSpan="7" width="9"></td>
+    <td height="145" rowSpan="7" vAlign="top" colspan="4"> 
+      <p><b><font size="3">用户注册</font></b></p>
+      <p>　　Xfilter为共享软件，软件本身是完全免费的，只要输入 Email 地址进行注册，就成为本软件的合法用户。请确保 Email 的真实性，这将作为技术支持的主要途径。</p>
+      <p>　　另外，提供了附加信息的注册服务，附加信息为可选信息，可以注册也可以不注册，不过注册之后可以在第一时间得到本软件的升级程序，并有可能成为幸运用户免费获得源代码。 
+      </p>
+      <p><b><font size="3">请参阅</font></b> </p>
+      <p>　　<a href="cont0.htm">功能简介</a> - <a href="cont1.htm">弹出菜单</a> - <a href="cont2.htm">图标说明</a> 
+        - <a href="cont3.htm">主界面操作</a> - <a href="cont4.htm">封包监视</a> - <a href="cont5.htm">日志查询</a> 
+        - <a href="cont6.htm">控管规则</a> - <a href="cont7.htm">系统设置</a> - <a href="cont8.htm">关于</a></p>
+      </td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  </tbody> 
+</table>
+
+</body>
+</html>

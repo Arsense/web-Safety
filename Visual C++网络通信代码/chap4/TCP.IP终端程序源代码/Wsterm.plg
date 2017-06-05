@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Wsterm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Wsterm.res" /d "_DEBUG" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\Wsterm.rc"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/Wsterm.pch" /Yu"STDAFX.H" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\Connectd.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\Doc.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\Mainfrm.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\termsock.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\View.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\Wsterm.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP24.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/Wsterm.pch" /Yc"STDAFX.H" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\TCP.IP终端程序源代码\Stdafx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP25.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP26.tmp" with contents
+[
+oldnames.lib wsock32.lib /nologo /stack:0x2800 /subsystem:windows /incremental:yes /pdb:"Debug/Wsterm.pdb" /debug /machine:IX86 /out:"Debug/Wsterm.exe" /pdbtype:sept 
+".\Debug\Connectd.obj"
+".\Debug\Doc.obj"
+".\Debug\Mainfrm.obj"
+".\Debug\Stdafx.obj"
+".\Debug\termsock.obj"
+".\Debug\View.obj"
+".\Debug\Wsterm.obj"
+".\Debug\Wsterm.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP26.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Stdafx.cpp
+Compiling...
+Connectd.cpp
+Doc.cpp
+Mainfrm.cpp
+termsock.cpp
+View.cpp
+Wsterm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Wsterm.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FTPSOCKET - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/FTPSOCKET.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPSOCKET.rc"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP5C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FTPSOCKET.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPClass.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPSOCKET.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPSOCKETDlg.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\ListItem.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP5C.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP5D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FTPSOCKET.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP5D.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP5E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FTPSOCKET.pdb" /debug /machine:I386 /out:"Debug/FTPSOCKET.exe" /pdbtype:sept 
+".\Debug\FTPClass.obj"
+".\Debug\FTPSOCKET.obj"
+".\Debug\FTPSOCKETDlg.obj"
+".\Debug\ListItem.obj"
+".\Debug\StdAfx.obj"
+".\Debug\FTPSOCKET.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP5E.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FTPClass.cpp
+FTPSOCKET.cpp
+FTPSOCKETDlg.cpp
+H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPSOCKETDlg.cpp(569) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPSOCKETDlg.cpp(654) : warning C4101: 'lvfi' : unreferenced local variable
+H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPSOCKETDlg.cpp(709) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+ListItem.cpp
+Generating Code...
+H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap5\ftp客户端\FTPClass.cpp(442) : warning C4715: 'CFTPclient::List' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+FTPSOCKET.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

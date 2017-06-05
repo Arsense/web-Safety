@@ -1,0 +1,170 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\testewd.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    10000                   "[0] No Error"
+    10004                   "WSAEINTR: Interrupted system call"
+    10009                   "WSAEBADF: Bad file number"
+    10013                   "WSACCESS: Permission denied"
+    10014                   "WSAEFAULT: Bad address"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    10022                   "WSAEINVAL: Invalid argument"
+    10024                   "WSAEMFILE: Too many open files"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    10035                   "WSAEWOULDBLOCK: Operation would block"
+    10036                   "WSAEINPROGRESS: Operation now in progress"
+    10037                   "WSAEALREADY: Operation already in progress"
+    10038                   "WSAENOTSOCK: Socket operation on non-socket"
+    10039                   "WSAEDESTADDRREQ: Destination address required"
+    10040                   "WSAEMSGSIZE: Message too long"
+    10041                   "WSAEPROTOTYPE: Protocol wrong type for socket"
+    10042                   "WSAENOPROTOOPT: Bad protocol option"
+    10043                   "WSAEPROTONOSUPPORT: Protocol not supported"
+    10044                   "WSAESOCKTNOSUPPORT: Socket type not supported"
+    10045                   "WSAEOPNOTSUPP: Operation not supported on socket"
+    10046                   "WSAEPFNNOSUPPORT: Protocol family not supported"
+    10047                   "WSAEAFNNOSUPPORT: Address family not supported by protocol family"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    10048                   "WSAEADDRINUSE: Address already in use"
+    10049                   "WSAEADDRNOTAVAIL: Can't assign requested address"
+    10050                   "WSAENETDOWN: Network is down"
+    10051                   "WSAENETUNREACH: Network is unreachable"
+    10052                   "WSAENETRESET: Net dropped connection or reset"
+    10053                   "WSAECONNABORTED: Software caused connection abort"
+    10054                   "WSAECONNRESET: Connection reset by peer"
+    10055                   "WSAENOBUFS: No buffer space available"
+    10056                   "WSAEISCONN: Socket is already connected"
+    10057                   "WSAENOTCONN: Socket is not connected"
+    10058                   "WSAESHUTDOWN: Can't send after socket shutdown"
+    10059                   "WSAETOOMANYREFS: Too many references, can't splice"
+    10060                   "WSAETIMEDOUT: Connection timed out"
+    10061                   "WSAECONNREFUSED: Connection refused"
+    10062                   "WSAELOOP: Too many levels of symbolic links"
+    10063                   "WSAENAMETOOLONG: File name too long"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    10064                   "WSAEHOSTDOWN: Host is down"
+    10065                   "WSAEHOSTUNREACH: No Route to Host"
+    10066                   "WSAENOTEMPTY: Directory not empty"
+    10067                   "WSAEPROCLIM: Too many processes"
+    10068                   "WSAEUSERS: Too many users"
+    10069                   "WSAEDQUOT: Disc Quota Exceeded"
+    10070                   "WSAESTALE: Stale NFS file handle"
+    10071                   "WSAEREMOTE: Too many levels of remote in path"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    10091                   "WSASYSNOTREADY: Network SubSystem is unavailable"
+    10092                   "WSAVERNOTSUPPORTED: WINSOCK DLL Version out of range"
+    10093                   "WSANOTINITIALISED: Successful WSASTARTUP not yet performed"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    11001                   "WSAHOST_NOT_FOUND: Host not found"
+    11002                   "WSATRY_AGAIN: Non-Authoritative Host not found"
+    11003                   "WSANO_RECOVERY: Non-Recoverable errors: FORMERR, REFUSED, NOTIMP"
+    11004                   "WSANO_DATA: Valid name, no data record of requested type"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\testewd.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

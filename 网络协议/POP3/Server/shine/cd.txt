@@ -1,0 +1,4 @@
+	//³õÊ¼»¯Ì×½Ó×Ö
+	s = socket(AF_INET,SOCK_STREAM,0);
+
+

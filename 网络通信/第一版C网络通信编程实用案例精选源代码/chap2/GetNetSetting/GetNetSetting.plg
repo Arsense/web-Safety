@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GetNetSetting - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/GetNetSetting.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetNetSetting\GetNetSetting.rc"" 
+Creating temporary file "C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP99.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GetNetSetting.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetNetSetting\CardInfoDlg.cpp"
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetNetSetting\GetNetSetting.cpp"
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetNetSetting\GetNetSettingDlg.cpp"
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetNetSetting\lassNetSetting.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP99.tmp" 
+Creating temporary file "C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP9A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GetNetSetting.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\book\vc高级网络编程\vc网络编程源码\vcnetcode_23456\第四章\GetNetSetting\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP9A.tmp" 
+Creating temporary file "C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP9B.tmp" with contents
+[
+netapi32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GetNetSetting.pdb" /debug /machine:I386 /out:"Debug/GetNetSetting.exe" /pdbtype:sept 
+".\Debug\CardInfoDlg.obj"
+".\Debug\GetNetSetting.obj"
+".\Debug\GetNetSettingDlg.obj"
+".\Debug\lassNetSetting.obj"
+".\Debug\StdAfx.obj"
+".\Debug\GetNetSetting.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\WINDOW~1\LOCALS~1\Temp\RSP9B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CardInfoDlg.cpp
+GetNetSetting.cpp
+GetNetSettingDlg.cpp
+lassNetSetting.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GetNetSetting.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

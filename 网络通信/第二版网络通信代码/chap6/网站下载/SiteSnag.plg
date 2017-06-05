@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SiteSnag - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSPE848.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fp"Release/SiteSnag.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\Document.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\SiteSnag.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\snagpars.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\View.cpp"
+]
+Creating command line "cl.exe @"C:\Users\伟\AppData\Local\Temp\RSPE848.tmp"" 
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSPE849.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SiteSnag.pdb" /machine:I386 /out:"Release/SiteSnag.exe" 
+".\Release\Document.obj"
+".\Release\Frame.obj"
+".\Release\inet.obj"
+".\Release\Options.obj"
+".\Release\parser.obj"
+".\Release\progress.obj"
+".\Release\Project.obj"
+".\Release\SiteSnag.obj"
+".\Release\snagpars.obj"
+".\Release\StdAfx.obj"
+".\Release\TREE.OBJ"
+".\Release\urldlg.obj"
+".\Release\View.obj"
+".\Release\Wait.obj"
+".\Release\SiteSnag.res"
+]
+Creating command line "link.exe @"C:\Users\伟\AppData\Local\Temp\RSPE849.tmp""
+<h3>Output Window</h3>
+Compiling...
+Document.cpp
+parser.cpp
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(56) : error C2653: 'CSnaggerHtmlParser' : is not a class or namespace name
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(75) : error C2065: 'WantFileType' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(100) : error C2065: 'm_arrStrMedia' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(100) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(105) : error C2065: 'm_strPageURL' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(112) : error C2065: 'IsTextPage' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(115) : error C2065: 'm_arrbyIsOffsite' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(115) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(116) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(125) : error C2653: 'CInet' : is not a class or namespace name
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(125) : error C2065: 'SplitFileName' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(125) : error C2653: 'CInet' : is not a class or namespace name
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(125) : error C2065: 'EXT' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(139) : error C2065: 'm_bInFixupMode' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(141) : error C2065: 'm_bGetMedia' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(143) : error C2065: 'm_Fixups' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(143) : error C2228: left of '.arrURL' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(143) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(144) : error C2228: left of '.arrIndex' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(144) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(145) : error C2228: left of '.arrTextPage' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(145) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(152) : error C2065: 'm_arrStrLinks' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(152) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(154) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(207) : error C2228: left of '.arrURL' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(207) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(208) : error C2228: left of '.arrIndex' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(208) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(209) : error C2228: left of '.arrTextPage' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(209) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(211) : error C2228: left of '.Add' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(222) : error C2065: 'm_strTitle' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(222) : error C2446: '==' : no conversion from 'char *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(222) : error C2040: '==' : 'int' differs in levels of indirection from 'char [9]'
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(224) : error C2065: 'm_pRawBuffer' : undeclared identifier
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(224) : error C2109: subscript requires array or pointer type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(225) : error C2228: left of '.Empty' must have class/struct/union type
+H:\源代码\网络通信\第二版网络通信代码\chap6\网站下载\parser.cpp(232) : error C2109: subscript requires array or pointer type
+SiteSnag.cpp
+snagpars.cpp
+View.cpp
+Generating Code...
+Error executing cl.exe.
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSPE9B1.tmp" with contents
+[
+/nologo /o"Release/SiteSnag.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\Document.sbr"
+".\Release\Frame.sbr"
+".\Release\inet.sbr"
+".\Release\Options.sbr"
+".\Release\parser.sbr"
+".\Release\progress.sbr"
+".\Release\Project.sbr"
+".\Release\SiteSnag.sbr"
+".\Release\snagpars.sbr"
+".\Release\TREE.SBR"
+".\Release\urldlg.sbr"
+".\Release\View.sbr"
+".\Release\Wait.sbr"]
+Creating command line "bscmake.exe @"C:\Users\伟\AppData\Local\Temp\RSPE9B1.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SiteSnag.exe - 39 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

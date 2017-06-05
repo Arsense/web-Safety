@@ -1,0 +1,87 @@
+光 盘 说 明
+
+为了方便读者学习，本书附带了一张光盘，下面对光盘内容及使用方法进行简要的介绍。
+
+1．光盘的运行环境
+硬件环境：CPU的主频在200MHz以上、内存在64MB以上。
+
+软件平台：操作系统为Windows 98/Me/NT/2000/XP（推荐使用Windows 2000/XP），调试环境为Visual C++ 6.0及其以上版本(如果不做说明，则默认为Visual C++ 6.0）。
+
+2．光盘的使用方法及注意事项
+将本书的源代码拷入硬盘中，用Visual C++打开项目文件，即可编译运行。
+
+3．光盘的主要内容
+光盘中存放的是书中涉及的所有实例的源代码和经过编译后的应用程序。所有程序均经过测试，仅供读者学习时使用，不能用作其他商业用途。如果使用时遇到任何问题，请发Email至Fourwei@zj.com，我们将提供全面的解答。
+
+4．光盘目录
+（1）基本网络编程实例
+Winsock实现网络聊天室【\chap1\ChatRoom(Winsock)】
+CSocket实现聊天室【\chap1\ChatRoom(Csocket)】
+
+（2）本地计算机网络编程实例
+获取计算机的名称和IP地址【\chap2\Local】
+获取计算机的子网掩码【\chap2\ Local】
+获取计算机的DNS设置【\chap2\ Local】
+获取计算机的网卡地址【\chap2\ Local】
+获取计算机安装的协议【\chap2\ Local】
+获取计算机提供的服务【\chap2\ Local】
+获取计算机的所有网络资源【\chap2\ Local】
+修改本地计算机的所有网络设置【\chap2\ Local】
+获取计算机TCP/IP协议的所有信息【\chap2\ Local】
+
+（3）局域网网络通信编程实例
+获取网上邻居【\chap3\Neighbor】
+lIP地址和计算机名之间的转换【\chap3\Neighbor】
+l映射网络驱动器【\chap3\Neighbor】
+l消息发送程序Net Send【\chap3\Neighbor】
+l获取局域网内其他计算机的信息【\chap3\ NeighborInfo】
+
+（4）IE编程实例
+简单的浏览器的实现【\chap4\MyBrowser】
+删除IE相关历史记录【\chap4\DelHistory】
+将应用程序加入到IE工具栏【\chap4\AddToToolBar】
+超级链接的实现【\chap4\HyperLink】
+禁止IE的弹出窗口【\chap4\StopPopup】
+禁止浏览某些网站【\chap4\StopTravel】
+IE收藏夹【\chap4\ MyBrowser】
+创建桌面快捷方式和活动桌面【\chap4\ShortCut】
+
+（5）基本网络编程实例
+点对点文件传输【\chap5\Transfer】
+大型文件传输【\chap5\Transfer】
+端口扫描程序【\chap5\ MyPortScanner】
+Finger编程【\chap5\MyFinger】
+Sniff编程【\chap5\MySniff】
+Internet文件下载【\chap5\ InternetDownload】
+
+（6）网络通信协议编程
+FTP协议【\chap6\FTP】
+Email协议【\chap6\Email】
+ICMP协议【\chap6\ICMP】
+RAS协议【\chap6\RAS】
+TAPI协议【\chap6\TAPI】
+Telnet协议【\chap6\Telnet】
+HTTP协议	【\chap6\HTTP】
+
+（7）Modem /串口通信编程
+Modem编程【\chap7\Modem】
+MSCOMM控件编程【\chap7\MSCOMM】
+串口通信API编程【\chap7\MySerialCom】
+
+（8）代理服务器编程实例
+Socks 5协议编程【\chap8\Socks5】
+HTTP代理服务器【\chap8\HTTP代理服务】
+
+（9）高级网络通信编程实例
+串口通信编程实例【\chap9\SerialPort】
+网络流量监控【\chap9\NetTraffic】
+网站下载【\chap9\ Snag】
+网络五子棋系统【\chap9\FiveChess】
+语音聊天【\chap9\ ChatRoom】
+远程监控【\chap9\RemoteControl】
+
+赠送实例
+类似网络蚂蚁的断点续传程序【\Appendix\NetAnts】
+网络多播程序【\Appendix\BroadCast】
+界面美观的文字聊天程序【\Appendix\Chat】
+语音电话【\Appendix\PhoneCall】

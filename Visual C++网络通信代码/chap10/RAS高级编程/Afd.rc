@@ -1,0 +1,481 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Afd.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MORDA               BITMAP  DISCARDABLE     "res\\Alexf03.bmp"
+IDB_BGROUND5            BITMAP  DISCARDABLE     "res\\bground5.bmp"
+IDB_PHILOSOPHICAL_GNU   BITMAP  DISCARDABLE     "res\\philosop.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MIDIFILE
+//
+
+IDR_MIDIFILE1           MIDIFILE DISCARDABLE    "res\\Starwars.mid"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,0
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "alexf dialer\0"
+            VALUE "CompanyName", "Alexander Fedorov\0"
+            VALUE "FileDescription", "alexf dialer\0"
+            VALUE "FileVersion", "See date\0"
+            VALUE "InternalName", "Afd\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999 Alexf\0"
+            VALUE "LegalTrademarks", "Copyright (C) 1999 Alexf\0"
+            VALUE "OriginalFilename", "Afd.exe\0"
+            VALUE "PrivateBuild", "See date\0"
+            VALUE "ProductName", "alexf dialer\0"
+            VALUE "ProductVersion", "See date\0"
+            VALUE "SpecialBuild", "See date\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 291, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "连接"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "已有连接",IDC_STATIC,5,0,270,45
+    COMBOBOX        IDC_COMBO_PROVIDER,10,10,260,85,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "新增连接",IDC_BUTTON_PROV_ADD,34,25,50,14
+    PUSHBUTTON      "编辑连接",IDC_BUTTON_PROV_EDIT,114,25,50,14
+    PUSHBUTTON      "删除连接",IDC_BUTTON_PROV_DEL,194,25,50,14
+    GROUPBOX        "拨出号码",IDC_STATIC,5,45,270,80
+    CONTROL         "List1",IDC_LIST_PHONES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_TABSTOP,10,55,205,65,WS_EX_STATICEDGE
+    PUSHBUTTON      "增加",IDC_BUTTON_TEL_ADD,220,55,50,14
+    PUSHBUTTON      "编辑",IDC_BUTTON_TEL_EDIT,220,80,50,14
+    PUSHBUTTON      "删除",IDC_BUTTON_TEL_DEL,220,105,50,14
+    PUSHBUTTON      "拨号",IDC_DIAL,5,130,270,14
+    CTEXT           "拨号状态",IDC_STATIC,5,150,40,20,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATUS,50,150,225,20,0,WS_EX_STATICEDGE
+    CTEXT           "Last call",IDC_STATIC,5,175,40,20,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    LTEXT           "",IDC_LAST_CALL,50,175,225,20,0,WS_EX_STATICEDGE
+    CONTROL         "Progress1",IDC_PROGRESS_TIMEOUT,"msctls_progress32",
+                    WS_BORDER,5,205,270,9
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 280, 220
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "帐号密码设定"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "连接名称",IDC_STATIC_NAME,5,5,270,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    RTEXT           "帐号",IDC_STATIC,10,30,40,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_USER_NAME,50,30,220,14,ES_AUTOHSCROLL
+    GROUPBOX        "登录信息",IDC_STATIC,5,20,270,50
+    RTEXT           "密码",IDC_STATIC,10,50,40,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_PASSWORD,50,50,185,14,ES_AUTOHSCROLL
+    CONTROL         "隐藏",IDC_HIDEPWD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    240,50,30,14
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 280, 220
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选项"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "全局设定",IDC_STATIC,5,5,270,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CONTROL         "音频",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    10,30,33,14
+    CONTROL         "脉冲",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,60,30,33,
+                    14
+    GROUPBOX        "拨号设定",IDC_STATIC,5,20,130,29,WS_GROUP
+    CONTROL         "是否设定",IDC_CHECK_TIMEOUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,30,45,14
+    EDITTEXT        IDC_EDIT_TIMEOUT,209,29,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "妙",IDC_STATIC,253,28,16,14,SS_CENTERIMAGE
+    GROUPBOX        "拨号时间设定",IDC_STATIC,140,20,135,29
+    CONTROL         "速度",IDC_CHECK_SPEED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,40,14
+    EDITTEXT        IDC_EDIT_SPEED,69,61,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "BPS",IDC_STATIC,111,60,20,14,SS_CENTERIMAGE
+    GROUPBOX        "最小连接速度",IDC_STATIC,5,50,130,30
+    CONTROL         "Ping     每",IDC_CHECK_PING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,60,59,14
+    EDITTEXT        IDC_EDIT_PING,210,60,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "分钟",IDC_STATIC,251,60,18,14,SS_CENTERIMAGE
+    GROUPBOX        "Ping ISP 服务器",IDC_STATIC,140,50,135,30
+    CONTROL         "结束程序当上网速度低于",IDC_CHECK_TERMINATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,90,99,14
+    EDITTEXT        IDC_EDIT_TERMINATE,123,90,29,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           " KB  每",IDC_STATIC,167,89,30,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_TERMTIME,210,89,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "分钟",IDC_STATIC,251,89,17,14,SS_CENTERIMAGE
+    GROUPBOX        "停止上网设定",IDC_STATIC,5,80,270,30
+    CONTROL         "当没有载波的时候自动重新拨号",IDC_CHECK_REDIAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,120,155,10
+    CONTROL         "当程序退出时自动挂断",IDC_CHECK_HANGUP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,169,119,89,10
+    GROUPBOX        "",IDC_STATIC,5,110,270,25
+    CONTROL         "是否需要日志",IDC_CHECK_LOG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,145,57,14
+    PUSHBUTTON      "日志文件设定",IDC_BUTTON_FILE_LOG,69,144,47,14
+    EDITTEXT        IDC_EDIT_LOG,118,145,117,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "查看日志",IDC_BUTTON_VEW_LOG,236,145,34,14
+    GROUPBOX        "日志文件",IDC_STATIC,5,135,270,30
+    CONTROL         "启动程序最小化",IDC_CHECK_INTERFACE_START_MINIMIZED,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,175,90,14
+    CONTROL         "建立连接后最小化",IDC_CHECK_INTERFACE_START_MINIMIZED2,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,135,175,135,14
+    GROUPBOX        "界面",IDC_STATIC,5,165,270,30
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 280, 220
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "流量监测"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "连接名称",IDC_STATIC_NAME,7,5,270,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "在线时间",IDC_STATIC,7,20,270,30
+    CTEXT           "目前时间",IDC_STATIC,10,30,40,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_TIME_CUR,57,30,68,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CTEXT           "总时间",IDC_STATIC,129,30,25,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_TIME_TOT,163,30,66,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "清除",IDC_CLEAN,235,30,35,14
+    CTEXT           "发送字节",IDC_STATIC,10,65,45,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_SENT,62,65,50,14,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "接收字节",IDC_STATIC,117,65,34,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_RECV,156,65,37,14,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "连接速度",IDC_STATIC,195,65,34,14,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_SPEED,232,65,38,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "连接信息",IDC_STATIC,7,55,270,30
+    LTEXT           "",IDC_STATIC_PANEL,7,90,270,60,0,WS_EX_STATICEDGE
+END
+
+IDD_PHONE_NUMBER DIALOG DISCARDABLE  0, 0, 186, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Phone number and comments"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,38,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,98,50,50,14
+    LTEXT           "Phone #",IDC_STATIC,5,5,29,14,SS_CENTERIMAGE
+    LTEXT           "Comments",IDC_STATIC,5,25,35,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,45,5,135,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,45,25,135,14,ES_AUTOHSCROLL
+END
+
+IDD_AFD_DIALOG DIALOGEX 0, 0, 300, 270
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "RAS高级开发"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Hide",IDC_HIDE,185,250,50,14
+    PUSHBUTTON      "Exit",IDCANCEL,242,250,50,14
+    DEFPUSHBUTTON   "OK",IDOK,5,250,50,14,NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_PHONE_NUMBER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_AFD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRAY_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "TRAY"
+    BEGIN
+        MENUITEM "Show",                        IDM_SHOW
+        MENUITEM "Dial/HangUp",                 IDM_TRAY_DIAL
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        IDCANCEL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Afd..."
+    IDS_RASCS_1             "Opening Port"
+    IDS_RASCS_2             "Port Opened"
+    IDS_RASCS_3             "Connecting Device"
+    IDS_RASCS_4             "Device Connected"
+    IDS_RASCS_5             "All Devices Connected"
+    IDS_RASCS_6             "Starting Authentication"
+    IDS_RASCS_7             "Authentication Notify"
+    IDS_RASCS_8             "Authentication Retry"
+    IDS_RASCS_9             "Callback Requested"
+    IDS_RASCS_10            "Change Password Requested"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_SHOW                "Show"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_TRAY_DIAL           "Dial/HangUp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_RASCS_11            "Projection Phase Started"
+    IDS_RASCS_12            "Link Speed Calculation"
+    IDS_RASCS_13            "Authentication Acknowledged"
+    IDS_RASCS_14            "Reauthenticatation Started"
+    IDS_RASCS_15            "Authenticated"
+    IDS_RASCS_16            "Preparation For Callback"
+    IDS_RASCS_17            "Waiting For Modem Reset"
+    IDS_RASCS_18            "Waiting For Callback"
+    IDS_RASCS_19            "Interactive"
+    IDS_RASCS_20            "Retry Authentication"
+    IDS_RASCS_21            "Callback Set By Caller"
+    IDS_RASCS_22            "Password Expired"
+    IDS_RASCS_23            "Connected"
+    IDS_RASCS_24            "Disconnected"
+    IDS_RASCS_25            "Undefine Error Code"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LIST1_COL1          "Phone #"
+    IDS_LIST1_COL2          "Comments"
+    IDS_LOST_OF_CARRIER     "Lost of carrier."
+    IDS_TIME_OUT            "Time out."
+    IDS_TERMINATING_CONN    "Terminating connection."
+    IDS_PAUSE               "Pause..."
+    IDS_ONLINE              "On line."
+    IDS_EXTERN_ONLINE       "External On line."
+    IDS_DELETE_CONNECTION   "Delete current connection?"
+    IDS_DELETE_PHONE        "Delete current phone?"
+    IDS_DELETE_PROGRAM      "Delete current program?"
+    IDS_ARG_HELP            "--------------------------- Alexf Dialer ---------------------------\n\nCommand line options:\n/C""abcd"" - set connection to abcd\n/PX - select phone number in list to X\n/D - press Dial/HangUp button\n/E - close previous instance of this program\n/? - this help message\n"
+    IDS_LIST2_COL1          "Condition"
+    IDS_LIST2_COL2          "Program"
+    IDS_DISCONNECT_LOW_TRAFFIC "Disconnected due to low traffic."
+    IDS_DIAL                "Dial"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HANGUP              "Hang Up"
+    IDS_LAST_UPDATES        "Download latest version. Current version "
+    IDS_JOIN_MAIL_LIST      "Join afd mailing list (updates notification)"
+    IDS_SRC_INFO            "Download source code for this program."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Afd.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Afd.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CSocket - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CSocket.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap3\TCP聊天服务器端\CSocket.rc"" 
+Creating temporary file "C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CSocket.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap3\TCP聊天服务器端\CSocket.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap3\TCP聊天服务器端\CSocketDlg.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP53.tmp"" 
+Creating temporary file "C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CSocket.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap3\TCP聊天服务器端\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP54.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CSocket.pdb" /machine:I386 /out:"Debug/CSocket.exe" /pdbtype:sept  ".\Debug\CSocket.obj" ".\Debug\CSocketDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\CSocket.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CSocket.cpp
+CSocketDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CSocket.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

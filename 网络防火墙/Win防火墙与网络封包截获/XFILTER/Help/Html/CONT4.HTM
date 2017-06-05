@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<style>A:link {
+	TEXT-DECORATION: underline
+}
+.105V {
+	FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt
+}
+td {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+.90VE {
+	FONT-FAMILY: arial; FONT-SIZE: 9pt
+}
+A:visited{COLOR:blue}
+A:hover {
+	COLOR: red
+}
+A.bb {
+	TEXT-DECORATION: underline
+}
+A.bbr {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+</style>
+<script language="vbscript">
+	function add_onsubmit()
+		if	add.sComputerID.value="" then 
+			msgbox "必须输入计算机编号。"
+			add_onsubmit=false
+		elseif len(add.sComputerID.value )<3 then
+			msgbox "计算机编号必须为 3 位，不够 3 位前面补 0，请重新输入。"
+			add_onsubmit=false
+		else
+			add_onsubmit=checkIP(add.sComputerIP.value)
+		end if 
+	end function
+	
+	function checkIP(strIP)
+		checkIP=true
+		if strIP="" then
+			msgbox "必须输入 IP 地址，请按 255.255.255.255 格式输入。"
+			checkIP=false
+		else
+			dim IPlen,ip1,ip2,ip3,ip4
+			dim i,j
+			dim tmpStr
+			
+			j=1
+			IPlen=len(strIP)
+			for i=1 to IPlen
+				tmpStr=mid(strip,i,1)
+				if tmpStr<>"." then
+					select case j
+						case 1:ip1=ip1 & tmpStr
+						case 2:ip2=ip2 & tmpStr
+						case 3:ip3=ip3 & tmpStr
+						case 4:ip4=ip4 & tmpStr
+					end select
+				else
+					j=j+1
+				end if
+				
+			next 
+			
+			if j<>4 or ip2="" or ip3="" or ip4="" or not isnumeric(ip1) _
+				or not isnumeric(ip2) or not isnumeric(ip3) or not isnumeric(ip4) _
+				or len(ip1)>3 or len(ip2)>3 or len(ip3)>3 or len(ip4)>3 then
+				
+				msgbox "IP 地址不合法，请按 255.255.255.255 格式输入。"
+				checkIP=false
+			else
+				if cint(ip1)<0 or cint(ip1)>255 or cint(ip2)<0 or cint(ip2)>255 or _
+					cint(ip3)<0 or cint(ip3)>255 or cint(ip4)<0 or cint(ip4)>255 then
+					msgbox "IP 地址不合法，请按 255.255.255.255 格式输入，每个单元必须为 0-255。"
+					checkIP=false
+				else
+					add.sComputerIP.value=cint(ip1) & "." & cint(ip2) & "." & cint(ip3) & "." & cint(ip4)
+				end if
+			end if
+		end if
+	end function
+</script>
+
+</head>
+<body>
+
+<table border="0" cellPadding="0" cellSpacing="0" height="100%" width="100%">
+  <tbody> 
+  <tr> 
+    <td height="145" rowSpan="7" width="9"></td>
+    <td height="145" rowSpan="7" vAlign="top" colspan="4"> 
+      <p><b><font size="3">封包监视</font></b></p>
+      <p>　　封包监视：将通过网络的封包显示在屏幕上供观察和分析。网络封包监视记录产生的方法是：在一个网络连接断开时，将这个网络连接的开始时间、结束时间、协议、进出流量、进出IP和端口、应用程序、访问动作以及备注的一些附加信息显示出来。 
+      </p>
+      <p>　　封包监视不是在网络连接开始时就显示的，因为网络连接开始时并不知道它到底是被允许通过的还是应该拒绝的，所以网络连接开始时，会先被提交给控管规则检查程序，由检查程序通过判断来决定是否放行。如果被拒绝，网络连接会被断开从而产生封包监视记录；如果放行，待数据传输完毕系统自动切断网络连接后便产生封包监视记录。 
+      </p>
+      <p>　　封包监视列表在达到1000条记录时自动清除从头开始显示。这些记录会被记录在日志里，如果要查看可以使用日志查询。</p>
+      <p>　　封包监视会在第一次弹出主程序界面后开始监视，如果软件启动后，从来没有弹出主程序界面，则不加入封包监视记录。但是封包日志照常记录。</p>
+      <p><b>1． 封包结构</b> </p>
+      <p>　　封包监视时，提供封包记录的字段为：访问动作、开始时间、结束时间、协议、进出流量、本地IP、本地端口、远端IP、远端端口、应用程序和备注。</p>
+      <blockquote>
+        <p> 1． 访问动作：描述这次网络连接是放行还是被拒绝。<br>
+          2． 开始时间，结束时间：描述这次网络连接的开始时间和结束时间，它记录下来了开始和结束时间的"年月日时分秒"完整的时间，但是由于屏幕面积的原因，所以没有完全显示，只显示了月份和时间。 
+          <br>
+          3． 协议：描述这次网络连接所使用的网络协议。协议的分类为：TCP、UDP、FTP、TELNET、HTTP、NNTP、POP3、SMTP，在控管规则的功能描述里回详细说明这些协议的作用。 
+          <br>
+          4． 进出流量：分别描述这网络次连接收到的数据量和发送的数据量，单位为字节。 <br>
+          5． 本地IP：本机的IP地址。<br>
+          6． 本地端口：这次网络连接所使用的本地端口。在控管规则的功能描述里有关于端口的解释。<br>
+          7． 远端IP：这次网络连接所连接的远程主机IP地址。 <br>
+          8． 远端端口：这次网络连接所使用的远端主机端口。在控管规则的功能描述里有关于端口的解释。 <br>
+          9． 应用程序：发出这次网络连接请求的应用程序，包括完整的路径和文件名。 <br>
+          10． 备注：备注会根据不同的协议填入不同的内容。TCP、UDP、TELNET、NNTP协议，填入远程主机IP。HTTP协议，填入主机名。FTP协议，填入下栽或者上传的文件名。POP3和SMTP协议，填入收发件人地址、用户名和密码等信息。 
+        </p>
+      </blockquote>
+      <p><b>2． 功能操作</b> </p>
+      <blockquote> 
+        <p>1． 清除：用来清除列表中的记录，这些记录并不是真正的被清除，它仍然记录在日志文件里，所以如果要查看可以用日志查询。 <br>
+          2． 停止/开始滚动：用来停止或者开始自动滚动。自动滚动时，列表会保持最新加入的记录可见。停止滚动则记录会停留在列表当前显示的位置，新的记录被显示在最后面。<br>
+          3． 停止/开始监视：停止或者开始封包监视。停止封包监视后，列表将不再显示最新截获得封包信息，但是日志照常记录。开始封包监视后，列表开始显示最新截获的封包信息。 
+        </p>
+      </blockquote>
+      <p><b><font size="3">请参阅</font></b> </p>
+      <p>　　<a href="cont0.htm">功能简介</a> - <a href="cont1.htm">弹出菜单</a> - <a href="cont2.htm">图标说明</a> 
+        - <a href="cont3.htm">主界面操作</a> - <a href="cont5.htm">日志查询</a> - <a href="cont6.htm">控管规则</a> 
+        - <a href="cont7.htm">系统设置</a> - <a href="cont8.htm">关于</a> - <a href="cont9.htm">用户注册</a></p>
+    </td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  </tbody> 
+</table>
+
+</body>
+</html>

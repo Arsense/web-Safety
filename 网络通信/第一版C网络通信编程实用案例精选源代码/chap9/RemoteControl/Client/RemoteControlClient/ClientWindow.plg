@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientWindow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP216.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/ClientWindow.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Work\VC+Network\《＝有关系列＝》\有关远程监控的\改动的远程控制代码（被修改过）\Client\RemoteControlClient\ServerIP.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP216.tmp" 
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP217.tmp" with contents
+[
+ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:"Debug/ClientWindow.exe" 
+".\Debug\client.obj"
+".\Debug\ColorMode.obj"
+".\Debug\Command.obj"
+".\Debug\Compression.obj"
+".\Debug\Gdi.obj"
+".\Debug\GridSpacing.obj"
+".\Debug\HuffCompress.obj"
+".\Debug\MainWnd.obj"
+".\Debug\RLE.obj"
+".\Debug\ServerIP.obj"
+".\Debug\WndProc.obj"
+".\Debug\Script1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP217.tmp"
+<h3>Output Window</h3>
+Compiling...
+ServerIP.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP219.tmp" with contents
+[
+/nologo /o"Debug/ClientWindow.bsc" 
+".\Debug\client.sbr"
+".\Debug\ColorMode.sbr"
+".\Debug\Command.sbr"
+".\Debug\Compression.sbr"
+".\Debug\Gdi.sbr"
+".\Debug\GridSpacing.sbr"
+".\Debug\HuffCompress.sbr"
+".\Debug\MainWnd.sbr"
+".\Debug\RLE.sbr"
+".\Debug\ServerIP.sbr"
+".\Debug\WndProc.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP219.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ClientWindow.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

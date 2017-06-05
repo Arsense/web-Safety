@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SiteSnag - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/SiteSnag.res" /d "_DEBUG" "F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\SiteSnag.rc"" 
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP347.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/SiteDownload.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\ConfigureSetting.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\FilePars.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\HTMLParser.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\InputProjectDlg.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\InputURLDlg.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\InternetDownload.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\MyDocument.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\MyFrame.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\MyTreeCtrl.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\MyView.cpp"
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\SiteDownload.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP347.tmp" 
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP348.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/SiteDownload.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\Work\VC+Network\《＝有关系列＝》\有关网站下载的\最终的代码和章节\snag_src\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP348.tmp" 
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP349.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SiteDownload.pdb" /debug /machine:I386 /out:"Debug/SiteDownload.exe" /pdbtype:sept 
+".\Debug\ConfigureSetting.obj"
+".\Debug\FilePars.obj"
+".\Debug\HTMLParser.obj"
+".\Debug\InputProjectDlg.obj"
+".\Debug\InputURLDlg.obj"
+".\Debug\InternetDownload.obj"
+".\Debug\MyDocument.obj"
+".\Debug\MyFrame.obj"
+".\Debug\MyTreeCtrl.obj"
+".\Debug\MyView.obj"
+".\Debug\SiteDownload.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SiteSnag.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP349.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ConfigureSetting.cpp
+FilePars.cpp
+HTMLParser.cpp
+InputProjectDlg.cpp
+InputURLDlg.cpp
+InternetDownload.cpp
+MyDocument.cpp
+MyFrame.cpp
+MyTreeCtrl.cpp
+MyView.cpp
+SiteDownload.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SiteDownload.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

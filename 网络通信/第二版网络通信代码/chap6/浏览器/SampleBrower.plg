@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SampleBrower - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSPCFE3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/SampleBrower.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\源代码\网络通信\第二版网络通信代码\chap6\浏览器\MainFrm.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\浏览器\SampleBrower.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\浏览器\SampleBrowerDoc.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\浏览器\SampleBrowerView.cpp"
+]
+Creating command line "cl.exe @"C:\Users\伟\AppData\Local\Temp\RSPCFE3.tmp"" 
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSPCFE4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/SampleBrower.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\源代码\网络通信\第二版网络通信代码\chap6\浏览器\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\伟\AppData\Local\Temp\RSPCFE4.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+SampleBrower.cpp
+SampleBrowerDoc.cpp
+SampleBrowerView.cpp
+Generating Code...
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSPD2B4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleBrower.pdb" /debug /machine:I386 /out:"Debug/SampleBrower.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\SampleBrower.obj"
+".\Debug\SampleBrowerDoc.obj"
+".\Debug\SampleBrowerView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SampleBrower.res"
+]
+Creating command line "link.exe @"C:\Users\伟\AppData\Local\Temp\RSPD2B4.tmp""
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/SampleBrower.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MainFrm.sbr" ".\Debug\SampleBrower.sbr" ".\Debug\SampleBrowerDoc.sbr" ".\Debug\SampleBrowerView.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SampleBrower.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

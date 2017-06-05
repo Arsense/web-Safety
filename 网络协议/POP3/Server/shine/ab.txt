@@ -1,0 +1,4 @@
+	memset(Buffer,0,4096);
+
+
+

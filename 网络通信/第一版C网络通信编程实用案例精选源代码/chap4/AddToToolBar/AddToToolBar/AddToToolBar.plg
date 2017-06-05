@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AddToToolBar - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/AddToToolBar.res" /d "_DEBUG" /d "_AFXDLL" "F:\Work\VC+Network\《－－第七章的内容－－》\《－－程序－－》IE工具栏\AddToToolBar\AddToToolBar.rc"" 
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+ole32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/AddToToolBar.pdb" /debug /machine:I386 /out:"Debug/AddToToolBar.exe" /pdbtype:sept 
+".\Debug\AddToToolBar.obj"
+".\Debug\AddToToolBarDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\AddToToolBar.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP139.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+AddToToolBar.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

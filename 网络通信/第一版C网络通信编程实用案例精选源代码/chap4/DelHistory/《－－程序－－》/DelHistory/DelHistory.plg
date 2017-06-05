@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DelHistory - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/DelHistory.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Work\VC+Network\《－－第七章的内容－－》\《－－程序－－》删除历史记录\《－－程序－－》\DelHistory\DelHistory.cpp"
+"F:\Work\VC+Network\《－－第七章的内容－－》\《－－程序－－》删除历史记录\《－－程序－－》\DelHistory\DelHistoryDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/DelHistory.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Work\VC+Network\《－－第七章的内容－－》\《－－程序－－》删除历史记录\《－－程序－－》\DelHistory\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+DelHistory.cpp
+DelHistoryDlg.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+Wininet.lib shlwapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DelHistory.pdb" /debug /machine:I386 /out:"Debug/DelHistory.exe" /pdbtype:sept 
+".\Debug\DelHistory.obj"
+".\Debug\DelHistoryDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\DelHistory.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP90.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/DelHistory.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\DelHistory.sbr" ".\Debug\DelHistoryDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DelHistory.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,1 @@
+pkzip afd.zip Release\afd.exe readme.txt gpl.txt

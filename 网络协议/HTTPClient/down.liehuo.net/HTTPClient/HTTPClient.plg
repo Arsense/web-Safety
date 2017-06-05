@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HTTPClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/HTTPClient.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\HTTPClient.rc"" 
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSP4354.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HTTPClient.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\ClientSocket.cpp"
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\CntrItem.cpp"
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\HTTPClient.cpp"
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\HTTPClientDoc.cpp"
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\HTTPClientView.cpp"
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\MainFrm.cpp"
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\Request.cpp"
+]
+Creating command line "cl.exe @"C:\Users\ΰ\AppData\Local\Temp\RSP4354.tmp"" 
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSP4365.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HTTPClient.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ΰ\Desktop\HTTPClient\down.liehuo.net\HTTPClient\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\ΰ\AppData\Local\Temp\RSP4365.tmp"" 
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSP4366.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HTTPClient.pdb" /debug /machine:I386 /out:"Debug/HTTPClient.exe" /pdbtype:sept 
+".\Debug\ClientSocket.obj"
+".\Debug\CntrItem.obj"
+".\Debug\HTTPClient.obj"
+".\Debug\HTTPClientDoc.obj"
+".\Debug\HTTPClientView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Request.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HTTPClient.res"
+]
+Creating command line "link.exe @"C:\Users\ΰ\AppData\Local\Temp\RSP4366.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientSocket.cpp
+CntrItem.cpp
+HTTPClient.cpp
+HTTPClientDoc.cpp
+HTTPClientView.cpp
+MainFrm.cpp
+Request.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+HTTPClient.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

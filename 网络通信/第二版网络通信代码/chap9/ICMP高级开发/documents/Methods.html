@@ -1,0 +1,594 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type"       content="text/html;       charset=iso-8859-1">
+<meta name="GENERATOR" content="/www/htdocs/earthwalkdesigns//earcgi/EWDHtml.cgi">
+<!--                                                       -->
+<!--      *******************************************      -->
+<!--      *                                         *      -->
+<!--      * EarthWalk Designs Programming Services. *      -->
+<!--      *        WWW.EarthWalkDesigns.Com         *      -->
+<!--      *                                         *      -->
+<!--      *  Jay Wheeler (Jay@EarthWalkDesigns.com) *      -->
+<!--      *              December 1997              *      -->
+<!--      *                                         *      -->
+<!--      *******************************************      -->
+<!--                                                       -->
+<!-- This page was designed by Jay Wheeler. -->
+<title>EWDPing - Ping/TraceRoute</title>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#990033" vlink="#333399" alink="#ff0000">
+<font size=" 3 " face=" Century Schoolbook ">
+<center>
+<a href="http://www.earthwalkdesigns.com/EWSoftware/CIcmp/"><img src="EarthWalk.gif" border="0" align="center" ></a>
+<br>
+<font size="+2">
+<b>EWDPing Ping/TraceRoute Application
+</b></font>
+<br>
+<img src="Colorbar.gif" border="0" align="center" ><br>
+</center>
+<a name="Methods"><b>CEWDPingDlg Class Methods</b></a><ul>  The CEWDPingDlg class implements an ICMP Ping procedure utilizing the 
+  following methods for WindowsNT 4.0 systems:
+  <p>
+  <b><font size=+1>Message Processing</font></b>
+  <ul>
+    <a href="#OnPINGAsynch">OnPINGAsynch</a>
+    <br>
+    <a href="#OnPingButton">OnPingButton</a>
+    <br>
+    <a href="#OnTraceButton">OnTraceButton</a>
+    <br>
+    <a href="#OnOptionsButton">OnOptionsButton</a>
+    <br>
+    <a href="#OnClearButton">OnClearButton</a>
+    <br>
+    <a href="#OnStop">OnStop</a>
+    <br>
+    <a href="#OnTimer">OnTimer</a>
+    <br>
+    <a href="#OnQuit">OnQuit</a>
+    <br>
+  </ul>
+  <p>
+
+  <b><font size=+1>Timer Support Routines</font></b>
+  <ul>
+    <a href="#StopTimer">StopTimer</a>
+    <br>
+    <a href="#StartTimer">StartTimer</a>
+    <br>
+    <a href="#ChangeIconState">ChangeIconState</a>
+    <br>
+  </ul>
+
+  <p>
+  <b><font size=+1>ICMP Socket Initialization</font></b>
+  <ul>
+    <a href="#InitSockets">InitSockets</a>
+    <br>
+  </ul>
+
+  <p>
+  <b><font size=+1>Registry Support Routines</font></b>
+  <ul>
+    <a href="#FetchWinsockSettings">FetchWinsockSettings</a>
+    <br>
+    <a href="#LoadRegValues">LoadRegValues</a>
+    <br>
+    <a href="#SaveRegValues">SaveRegValues</a>
+    <br>
+  </ul>
+
+  <p>
+  <b><font size=+1>ICMP Ping and IP Address Routines</font></b>
+  <ul>
+    <a href="#SendPing">SendPing</a>
+    <br>
+    <a href="#HostIPAddress">HostIPAddress</a>
+    <br>
+  </ul>
+
+  <p>
+  <b><font size=+1>ListCtrl ICMP Trace Routines</font></b>
+  <ul>
+    <a href="#UpdateTrace">UpdateTrace</a>
+    <br>
+    <a href="#DisplayTrace">DisplayTrace</a>
+    <br>
+    <a href="#EndTrace">EndTrace</a>
+    <br>
+  </ul>
+
+  <p>
+  <b><font size=+1>List Control Image/Display Routines</font></b>
+  <ul>
+    <a href="#InitImageList">InitImageList</a>
+    <br>
+    <a href="#AddListColumn">AddListColumn</a>
+    <br>
+    <a href="#DisplayBlankLine">DisplayBlankLine</a>
+    <br>
+    <a href="#SetTraceSequence">SetTraceSequence</a>
+    <br>
+    <a href="#SetTraceFocus">SetTraceFocus</a>
+    <br>
+    <a href="#SetDisplayImage">SetDisplayImage</a>
+    <br>
+    <a href="#TraceComment">TraceComment</a>
+    <br>
+  </ul>
+</ul>
+
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnPINGAsynch">LRESULT OnPINGAsynch</a>
+      (WPARAM wParam, LPARAM lParam)</b>
+  <ul>
+    Decodes <b><i>lParam</i></b> into event and error messages.  If no error
+    signaled, processes the incoming event (<b><i>WSAEvent</i></b>).
+    <p>
+    <b><i>WSAEvent</i></b> is used as an index to select which event has
+    signaled: <b><i>FDRead</i></b> or <b><i>FDWrite</i></b>.  If it was a
+    <b><i>FDRead</i></b> event, the incoming message is fetched using the
+    <b>CIcmp</b> method <b><i>Receive</i></b>, and the list view display
+    is updated. 
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnPingButton">void OnPingButton</a>()</b>
+  <ul>
+    Process the <b>Ping</b> button in the dialog window.
+    <p>
+    When the button is pressed, set <b><i>IconState</i></b> to default,
+    set <b><i>icmpTTL</i></b> to <b><i>PingSocket.icmpMaxHops</i></b>,
+    reset <b><i>icmpTracing</i></b>, and call <b><i>PingSocket.IcmpPing</i></b> 
+    method.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnTraceButton">void OnTraceButton</a>()</b>
+  <ul>
+    Process the <b>Trace</b> button on the dialog window.
+    <p>
+    Set <b><i>icmpPingTTL</b></i> to 0, <b><i>PingSocket.icmpHops</i></b>
+    to 0, set default icon and output message about the target, then issue 
+    a PING with <b><i>icmpTracing</i></b> set to TRUE to start tracing.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnOptionsButton">void OnOptionsButton</a>()</b>
+  <ul>
+    Process the <b>Options</b> dialog button.
+    <p>
+    Copy current option settings to interchange variables and invoke 
+    <b><i>OptionsDlg</i></b> dialog.
+    <p>
+    Exit dialog if option dialog was cancelled.
+    <p>
+    Update current option variables and save in the Registry.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnClearButton">void OnClearButton</a>()</b>
+  <ul>
+    Process the <b>Clear</b> button on the dialog window.
+    <p>
+    Clear the list view control display.  Active only when no <i>Ping</i>
+    or <i>Trace</i> operation is in progress.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnStop">void OnStop</a>()</b>
+  <ul>
+    Process the <b>Stop</b> button.
+    <p>
+    If a <b>Ping</b> operation is underway, abort the operation and
+    display "Operation aborted" message.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnTimer">void OnTimer</a>(UINT)</b>
+  <ul>
+  Process a timer message.
+  <p>
+  If time-out period has not elapsed, increment <b><i>icmpIntervalCount</i></b>, 
+  change the animated icon's state and exit.
+  <p>
+  Otherwise, stop the timer, reset icon to default, set receive address to 
+  null, and update the trace display to show that the timer has expired.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="OnQuit">void OnQuit</a>()</b>
+  <ul>
+    Stop pending operations and exit the application.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="StopTimer">void StopTimer</a> (void)</b>
+  <ul>
+    Stop the current system timer operation.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="StartTimer">void StartTimer</a> (void)</b>
+  <ul>
+    Starts a system timer operation to avoid infinite time-out on ICMP EchoReply
+          operations.  The timer count is set to <b><i>TimerInterval</i></b>.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="ChangeIconState">void ChangeIconState</a> (void)</b>
+  <ul>
+  Called by <b>OnTimer</b> to animate the dialog icon, the current dialog icon 
+  is changed to the icon associated with <b><i>IconState</b></i>.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="InitSockets">BOOL InitSockets</a> (void)</b>
+  <ul>
+    Initialize the <i>CIcmp</i> object <b><i>PingSocket</i></b>.
+    <p>
+    Connects to a <b>RAW</b> socket with ICMP protocol, and sets the
+    notification message to <b><i>WSA_PING_ASYNC</i></b>. Requests
+    notification for <b>READ</b> and <b>WRITE</b> messages only.
+  </ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="FetchWinsockSettings">BOOL FetchWinsockSettings</a> (void)</b>
+  <ul>
+    Fetches the WindowsNT 4.0 Winsock 2 settings from the operating system
+    and system Registry entries.  Uses default settings if the information
+    is not available.
+    <p>
+    Returns <b>TRUE</b> if successful, <b>FALSE</b> if a valid Winsock is
+    not detected.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="LoadRegValues">BOOL LoadRegValues</a> (void)</b>
+  <ul>
+    Loads applications values from the system Registry.  If the entries
+    do not exist, they are created with default values.
+    <p>
+    Returns <b>TRUE</b> if the Registry is accessible, else <b>FALSE</b>.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="SaveRegValues">void SaveRegValues</a> (void)</b>
+  <ul>
+    Saves applications values to the system Registry following a call
+    to <b>PingOptionsDlg</b>.
+    <p>
+    Returns <b>TRUE</b> if the Registry is accessible, else <b>FALSE</b>.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="SendPing">void SendPing</a> (void)</b>
+  <ul>
+    Sends a PING message to the currently selected host.
+    <p>
+    If <b><i>icmpTracing</i></b> is <b>TRUE</b>, increment and set 
+    <b><i>icmpPingTTL</i></b> to reach the next node in the Internet tree.
+    <p>
+    Starts the system timer and calls the <i>CIcmp</i> <b>Ping</b> method.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="HostIPAddress">unsigned long HostIPAddress</a> (void)</b>
+  <ul>
+    Returns the IP Address in Internet byte order for the curently selected host 
+    (<b><i>IDC_DEST</i></b>) by calling the 
+    <b><i>PingSocket.GetIPAddress</i></b> method in the <b><i>CIcmp</i></b> 
+    class.
+    <p>
+    Copies <b><i>IDC_DEST</i></b> to <b><i>HostName</i></b>.
+    <p>
+    <b>GetIPAddress</b> leaves a copy of the address in 
+    <b><i>PingSocket.icmpSockAddr</i></b>.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="UpdateTrace">void UpdateTrace</a> (void)</b>
+  <ul>
+  Formats a message containing the returned
+  <i>IP Address</i>, <i>Round Trip Time</i>, <i>Message Sequence</i>
+  and <i>Host Name</i>, and passes it to the 
+  <a href="#DisplayTrace"><b>DisplayTrace</b></a> method.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="DisplayTrace">void DisplayTrace</a>
+  <ul>
+    (LPCSTR TripTimeMessage,
+    <br>
+    LPCSTR IPAddressMessage,
+    <br>
+    LPCSTR HostMessage)
+  </b>
+  <p>
+  Updates the <i>ListView</i> control with the parameter strings passed
+  in.
+  <p>
+  <ul>
+  <table border=1>
+    <tr>
+      <th>Column
+      <th>Message
+    <tr>
+      <td align=center>1
+      <td><b><i>TripTimeMessage</i></b>
+    <tr>
+      <td align=center>2
+      <td><b><i>IPAddressMessage</i></b>
+    <tr>
+      <td align=center>3
+      <td><b><i>HostMessage</i></b>
+  </table>
+  </ul>
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="EndTrace">void EndTrace</a>(void)</b>
+  <ul>
+    Set dialog icon to default, and force screen to be updated.  
+    <p>
+    Reset <b><i>icmpTracing</i></b> so next operation will be PING.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="InitImageList">void InitImageList</a>(void)</b>
+  <ul>
+    Initializes two image lists with the icons used in the list view.
+    <p>
+    The image list <b><i>smallImageList</i></b> is initialized with small
+    icons (16 x 16 pixels), and the image list <b><i>largeImageList</i></b>
+    is initialized with large icons (32 x 32).
+    <p>
+    The image lists are added to the list view control and column titles
+    are set in the control.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="AddListColumn">int AddListColumn</a>
+  <ul>
+    (int column, int lfmt, 
+    <br>int lmaxwidth, LPSTR ltext, 
+    <br>int lsubitem)
+  </b>
+  <p>
+  Creates the columns used in the list view control.
+  <p>
+  <ul>
+  <table border=1>
+    <tr>
+      <th align=center>Parameter
+      <th>Useage
+    <tr>
+      <td align=center><b><i>column</b></i>
+      <td>The column number being set-up.
+    <tr>
+      <td align=center><b><i>lfmt</b></i>
+      <td>Alignment of data in the column.
+    <tr>
+      <td align=center><b><i>lmaxwidth</b></i>
+      <td>Maximum width, in pixels, of the column.
+    <tr>
+      <td align=center><b><i>ltext</b></i>
+      <td>Column title.
+    <tr>
+      <td align=center><b><i>lsubitem</b></i>
+      <td>Which sub-item to associate with this column.
+  </table>
+  </ul>
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="DisplayBlankLine">void DisplayBlankLine</a>
+    (void)
+  </b>
+  <ul>
+    Add a blank item to the list view control and set the control focus to
+    the new line.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="SetTraceSequence">void SetTraceSequence</a>
+  <ul>
+    (int Seq, 
+    int FocusItem, 
+    <br>
+    ImageType FocusImage)
+  </b>
+  <p>
+  Output <b><i>FocusImage</i></b> and <b><i>Seq</i></b> on the line specified 
+  by <b><i>FocusItem</i></b>, and set the list view focus to the specified line.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="SetTraceFocus">void SetTraceFocus</a>
+  <ul>
+    (int FocusItem, int FocusSubItem)
+  </b>
+  <p>
+  Sets the focus in the list view control to the line described by
+  <b><i>FocusItem</i></b> and the item on the line described by
+  <b><i>FocusSubItem</i></b>.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="SetDisplayImage">void SetDisplayImage</a>
+  <ul>
+    (int FocusItem, enum ImageType FocusImage)
+  </b>
+  <p>
+  Inserts <b><i>FocusImage</i></b> in the line specified by
+  <b><i>FocusItem</i></b>.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+  <b><a name="TraceComment">void TraceComment</a>(CString Comment)</b>
+  <ul>
+    Places <b><i>Comment</i></b> in the information column of the list
+    view control.
+</ul>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+
+</ul>
+<p>
+
+<p>
+<center>
+<img src="Colorbar.gif" border="0" align="center" ><br>
+</center>
+<font size="-1">
+Copyright (c) 1997,1998. EarthWalk Designs.
+<br>
+Direct all inquiries to:<a href="mailto:jay@earthwalkdesigns.com">Jay Wheeler</a>
+at EarthWalkDesigns.com
+</font>
+</body>
+</html>
+

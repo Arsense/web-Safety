@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CTelnet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSP810A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/CTelnet.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"H:\源代码\网络通信\第二版网络通信代码\chap7\BBS高级程序开发\ClientSocket.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap7\BBS高级程序开发\CTelnet.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap7\BBS高级程序开发\CTelnetView.cpp"
+]
+Creating command line "cl.exe @"C:\Users\伟\AppData\Local\Temp\RSP810A.tmp"" 
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSP810B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CTelnet.pdb" /debug /machine:I386 /out:"Debug/CTelnet.exe" /pdbtype:sept 
+".\Debug\ClientSocket.obj"
+".\Debug\CTelnet.obj"
+".\Debug\CTelnetDoc.obj"
+".\Debug\CTelnetView.obj"
+".\Debug\HostDialog.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CTelnet.res"
+]
+Creating command line "link.exe @"C:\Users\伟\AppData\Local\Temp\RSP810B.tmp""
+<h3>Output Window</h3>
+Compiling...
+CTelnetView.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+ClientSocket.cpp
+CTelnet.cpp
+Linking...
+LINK : fatal error LNK1168: cannot open Debug/CTelnet.exe for writing
+Error executing link.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/CTelnet.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ClientSocket.sbr" ".\Debug\CTelnet.sbr" ".\Debug\CTelnetDoc.sbr" ".\Debug\CTelnetView.sbr" ".\Debug\HostDialog.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CTelnet.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

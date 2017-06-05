@@ -1,0 +1,242 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "远程控制"
+    BEGIN
+        MENUITEM "连接到服务器",                IDM_CONNECT
+        MENUITEM "断开与服务器的连接",          IDM_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "数据压缩...",                 IDM_COMPRESSION
+        MENUITEM "网格空间数目...",             IDM_GRIDSPACING
+        MENUITEM "色彩模式选择...",             IDM_COLORMODE
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                        IDM_EXIT
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于...",                     IDC_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SERVERIP DIALOG DISCARDABLE  0, 0, 227, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Connect to Server"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "服务器IP地址",IDC_STATIC,13,20,102,26
+    EDITTEXT        IDC_SERVERIP,130,17,60,22,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,31,87,50,22
+    PUSHBUTTON      "取消",IDCANCEL,132,88,50,22
+    LTEXT           "服务器端口号",IDC_STATIC,15,59,76,20
+    EDITTEXT        IDC_PORT,131,57,60,25,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_COMPRESSION DIALOG DISCARDABLE  0, 0, 206, 192
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Set Compression Level"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,93,123,50,25
+    DEFPUSHBUTTON   "确定",IDOK,17,124,50,24
+    CONTROL         "无压缩",IDC_RADIO0,"Button",BS_AUTORADIOBUTTON,7,7,120,
+                    10
+    CONTROL         "霍夫曼编码压缩",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,
+                    7,29,118,10
+    CONTROL         "多遍霍夫曼编码压缩",IDC_RADIO11,"Button",
+                    BS_AUTORADIOBUTTON,7,47,149,10
+    CONTROL         "Run Length 编码",IDC_RADIO12,"Button",
+                    BS_AUTORADIOBUTTON,7,68,118,10
+    CONTROL         "Run Length和霍夫曼编码",IDC_RADIO13,"Button",
+                    BS_AUTORADIOBUTTON,7,88,120,14
+END
+
+IDD_GRIDSPACING DIALOG DISCARDABLE  0, 0, 238, 173
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Set Grid Spacing"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "水平网格数",IDC_STATIC,15,22,61,19
+    EDITTEXT        IDC_HGRID,82,19,52,21,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "显示水平网格",IDC_HGRIDC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,84,117,14
+    LTEXT           "垂直网格数",IDC_STATIC,13,54,59,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_VGRID,83,50,53,19,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "显示垂直网格数",IDC_VGRIDC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,104,116,18
+    DEFPUSHBUTTON   "确定",IDOK,7,127,50,22
+    PUSHBUTTON      "默认值",IDDEFAULT,87,127,50,22
+    PUSHBUTTON      "取消",IDCANCEL,162,127,50,21
+END
+
+IDD_COLORMODE DIALOG DISCARDABLE  0, 0, 179, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Set Color Mode"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "256色屏幕模式",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,7,
+                    46,84,15
+    PUSHBUTTON      "取消",IDCANCEL,92,77,50,18
+    DEFPUSHBUTTON   "确定",IDOK,17,77,50,21
+    CONTROL         "16色屏幕模式",IDC_RADIO0,"Button",BS_AUTORADIOBUTTON,7,
+                    22,90,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SERVERIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_COMPRESSION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_GRIDSPACING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_COLORMODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "MyFrame.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_NOSEND              BITMAP  DISCARDABLE     "IDB_NOSEND.BMP"
+IDB_SEND                BITMAP  DISCARDABLE     "IDB_SEND.BMP"
+IDB_NORECEIVE           BITMAP  DISCARDABLE     "IDB_NORECEIVE.BMP"
+IDB_RECEIVE             BITMAP  DISCARDABLE     "IDB_RECEIVE.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_ABOUT               "关于"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

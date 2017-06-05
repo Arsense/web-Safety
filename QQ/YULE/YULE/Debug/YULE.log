@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/4/17 13:39:23。
+     1>项目“H:\mycode\QQ\YULE\YULE\YULE.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\YULE.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         F:\网络安全\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\YULE.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt YULE.cpp YULEDlg.cpp
+         正在跳过...(未检测到相关更改)
+         YULEDlg.cpp
+         YULE.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\YULE.res" YULE.rc 
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         F:\网络安全\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\QQ\YULE\Debug\YULE.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\YULE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\mycode\QQ\YULE\Debug\YULE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\QQ\YULE\Debug\YULE.lib" /MACHINE:X86 Debug\YULE.res
+         Debug\YULE.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\YULE.obj
+         Debug\YULEDlg.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\YULE.exe.embed.manifest" /manifest Debug\YULE.exe.intermediate.manifest "F:\网络安全\VS2010\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         YULE.vcxproj -> H:\mycode\QQ\YULE\Debug\YULE.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\YULE.unsuccessfulbuild”。
+         正在对“Debug\YULE.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\QQ\YULE\YULE\YULE.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.63

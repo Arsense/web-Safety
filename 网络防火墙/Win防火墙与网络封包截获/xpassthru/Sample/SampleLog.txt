@@ -1,0 +1,2896 @@
+00000000	0.00000000	*** XPASSHTRU.SYS ***==> DriverEntry...	
+00000001	0.00005531	<== NdisIMRegisterLayeredMiniport,the return code is 0.	
+00000002	0.00010895	*** XPASSHTRU.SYS ***<== NdisRegisterProtocol.	
+00000003	0.00013829	*** XPASSHTRU.SYS ***<== NdisIMAssociateMiniport.	
+00000004	0.00426590	*** XPASSHTRU.SYS ***==> Passthru Protocol PtPNPHandler	
+00000005	0.00430110	*** XPASSHTRU.SYS ***==> Passthru Protocol PtPnPNetEventReconfigure	
+00000006	0.00472518	*** XPASSHTRU.SYS ***==> Passthru Protocol Initialize PtBindAdapter	
+00000007	0.01617356	*** XPASSHTRU.SYS ***==> Passthru PtOpenAdapterComplete	
+00000008	0.02035063	*** XPASSHTRU.SYS ***==>Passthru Initialize Miniport	
+00000009	0.02039504	*** XPASSHTRU.SYS ***==>Passthru Miniport MPBundleSearchAndSetSecondary	
+00000010	0.02042941	*** XPASSHTRU.SYS ***<== Passthru Initialize Miniport	
+00000011	0.02046963	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000012	0.02050232	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000013	0.02054674	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000014	0.02058194	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000015	0.02062217	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000016	0.02065318	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000017	0.02069005	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000018	0.02072274	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000019	0.02076045	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000020	0.02079146	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000021	0.02082415	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000022	0.02085683	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000023	0.02089371	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000024	0.02092472	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000025	0.02095908	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000026	0.02099177	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000027	0.02102781	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000028	0.02105882	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000029	0.02109402	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000030	0.02112754	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000031	0.02121638	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000032	0.02124823	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000033	0.02128343	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000034	0.02131611	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryPNPCapbilities	
+00000035	0.02134963	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000036	0.11237263	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000037	0.11240699	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000038	0.11245895	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000039	0.11249415	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000040	0.11254444	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000041	0.11257713	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000042	0.11261065	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000043	0.11264417	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000044	0.11269027	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000045	0.11272128	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000046	0.11275648	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000047	0.11279000	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000048	0.11283442	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000049	0.11286543	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000050	0.11289895	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000051	0.11293415	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000052	0.11297941	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000053	0.11301126	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000054	0.11304478	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000055	0.11307914	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000056	0.11312608	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000057	0.11315793	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000058	0.11319229	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000059	0.11322749	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000060	0.11331716	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000061	0.11334901	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000062	0.11338337	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000063	0.11341774	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000064	0.11346299	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000065	0.11349484	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000066	0.11352836	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000067	0.11356273	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000068	0.11360882	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000069	0.11364151	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000070	0.11367503	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000071	0.11370855	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryPNPCapbilities	
+00000072	0.11374459	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000073	0.11379153	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000074	0.11382756	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000075	0.11386276	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000076	0.11391054	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000077	0.11394657	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000078	0.11398094	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000079	0.11450307	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000080	0.11454497	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000081	0.11458101	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000082	0.11464722	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000083	0.11469499	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000084	0.11473019	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000085	0.11478048	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000086	0.11481903	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000087	0.11485339	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000088	0.11787808	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000089	0.11792333	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000090	0.11796021	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000091	0.11801301	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000092	0.11811023	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000093	0.11814543	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000094	0.11832311	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000095	0.11835495	    PacketPointer: 2164619032.	
+00000096	0.11837842	    PhysicalBufferCount: 1.	
+00000097	0.11840021	    BufferCount: 1.	
+00000098	0.11842787	    FirstBufferPointer: 2164469064.	
+00000099	0.11845301	    TotalPacketLenth: 42.	
+00000100	0.11847396	    HeaderSize: 0.	
+00000101	0.11850246	    Protocol: DEFAULT.	
+00000102	0.11852509	    Status: NDIS_STATUS_PENDING.	
+00000103	0.11856867	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000104	0.11862482	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000105	0.11866002	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000106	0.11870360	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000107	0.11876730	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000108	0.12725385	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000109	0.12728737	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000110	0.12733430	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000111	0.12737369	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000112	0.12896356	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000113	0.12898870	    PacketPointer: 2164619032.	
+00000114	0.12900798	    PhysicalBufferCount: 4.	
+00000115	0.12902558	    BufferCount: 4.	
+00000116	0.12904653	    FirstBufferPointer: 2164469064.	
+00000117	0.12906665	    TotalPacketLenth: 110.	
+00000118	0.12908341	    HeaderSize: 0.	
+00000119	0.12910604	    Protocol: TCP/IP.	
+00000120	0.12912364	    Status: NDIS_STATUS_PENDING.	
+00000121	0.12918985	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000122	0.12934238	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000123	0.12947145	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000124	0.12951838	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000125	0.12974215	*** XPASSHTRU.SYS ***<== Passthru Protocol Initialize	
+00000126	0.13153568	*** XPASSHTRU.SYS ***==> Passthru Protocol PtPNPHandler	
+00000127	0.13668242	*** XPASSHTRU.SYS ***==> Passthru Protocol PtPNPHandler	
+00000128	0.17868774	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000129	0.17872630	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000130	0.17877993	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000131	0.17882435	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000132	0.19886237	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000133	0.19889589	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000134	0.19896126	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000135	0.19899982	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000136	0.19929064	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000137	0.19932332	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000138	0.19936187	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000139	0.19939707	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000140	0.31206220	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000141	0.31209572	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000142	0.31215188	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000143	0.31218791	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000144	0.31223150	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000145	0.31226167	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000146	0.31229854	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000147	0.31233207	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000148	0.31243431	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000149	0.31246532	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000150	0.31250304	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000151	0.31253824	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000152	0.31257930	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000153	0.31260948	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000154	0.31264384	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000155	0.31267736	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000156	0.31271927	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000157	0.31274944	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000158	0.31278380	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000159	0.31281816	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000160	0.44831300	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000161	0.44834652	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000162	0.44839765	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000163	0.44843536	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000164	0.44962378	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000165	0.44965646	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000166	0.44969669	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000167	0.44973189	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000168	0.50635360	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000169	0.50638712	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000170	0.50643741	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000171	0.50647345	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000172	0.50782278	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000173	0.50785547	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000174	0.50789569	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000175	0.50793257	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000176	0.51076617	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000177	0.51079969	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000178	0.51084495	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000179	0.51088099	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000180	0.51201326	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000181	0.51204678	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000182	0.51208701	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000183	0.51212305	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000184	0.54042971	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000185	0.54046323	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000186	0.54051687	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000187	0.54055458	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000188	0.54170697	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000189	0.54174049	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000190	0.54178156	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000191	0.54181759	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000192	0.54413409	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000193	0.54416761	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000194	0.54421119	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000195	0.54424723	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000196	0.54556472	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000197	0.54559824	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000198	0.54563931	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000199	0.54567535	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000200	0.54850224	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000201	0.54853576	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000202	0.54858018	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000203	0.54861706	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000204	0.55030247	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000205	0.55033599	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000206	0.55037790	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000207	0.55041394	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000208	0.57308189	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000209	0.57312045	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000210	0.57318330	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000211	0.57325203	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000212	0.57448486	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000213	0.57451755	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000214	0.57455778	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000215	0.57459382	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000216	0.57691702	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000217	0.57695054	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000218	0.57699328	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000219	0.57703016	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000220	0.57834513	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000221	0.57837865	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000222	0.57841972	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000223	0.57845408	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000224	0.58155084	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000225	0.58158437	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000226	0.58162711	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000227	0.58166315	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000228	0.58278871	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000229	0.58282223	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000230	0.58286163	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000231	0.58289683	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000232	0.64965110	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000233	0.64968630	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000234	0.64973742	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000235	0.64977430	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000236	0.65108173	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000237	0.65111525	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000238	0.65115548	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000239	0.65119152	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000240	0.65234558	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000241	0.65237910	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000242	0.65242017	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000243	0.65245453	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000244	0.65377704	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000245	0.65380973	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000246	0.65385080	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000247	0.65388600	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000248	0.65581361	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000249	0.65584714	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000250	0.65588904	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000251	0.65592340	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000252	0.65701880	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000253	0.65705232	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000254	0.65709255	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000255	0.65712775	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000256	0.65821979	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000257	0.65825247	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000258	0.65829354	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000259	0.65832874	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000260	0.65993620	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000261	0.65996889	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000262	0.66000996	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000263	0.66004516	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000264	0.66351906	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000265	0.66355258	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000266	0.66359952	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000267	0.66363388	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000268	0.66367914	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000269	0.66371015	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000270	0.66374702	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000271	0.66378055	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000272	0.66388196	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000273	0.66391297	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000274	0.66394733	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000275	0.66398085	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000276	0.87040954	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000277	0.87043552	    PacketPointer: 2164619032.	
+00000278	0.87045480	    PhysicalBufferCount: 4.	
+00000279	0.87047156	    BufferCount: 4.	
+00000280	0.87049251	    FirstBufferPointer: 2164469064.	
+00000281	0.87051347	    TotalPacketLenth: 110.	
+00000282	0.87053023	    HeaderSize: 0.	
+00000283	0.87055370	    Protocol: TCP/IP.	
+00000284	0.87057213	    Status: NDIS_STATUS_PENDING.	
+00000285	0.87062912	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000286	1.11046429	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000287	1.11049195	    PacketPointer: 2164619032.	
+00000288	1.11051038	    PhysicalBufferCount: 1.	
+00000289	1.11052798	    BufferCount: 1.	
+00000290	1.11054894	    FirstBufferPointer: 2164469064.	
+00000291	1.11056905	    TotalPacketLenth: 42.	
+00000292	1.11058581	    HeaderSize: 0.	
+00000293	1.11060844	    Protocol: DEFAULT.	
+00000294	1.11062688	    Status: NDIS_STATUS_PENDING.	
+00000295	1.11066375	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000296	1.62142573	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000297	1.62145171	    PacketPointer: 2164619032.	
+00000298	1.62147015	    PhysicalBufferCount: 4.	
+00000299	1.62148691	    BufferCount: 4.	
+00000300	1.62150787	    FirstBufferPointer: 2164469064.	
+00000301	1.62152798	    TotalPacketLenth: 110.	
+00000302	1.62154474	    HeaderSize: 0.	
+00000303	1.62156737	    Protocol: TCP/IP.	
+00000304	1.62158581	    Status: NDIS_STATUS_PENDING.	
+00000305	1.62164112	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000306	2.11190414	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000307	2.11193012	    PacketPointer: 2164619032.	
+00000308	2.11195023	    PhysicalBufferCount: 1.	
+00000309	2.11196783	    BufferCount: 1.	
+00000310	2.11198962	    FirstBufferPointer: 2164469064.	
+00000311	2.11200890	    TotalPacketLenth: 42.	
+00000312	2.11202566	    HeaderSize: 0.	
+00000313	2.11204913	    Protocol: DEFAULT.	
+00000314	2.11206840	    Status: NDIS_STATUS_PENDING.	
+00000315	2.11210612	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000316	2.37248970	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000317	2.37251651	    PacketPointer: 2164619032.	
+00000318	2.37253579	    PhysicalBufferCount: 4.	
+00000319	2.37255255	    BufferCount: 4.	
+00000320	2.37257434	    FirstBufferPointer: 2164469064.	
+00000321	2.37259530	    TotalPacketLenth: 110.	
+00000322	2.37261290	    HeaderSize: 0.	
+00000323	2.37263636	    Protocol: TCP/IP.	
+00000324	2.37265564	    Status: NDIS_STATUS_PENDING.	
+00000325	2.37271514	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000326	3.12506055	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000327	3.12508821	    PacketPointer: 2164619032.	
+00000328	3.12510749	    PhysicalBufferCount: 4.	
+00000329	3.12512425	    BufferCount: 4.	
+00000330	3.12514604	    FirstBufferPointer: 2164469064.	
+00000331	3.12516699	    TotalPacketLenth: 110.	
+00000332	3.12518459	    HeaderSize: 0.	
+00000333	3.12520722	    Protocol: TCP/IP.	
+00000334	3.12522566	    Status: NDIS_STATUS_PENDING.	
+00000335	3.12528516	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000336	3.87458996	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000337	3.87461678	    PacketPointer: 2164619032.	
+00000338	3.87463690	    PhysicalBufferCount: 4.	
+00000339	3.87465366	    BufferCount: 4.	
+00000340	3.87467461	    FirstBufferPointer: 2164469064.	
+00000341	3.87469472	    TotalPacketLenth: 110.	
+00000342	3.87471232	    HeaderSize: 0.	
+00000343	3.87473579	    Protocol: TCP/IP.	
+00000344	3.87475507	    Status: NDIS_STATUS_PENDING.	
+00000345	3.87481206	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000346	4.62579137	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000347	4.62581735	    PacketPointer: 2164619032.	
+00000348	4.62583663	    PhysicalBufferCount: 4.	
+00000349	4.62585339	    BufferCount: 4.	
+00000350	4.62587518	    FirstBufferPointer: 2164469064.	
+00000351	4.62589446	    TotalPacketLenth: 110.	
+00000352	4.62591206	    HeaderSize: 0.	
+00000353	4.62593636	    Protocol: TCP/IP.	
+00000354	4.62598078	    Status: NDIS_STATUS_PENDING.	
+00000355	4.62604029	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000356	5.37679164	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000357	5.37681762	    PacketPointer: 2164619032.	
+00000358	5.37683689	    PhysicalBufferCount: 4.	
+00000359	5.37685449	    BufferCount: 4.	
+00000360	5.37687629	    FirstBufferPointer: 2164469064.	
+00000361	5.37689556	    TotalPacketLenth: 110.	
+00000362	5.37691316	    HeaderSize: 0.	
+00000363	5.37693747	    Protocol: TCP/IP.	
+00000364	5.37695590	    Status: NDIS_STATUS_PENDING.	
+00000365	5.37701457	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000366	5.57359397	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000367	5.57362163	    PacketPointer: 2164619032.	
+00000368	5.57364006	    PhysicalBufferCount: 4.	
+00000369	5.57365683	    BufferCount: 4.	
+00000370	5.57368029	    FirstBufferPointer: 2164469064.	
+00000371	5.57370041	    TotalPacketLenth: 110.	
+00000372	5.57371633	    HeaderSize: 0.	
+00000373	5.57373812	    Protocol: TCP/IP.	
+00000374	5.57375656	    Status: NDIS_STATUS_PENDING.	
+00000375	5.57381355	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000376	6.13009583	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000377	6.13012181	    PacketPointer: 2164619032.	
+00000378	6.13014192	    PhysicalBufferCount: 4.	
+00000379	6.13015868	    BufferCount: 4.	
+00000380	6.13018048	    FirstBufferPointer: 2164469064.	
+00000381	6.13020059	    TotalPacketLenth: 110.	
+00000382	6.13021735	    HeaderSize: 0.	
+00000383	6.13024082	    Protocol: TCP/IP.	
+00000384	6.13025926	    Status: NDIS_STATUS_PENDING.	
+00000385	6.13031457	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000386	6.13052996	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00000387	6.13059114	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00000388	6.13063137	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00000389	6.13164966	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000390	6.13167480	    PacketPointer: 2164619032.	
+00000391	6.13169408	    PhysicalBufferCount: 4.	
+00000392	6.13171084	    BufferCount: 4.	
+00000393	6.13173263	    FirstBufferPointer: 2164469064.	
+00000394	6.13175274	    TotalPacketLenth: 110.	
+00000395	6.13176950	    HeaderSize: 0.	
+00000396	6.13179129	    Protocol: TCP/IP.	
+00000397	6.13180973	    Status: NDIS_STATUS_PENDING.	
+00000398	6.13186253	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000399	6.31805542	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000400	6.31807972	    PacketPointer: 2164619032.	
+00000401	6.31809816	    PhysicalBufferCount: 4.	
+00000402	6.31811492	    BufferCount: 4.	
+00000403	6.31813588	    FirstBufferPointer: 2164469064.	
+00000404	6.31815599	    TotalPacketLenth: 110.	
+00000405	6.31817275	    HeaderSize: 0.	
+00000406	6.31819370	    Protocol: TCP/IP.	
+00000407	6.31821130	    Status: NDIS_STATUS_PENDING.	
+00000408	6.31826243	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000409	6.87905030	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000410	6.87907712	    PacketPointer: 2164619032.	
+00000411	6.87909640	    PhysicalBufferCount: 4.	
+00000412	6.87911316	    BufferCount: 4.	
+00000413	6.87913495	    FirstBufferPointer: 2164469064.	
+00000414	6.87915423	    TotalPacketLenth: 110.	
+00000415	6.87917183	    HeaderSize: 0.	
+00000416	6.87919613	    Protocol: TCP/IP.	
+00000417	6.87921541	    Status: NDIS_STATUS_PENDING.	
+00000418	6.87927156	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000419	6.87930676	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000420	6.87932939	    PacketPointer: 2164618896.	
+00000421	6.87934867	    PhysicalBufferCount: 4.	
+00000422	6.87936543	    BufferCount: 4.	
+00000423	6.87938722	    FirstBufferPointer: 2167149320.	
+00000424	6.87940649	    TotalPacketLenth: 110.	
+00000425	6.87942326	    HeaderSize: 0.	
+00000426	6.87944169	    Protocol: TCP/IP.	
+00000427	6.87945929	    Status: NDIS_STATUS_PENDING.	
+00000428	6.87950288	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000429	7.06914704	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000430	7.06917218	    PacketPointer: 2164618896.	
+00000431	7.06919146	    PhysicalBufferCount: 4.	
+00000432	7.06920822	    BufferCount: 4.	
+00000433	7.06923001	    FirstBufferPointer: 2167149320.	
+00000434	7.06925012	    TotalPacketLenth: 110.	
+00000435	7.06926688	    HeaderSize: 0.	
+00000436	7.06928951	    Protocol: TCP/IP.	
+00000437	7.06930795	    Status: NDIS_STATUS_PENDING.	
+00000438	7.06936243	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000439	7.63028608	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000440	7.63031373	    PacketPointer: 2164618896.	
+00000441	7.63033301	    PhysicalBufferCount: 4.	
+00000442	7.63035061	    BufferCount: 4.	
+00000443	7.63037156	    FirstBufferPointer: 2167149320.	
+00000444	7.63039084	    TotalPacketLenth: 110.	
+00000445	7.63040844	    HeaderSize: 0.	
+00000446	7.63043274	    Protocol: TCP/IP.	
+00000447	7.63045202	    Status: NDIS_STATUS_PENDING.	
+00000448	7.63050985	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000449	7.63054588	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000450	7.63056851	    PacketPointer: 2164619032.	
+00000451	7.63058695	    PhysicalBufferCount: 4.	
+00000452	7.63060371	    BufferCount: 4.	
+00000453	7.63062550	    FirstBufferPointer: 2164469064.	
+00000454	7.63064478	    TotalPacketLenth: 110.	
+00000455	7.63066238	    HeaderSize: 0.	
+00000456	7.63068082	    Protocol: TCP/IP.	
+00000457	7.63069842	    Status: NDIS_STATUS_PENDING.	
+00000458	7.63074200	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000459	7.82021687	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000460	7.82024285	    PacketPointer: 2164619032.	
+00000461	7.82026212	    PhysicalBufferCount: 4.	
+00000462	7.82027805	    BufferCount: 4.	
+00000463	7.82029984	    FirstBufferPointer: 2164469064.	
+00000464	7.82031995	    TotalPacketLenth: 110.	
+00000465	7.82033671	    HeaderSize: 0.	
+00000466	7.82035850	    Protocol: TCP/IP.	
+00000467	7.82037610	    Status: NDIS_STATUS_PENDING.	
+00000468	7.82042723	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000469	8.38124863	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000470	8.38127628	    PacketPointer: 2164619032.	
+00000471	8.38129556	    PhysicalBufferCount: 4.	
+00000472	8.38131232	    BufferCount: 4.	
+00000473	8.38133328	    FirstBufferPointer: 2164469064.	
+00000474	8.38135339	    TotalPacketLenth: 110.	
+00000475	8.38137099	    HeaderSize: 0.	
+00000476	8.38139529	    Protocol: TCP/IP.	
+00000477	8.38141373	    Status: NDIS_STATUS_PENDING.	
+00000478	8.38146653	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000479	8.38150173	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000480	8.38152436	    PacketPointer: 2164618896.	
+00000481	8.38154280	    PhysicalBufferCount: 4.	
+00000482	8.38155956	    BufferCount: 4.	
+00000483	8.38158135	    FirstBufferPointer: 2167149320.	
+00000484	8.38160063	    TotalPacketLenth: 110.	
+00000485	8.38161739	    HeaderSize: 0.	
+00000486	8.38163499	    Protocol: TCP/IP.	
+00000487	8.38165259	    Status: NDIS_STATUS_PENDING.	
+00000488	8.38169282	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000489	9.13940204	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000490	9.13943053	    PacketPointer: 2164618896.	
+00000491	9.13944981	    PhysicalBufferCount: 5.	
+00000492	9.13946573	    BufferCount: 5.	
+00000493	9.13948752	    FirstBufferPointer: 2167149320.	
+00000494	9.13950847	    TotalPacketLenth: 217.	
+00000495	9.13952607	    HeaderSize: 0.	
+00000496	9.13954786	    Protocol: TCP/IP.	
+00000497	9.13956630	    Status: NDIS_STATUS_PENDING.	
+00000498	9.13962413	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000499	10.63449164	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000500	10.63451929	    PacketPointer: 2164618896.	
+00000501	10.63453941	    PhysicalBufferCount: 5.	
+00000502	10.63455617	    BufferCount: 5.	
+00000503	10.63457796	    FirstBufferPointer: 2167149320.	
+00000504	10.63459807	    TotalPacketLenth: 217.	
+00000505	10.63461484	    HeaderSize: 0.	
+00000506	10.63463830	    Protocol: TCP/IP.	
+00000507	10.63465758	    Status: NDIS_STATUS_PENDING.	
+00000508	10.63472127	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000509	12.13657514	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000510	12.13660280	    PacketPointer: 2164618896.	
+00000511	12.13662291	    PhysicalBufferCount: 5.	
+00000512	12.13663967	    BufferCount: 5.	
+00000513	12.13666146	    FirstBufferPointer: 2167149320.	
+00000514	12.13668158	    TotalPacketLenth: 217.	
+00000515	12.13669918	    HeaderSize: 0.	
+00000516	12.13672265	    Protocol: TCP/IP.	
+00000517	12.13674108	    Status: NDIS_STATUS_PENDING.	
+00000518	12.13680143	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000519	12.19739403	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000520	12.19741833	    CurrentAdapterHandle: 2164678408	
+00000521	12.19744180	    MacReceiveHandle: 2167603976	
+00000522	12.19746443	    HeaderBufferPointer: 2167529076	
+00000523	12.19748454	    HeaderBufferSize: 14	
+00000524	12.19750717	    LookAheadBufferPointer: 2167529090	
+00000525	12.19752812	    LookAheadBufferSize: 128	
+00000526	12.19754572	    PacketSize: 238	
+00000527	12.19760187	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00000528	12.19763540	    PacketPointer: 2180488400.	
+00000529	12.19765467	    PhysicalBufferCount: 1.	
+00000530	12.19767227	    BufferCount: 1.	
+00000531	12.19769407	    FirstBufferPointer: 2167173928.	
+00000532	12.19771418	    TotalPacketLenth: 1500.	
+00000533	12.19773178	    HeaderSize: 0.	
+00000534	12.19775273	    Protocol: TCP/IP.	
+00000535	12.19777117	    Status: NDIS_STATUS_SUCCESS.	
+00000536	12.19779045	    BytesTransferred: 218	
+00000537	12.19787677	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000538	12.19792119	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000539	13.63880364	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000540	13.63883129	    PacketPointer: 2164618896.	
+00000541	13.63885141	    PhysicalBufferCount: 5.	
+00000542	13.63886817	    BufferCount: 5.	
+00000543	13.63888996	    FirstBufferPointer: 2167149320.	
+00000544	13.63890924	    TotalPacketLenth: 217.	
+00000545	13.63892684	    HeaderSize: 0.	
+00000546	13.63895030	    Protocol: TCP/IP.	
+00000547	13.63896958	    Status: NDIS_STATUS_PENDING.	
+00000548	13.63903495	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000549	15.14096592	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000550	15.14099442	    PacketPointer: 2164618896.	
+00000551	15.14101369	    PhysicalBufferCount: 5.	
+00000552	15.14103129	    BufferCount: 5.	
+00000553	15.14105392	    FirstBufferPointer: 2167149320.	
+00000554	15.14107404	    TotalPacketLenth: 229.	
+00000555	15.14109164	    HeaderSize: 0.	
+00000556	15.14111594	    Protocol: TCP/IP.	
+00000557	15.14113522	    Status: NDIS_STATUS_PENDING.	
+00000558	15.14119556	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000559	16.14235548	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000560	16.14238230	    PacketPointer: 2164618896.	
+00000561	16.14240242	    PhysicalBufferCount: 5.	
+00000562	16.14241918	    BufferCount: 5.	
+00000563	16.14244097	    FirstBufferPointer: 2167149320.	
+00000564	16.14246108	    TotalPacketLenth: 229.	
+00000565	16.14247868	    HeaderSize: 0.	
+00000566	16.14250131	    Protocol: TCP/IP.	
+00000567	16.14252059	    Status: NDIS_STATUS_PENDING.	
+00000568	16.14258093	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000569	17.14381042	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000570	17.14383807	    PacketPointer: 2164618896.	
+00000571	17.14385819	    PhysicalBufferCount: 5.	
+00000572	17.14387495	    BufferCount: 5.	
+00000573	17.14389674	    FirstBufferPointer: 2167149320.	
+00000574	17.14391685	    TotalPacketLenth: 229.	
+00000575	17.14393445	    HeaderSize: 0.	
+00000576	17.14395792	    Protocol: TCP/IP.	
+00000577	17.14397636	    Status: NDIS_STATUS_PENDING.	
+00000578	17.14403754	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000579	18.14524104	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000580	18.14526870	    PacketPointer: 2164618896.	
+00000581	18.14528798	    PhysicalBufferCount: 5.	
+00000582	18.14530474	    BufferCount: 5.	
+00000583	18.14532653	    FirstBufferPointer: 2167149320.	
+00000584	18.14534748	    TotalPacketLenth: 229.	
+00000585	18.14536508	    HeaderSize: 0.	
+00000586	18.14538855	    Protocol: TCP/IP.	
+00000587	18.14540783	    Status: NDIS_STATUS_PENDING.	
+00000588	18.14546901	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000589	19.14868226	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000590	19.14871076	    PacketPointer: 2164618896.	
+00000591	19.14873087	    PhysicalBufferCount: 4.	
+00000592	19.14874763	    BufferCount: 4.	
+00000593	19.14876942	    FirstBufferPointer: 2167149320.	
+00000594	19.14878954	    TotalPacketLenth: 110.	
+00000595	19.14880714	    HeaderSize: 0.	
+00000596	19.14883061	    Protocol: TCP/IP.	
+00000597	19.14884904	    Status: NDIS_STATUS_PENDING.	
+00000598	19.14890771	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000599	19.89764009	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000600	19.89766691	    PacketPointer: 2164618896.	
+00000601	19.89768619	    PhysicalBufferCount: 4.	
+00000602	19.89770295	    BufferCount: 4.	
+00000603	19.89772474	    FirstBufferPointer: 2167149320.	
+00000604	19.89774485	    TotalPacketLenth: 110.	
+00000605	19.89776245	    HeaderSize: 0.	
+00000606	19.89778592	    Protocol: TCP/IP.	
+00000607	19.89780520	    Status: NDIS_STATUS_PENDING.	
+00000608	19.89786219	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000609	20.64884569	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000610	20.64887251	    PacketPointer: 2164618896.	
+00000611	20.64889262	    PhysicalBufferCount: 4.	
+00000612	20.64890939	    BufferCount: 4.	
+00000613	20.64893034	    FirstBufferPointer: 2167149320.	
+00000614	20.64895045	    TotalPacketLenth: 110.	
+00000615	20.64896805	    HeaderSize: 0.	
+00000616	20.64899236	    Protocol: TCP/IP.	
+00000617	20.64904767	    Status: NDIS_STATUS_PENDING.	
+00000618	20.64910634	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000619	21.39980992	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000620	21.39983590	    PacketPointer: 2164618896.	
+00000621	21.39985518	    PhysicalBufferCount: 4.	
+00000622	21.39987194	    BufferCount: 4.	
+00000623	21.39989373	    FirstBufferPointer: 2167149320.	
+00000624	21.39991384	    TotalPacketLenth: 110.	
+00000625	21.39993144	    HeaderSize: 0.	
+00000626	21.39995407	    Protocol: TCP/IP.	
+00000627	21.39997251	    Status: NDIS_STATUS_PENDING.	
+00000628	21.40003369	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000629	22.15121666	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000630	22.15124432	    PacketPointer: 2164618896.	
+00000631	22.15126443	    PhysicalBufferCount: 4.	
+00000632	22.15128120	    BufferCount: 4.	
+00000633	22.15130299	    FirstBufferPointer: 2167149320.	
+00000634	22.15132394	    TotalPacketLenth: 110.	
+00000635	22.15134070	    HeaderSize: 0.	
+00000636	22.15136501	    Protocol: TCP/IP.	
+00000637	22.15138428	    Status: NDIS_STATUS_PENDING.	
+00000638	22.15144714	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000639	22.90198142	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000640	22.90200741	    PacketPointer: 2164618896.	
+00000641	22.90202752	    PhysicalBufferCount: 4.	
+00000642	22.90204428	    BufferCount: 4.	
+00000643	22.90206523	    FirstBufferPointer: 2167149320.	
+00000644	22.90208619	    TotalPacketLenth: 110.	
+00000645	22.90210379	    HeaderSize: 0.	
+00000646	22.90212558	    Protocol: TCP/IP.	
+00000647	22.90214401	    Status: NDIS_STATUS_PENDING.	
+00000648	22.90220436	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000649	23.65323982	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000650	23.65326832	    PacketPointer: 2164618896.	
+00000651	23.65328760	    PhysicalBufferCount: 4.	
+00000652	23.65330436	    BufferCount: 4.	
+00000653	23.65332615	    FirstBufferPointer: 2167149320.	
+00000654	23.65334542	    TotalPacketLenth: 110.	
+00000655	23.65336302	    HeaderSize: 0.	
+00000656	23.65338817	    Protocol: TCP/IP.	
+00000657	23.65340661	    Status: NDIS_STATUS_PENDING.	
+00000658	23.65346946	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000659	24.40411354	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000660	24.40413868	    PacketPointer: 2164618896.	
+00000661	24.40415796	    PhysicalBufferCount: 4.	
+00000662	24.40417472	    BufferCount: 4.	
+00000663	24.40419651	    FirstBufferPointer: 2167149320.	
+00000664	24.40421579	    TotalPacketLenth: 110.	
+00000665	24.40423339	    HeaderSize: 0.	
+00000666	24.40425601	    Protocol: TCP/IP.	
+00000667	24.40427445	    Status: NDIS_STATUS_PENDING.	
+00000668	24.40433563	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000669	25.15550520	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000670	25.15553285	    PacketPointer: 2164618896.	
+00000671	25.15555297	    PhysicalBufferCount: 5.	
+00000672	25.15556973	    BufferCount: 5.	
+00000673	25.15559152	    FirstBufferPointer: 2167149320.	
+00000674	25.15561163	    TotalPacketLenth: 217.	
+00000675	25.15562923	    HeaderSize: 0.	
+00000676	25.15565354	    Protocol: TCP/IP.	
+00000677	25.15567198	    Status: NDIS_STATUS_PENDING.	
+00000678	25.15573400	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000679	25.15601811	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000680	25.15604241	    PacketPointer: 2164618896.	
+00000681	25.15606085	    PhysicalBufferCount: 5.	
+00000682	25.15607845	    BufferCount: 5.	
+00000683	25.15610024	    FirstBufferPointer: 2167149320.	
+00000684	25.15611952	    TotalPacketLenth: 217.	
+00000685	25.15613628	    HeaderSize: 0.	
+00000686	25.15615640	    Protocol: TCP/IP.	
+00000687	25.15617483	    Status: NDIS_STATUS_PENDING.	
+00000688	25.15622428	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000689	25.15952302	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000690	25.15954817	    PacketPointer: 2164618896.	
+00000691	25.15956744	    PhysicalBufferCount: 5.	
+00000692	25.15958420	    BufferCount: 5.	
+00000693	25.15960516	    FirstBufferPointer: 2167149320.	
+00000694	25.15962443	    TotalPacketLenth: 247.	
+00000695	25.15964119	    HeaderSize: 0.	
+00000696	25.15966215	    Protocol: TCP/IP.	
+00000697	25.15967975	    Status: NDIS_STATUS_PENDING.	
+00000698	25.15973171	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000699	25.16453148	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000700	25.16455746	    PacketPointer: 2164618896.	
+00000701	25.16457590	    PhysicalBufferCount: 4.	
+00000702	25.16459266	    BufferCount: 4.	
+00000703	25.16461445	    FirstBufferPointer: 2167149320.	
+00000704	25.16463373	    TotalPacketLenth: 92.	
+00000705	25.16464965	    HeaderSize: 0.	
+00000706	25.16467060	    Protocol: TCP/IP.	
+00000707	25.16468820	    Status: NDIS_STATUS_PENDING.	
+00000708	25.16474017	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000709	25.90630432	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000710	25.90633030	    PacketPointer: 2164618896.	
+00000711	25.90635041	    PhysicalBufferCount: 4.	
+00000712	25.90636718	    BufferCount: 4.	
+00000713	25.90638897	    FirstBufferPointer: 2167149320.	
+00000714	25.90640908	    TotalPacketLenth: 92.	
+00000715	25.90642668	    HeaderSize: 0.	
+00000716	25.90645015	    Protocol: TCP/IP.	
+00000717	25.90646859	    Status: NDIS_STATUS_PENDING.	
+00000718	25.90652641	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000719	26.65743700	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000720	26.65746382	    PacketPointer: 2164618896.	
+00000721	26.65748310	    PhysicalBufferCount: 4.	
+00000722	26.65750154	    BufferCount: 4.	
+00000723	26.65752249	    FirstBufferPointer: 2167149320.	
+00000724	26.65754260	    TotalPacketLenth: 92.	
+00000725	26.65756020	    HeaderSize: 0.	
+00000726	26.65758451	    Protocol: TCP/IP.	
+00000727	26.65760295	    Status: NDIS_STATUS_PENDING.	
+00000728	26.65766161	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000729	27.41304931	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000730	27.41307529	    PacketPointer: 2164618896.	
+00000731	27.41309457	    PhysicalBufferCount: 4.	
+00000732	27.41311133	    BufferCount: 4.	
+00000733	27.41313228	    FirstBufferPointer: 2167149320.	
+00000734	27.41315239	    TotalPacketLenth: 92.	
+00000735	27.41316916	    HeaderSize: 0.	
+00000736	27.41319095	    Protocol: TCP/IP.	
+00000737	27.41320938	    Status: NDIS_STATUS_PENDING.	
+00000738	27.41326386	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000739	28.15950878	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000740	28.15953559	    PacketPointer: 2164618896.	
+00000741	28.15955571	    PhysicalBufferCount: 4.	
+00000742	28.15957247	    BufferCount: 4.	
+00000743	28.15959426	    FirstBufferPointer: 2167149320.	
+00000744	28.15961438	    TotalPacketLenth: 92.	
+00000745	28.15963198	    HeaderSize: 0.	
+00000746	28.15965544	    Protocol: TCP/IP.	
+00000747	28.15967472	    Status: NDIS_STATUS_PENDING.	
+00000748	28.15973171	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000749	28.91061380	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000750	28.91064062	    PacketPointer: 2164618896.	
+00000751	28.91066074	    PhysicalBufferCount: 4.	
+00000752	28.91067750	    BufferCount: 4.	
+00000753	28.91069929	    FirstBufferPointer: 2167149320.	
+00000754	28.91071940	    TotalPacketLenth: 92.	
+00000755	28.91073700	    HeaderSize: 0.	
+00000756	28.91075963	    Protocol: TCP/IP.	
+00000757	28.91077891	    Status: NDIS_STATUS_PENDING.	
+00000758	28.91084177	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000759	31.84559858	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000760	31.84562623	    PacketPointer: 2164618896.	
+00000761	31.84564551	    PhysicalBufferCount: 5.	
+00000762	31.84566311	    BufferCount: 5.	
+00000763	31.84568490	    FirstBufferPointer: 2167149320.	
+00000764	31.84570501	    TotalPacketLenth: 243.	
+00000765	31.84572261	    HeaderSize: 0.	
+00000766	31.84574608	    Protocol: TCP/IP.	
+00000767	31.84576536	    Status: NDIS_STATUS_PENDING.	
+00000768	31.84582570	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000769	31.84653724	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000770	31.84656322	    PacketPointer: 2164618896.	
+00000771	31.84658166	    PhysicalBufferCount: 5.	
+00000772	31.84659926	    BufferCount: 5.	
+00000773	31.84662105	    FirstBufferPointer: 2167149320.	
+00000774	31.84664033	    TotalPacketLenth: 243.	
+00000775	31.84665709	    HeaderSize: 0.	
+00000776	31.84667720	    Protocol: TCP/IP.	
+00000777	31.84669564	    Status: NDIS_STATUS_PENDING.	
+00000778	31.84674928	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000779	41.82550189	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000780	41.82553039	    PacketPointer: 2164618896.	
+00000781	41.82555134	    PhysicalBufferCount: 4.	
+00000782	41.82556810	    BufferCount: 4.	
+00000783	41.82558989	    FirstBufferPointer: 2167149320.	
+00000784	41.82561001	    TotalPacketLenth: 92.	
+00000785	41.82562761	    HeaderSize: 0.	
+00000786	41.82565107	    Protocol: TCP/IP.	
+00000787	41.82566951	    Status: NDIS_STATUS_PENDING.	
+00000788	41.82572902	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000789	41.82577092	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000790	41.82579523	    CurrentAdapterHandle: 2164678408	
+00000791	41.82581786	    MacReceiveHandle: 2167603976	
+00000792	41.82584048	    HeaderBufferPointer: 2167529336	
+00000793	41.82585976	    HeaderBufferSize: 14	
+00000794	41.82588323	    LookAheadBufferPointer: 2167529350	
+00000795	41.82590334	    LookAheadBufferSize: 46	
+00000796	41.82592010	    PacketSize: 46	
+00000797	41.82598380	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000798	41.82602570	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000799	41.82610532	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000800	41.82612879	    PacketPointer: 2164618896.	
+00000801	41.82614723	    PhysicalBufferCount: 1.	
+00000802	41.82616399	    BufferCount: 1.	
+00000803	41.82618578	    FirstBufferPointer: 2167149320.	
+00000804	41.82620506	    TotalPacketLenth: 42.	
+00000805	41.82622182	    HeaderSize: 0.	
+00000806	41.82624109	    Protocol: DEFAULT.	
+00000807	41.82625869	    Status: NDIS_STATUS_PENDING.	
+00000808	41.82629389	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000809	41.82633077	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000810	41.82635507	    CurrentAdapterHandle: 2164678408	
+00000811	41.82637770	    MacReceiveHandle: 2167603976	
+00000812	41.82640033	    HeaderBufferPointer: 2167529404	
+00000813	41.82641961	    HeaderBufferSize: 14	
+00000814	41.82644224	    LookAheadBufferPointer: 2167529418	
+00000815	41.82646235	    LookAheadBufferSize: 90	
+00000816	41.82647995	    PacketSize: 90	
+00000817	41.82670875	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000818	41.82674814	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000819	41.82682860	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000820	41.82685206	    PacketPointer: 2164618896.	
+00000821	41.82687218	    PhysicalBufferCount: 3.	
+00000822	41.82688894	    BufferCount: 3.	
+00000823	41.82691073	    FirstBufferPointer: 2167149320.	
+00000824	41.82693001	    TotalPacketLenth: 62.	
+00000825	41.82694677	    HeaderSize: 0.	
+00000826	41.82696605	    Protocol: TCP/IP.	
+00000827	41.82698448	    Status: NDIS_STATUS_PENDING.	
+00000828	41.82702220	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000829	41.82705824	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000830	41.82708254	    CurrentAdapterHandle: 2164678408	
+00000831	41.82710517	    MacReceiveHandle: 2167603976	
+00000832	41.82712864	    HeaderBufferPointer: 2167513132	
+00000833	41.82714707	    HeaderBufferSize: 14	
+00000834	41.82717054	    LookAheadBufferPointer: 2167513146	
+00000835	41.82719065	    LookAheadBufferSize: 48	
+00000836	41.82720825	    PacketSize: 48	
+00000837	41.82731721	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000838	41.82744963	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000839	41.82753008	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000840	41.82755355	    PacketPointer: 2164618896.	
+00000841	41.82757283	    PhysicalBufferCount: 3.	
+00000842	41.82759043	    BufferCount: 3.	
+00000843	41.82761138	    FirstBufferPointer: 2167149320.	
+00000844	41.82763065	    TotalPacketLenth: 54.	
+00000845	41.82764825	    HeaderSize: 0.	
+00000846	41.82766753	    Protocol: TCP/IP.	
+00000847	41.82768513	    Status: NDIS_STATUS_PENDING.	
+00000848	41.82772201	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000849	41.82775721	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000850	41.82778067	    PacketPointer: 2164619032.	
+00000851	41.82779995	    PhysicalBufferCount: 4.	
+00000852	41.82781671	    BufferCount: 4.	
+00000853	41.82783850	    FirstBufferPointer: 2164469064.	
+00000854	41.82785778	    TotalPacketLenth: 126.	
+00000855	41.82787454	    HeaderSize: 0.	
+00000856	41.82789214	    Protocol: TCP/IP.	
+00000857	41.82791058	    Status: NDIS_STATUS_PENDING.	
+00000858	41.82794662	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000859	41.83048856	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000860	41.83051286	    CurrentAdapterHandle: 2164678408	
+00000861	41.83053549	    MacReceiveHandle: 2167603976	
+00000862	41.83055812	    HeaderBufferPointer: 2167513204	
+00000863	41.83057740	    HeaderBufferSize: 14	
+00000864	41.83059919	    LookAheadBufferPointer: 2167513218	
+00000865	41.83061846	    LookAheadBufferSize: 46	
+00000866	41.83063523	    PacketSize: 46	
+00000867	41.83077686	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000868	41.83082799	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000869	41.83157054	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000870	41.83159484	    PacketPointer: 2164619032.	
+00000871	41.83161412	    PhysicalBufferCount: 4.	
+00000872	41.83163088	    BufferCount: 4.	
+00000873	41.83165351	    FirstBufferPointer: 2164469064.	
+00000874	41.83167279	    TotalPacketLenth: 191.	
+00000875	41.83169123	    HeaderSize: 0.	
+00000876	41.83171134	    Protocol: TCP/IP.	
+00000877	41.83172978	    Status: NDIS_STATUS_PENDING.	
+00000878	41.83177001	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000879	41.83180688	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000880	41.83183035	    CurrentAdapterHandle: 2164678408	
+00000881	41.83185382	    MacReceiveHandle: 2167603976	
+00000882	41.83187728	    HeaderBufferPointer: 2167513272	
+00000883	41.83189572	    HeaderBufferSize: 14	
+00000884	41.83191919	    LookAheadBufferPointer: 2167513286	
+00000885	41.83193930	    LookAheadBufferSize: 121	
+00000886	41.83195690	    PacketSize: 121	
+00000887	41.83206334	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000888	41.83211782	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000889	41.95687330	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000890	41.95689928	    PacketPointer: 2164619032.	
+00000891	41.95691940	    PhysicalBufferCount: 4.	
+00000892	41.95693700	    BufferCount: 4.	
+00000893	41.95695795	    FirstBufferPointer: 2164469064.	
+00000894	41.95697806	    TotalPacketLenth: 221.	
+00000895	41.95699483	    HeaderSize: 0.	
+00000896	41.95701662	    Protocol: TCP/IP.	
+00000897	41.95703505	    Status: NDIS_STATUS_PENDING.	
+00000898	41.95707780	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000899	41.96131772	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000900	41.96134119	    CurrentAdapterHandle: 2164678408	
+00000901	41.96136465	    MacReceiveHandle: 2167603976	
+00000902	41.96138728	    HeaderBufferPointer: 2167513416	
+00000903	41.96140740	    HeaderBufferSize: 14	
+00000904	41.96143002	    LookAheadBufferPointer: 2167513430	
+00000905	41.96145014	    LookAheadBufferSize: 96	
+00000906	41.96146690	    PacketSize: 96	
+00000907	41.96158088	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000908	41.96163955	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000909	41.97847269	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000910	41.97849867	    PacketPointer: 2164619032.	
+00000911	41.97851878	    PhysicalBufferCount: 4.	
+00000912	41.97853555	    BufferCount: 4.	
+00000913	41.97855734	    FirstBufferPointer: 2164469064.	
+00000914	41.97857661	    TotalPacketLenth: 136.	
+00000915	41.97859421	    HeaderSize: 0.	
+00000916	41.97861517	    Protocol: TCP/IP.	
+00000917	41.97863360	    Status: NDIS_STATUS_PENDING.	
+00000918	41.97867551	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000919	41.97871490	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000920	41.97873837	    CurrentAdapterHandle: 2164678408	
+00000921	41.97876267	    MacReceiveHandle: 2167603976	
+00000922	41.97878614	    HeaderBufferPointer: 2167513536	
+00000923	41.97880541	    HeaderBufferSize: 14	
+00000924	41.97882804	    LookAheadBufferPointer: 2167513550	
+00000925	41.97884899	    LookAheadBufferSize: 79	
+00000926	41.97886576	    PacketSize: 79	
+00000927	41.97897052	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000928	41.97905014	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000929	42.10644981	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000930	42.10649591	    PacketPointer: 2164619032.	
+00000931	42.10651602	    PhysicalBufferCount: 4.	
+00000932	42.10653278	    BufferCount: 4.	
+00000933	42.10655541	    FirstBufferPointer: 2164469064.	
+00000934	42.10657553	    TotalPacketLenth: 157.	
+00000935	42.10659313	    HeaderSize: 0.	
+00000936	42.10661659	    Protocol: TCP/IP.	
+00000937	42.10663587	    Status: NDIS_STATUS_PENDING.	
+00000938	42.10668113	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000939	42.10672136	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000940	42.10674482	    CurrentAdapterHandle: 2164678408	
+00000941	42.10676745	    MacReceiveHandle: 2167603976	
+00000942	42.10679008	    HeaderBufferPointer: 2167513640	
+00000943	42.10681019	    HeaderBufferSize: 14	
+00000944	42.10683282	    LookAheadBufferPointer: 2167513654	
+00000945	42.10685461	    LookAheadBufferSize: 128	
+00000946	42.10687221	    PacketSize: 158	
+00000947	42.10692501	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00000948	42.10695518	    PacketPointer: 2180488400.	
+00000949	42.10697530	    PhysicalBufferCount: 1.	
+00000950	42.10699206	    BufferCount: 1.	
+00000951	42.10701385	    FirstBufferPointer: 2167173928.	
+00000952	42.10703396	    TotalPacketLenth: 1500.	
+00000953	42.10705240	    HeaderSize: 0.	
+00000954	42.10707000	    Protocol: TCP/IP.	
+00000955	42.10708844	    Status: NDIS_STATUS_SUCCESS.	
+00000956	42.10710772	    BytesTransferred: 138	
+00000957	42.10722421	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000958	42.10728623	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000959	42.16161323	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000960	42.16164005	    PacketPointer: 2164619032.	
+00000961	42.16165933	    PhysicalBufferCount: 4.	
+00000962	42.16167693	    BufferCount: 4.	
+00000963	42.16169872	    FirstBufferPointer: 2164469064.	
+00000964	42.16171967	    TotalPacketLenth: 136.	
+00000965	42.16173727	    HeaderSize: 0.	
+00000966	42.16175906	    Protocol: TCP/IP.	
+00000967	42.16177750	    Status: NDIS_STATUS_PENDING.	
+00000968	42.16181773	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000969	42.16185712	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000970	42.16188058	    CurrentAdapterHandle: 2164678408	
+00000971	42.16190321	    MacReceiveHandle: 2167603976	
+00000972	42.16192584	    HeaderBufferPointer: 2167513820	
+00000973	42.16194512	    HeaderBufferSize: 14	
+00000974	42.16196775	    LookAheadBufferPointer: 2167513834	
+00000975	42.16198870	    LookAheadBufferSize: 79	
+00000976	42.16200546	    PacketSize: 79	
+00000977	42.16210771	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00000978	42.16217476	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00000979	42.16867251	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00000980	42.16869849	    PacketPointer: 2164619032.	
+00000981	42.16871776	    PhysicalBufferCount: 4.	
+00000982	42.16873536	    BufferCount: 4.	
+00000983	42.16875883	    FirstBufferPointer: 2164469064.	
+00000984	42.16877811	    TotalPacketLenth: 157.	
+00000985	42.16879655	    HeaderSize: 0.	
+00000986	42.16881750	    Protocol: TCP/IP.	
+00000987	42.16883677	    Status: NDIS_STATUS_PENDING.	
+00000988	42.16888036	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00000989	42.16891891	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00000990	42.16894237	    CurrentAdapterHandle: 2164678408	
+00000991	42.16896668	    MacReceiveHandle: 2167603976	
+00000992	42.16898931	    HeaderBufferPointer: 2167513924	
+00000993	42.16900942	    HeaderBufferSize: 14	
+00000994	42.16903289	    LookAheadBufferPointer: 2167513938	
+00000995	42.16905300	    LookAheadBufferSize: 128	
+00000996	42.16907060	    PacketSize: 142	
+00000997	42.16911837	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00000998	42.16914603	    PacketPointer: 2180488400.	
+00000999	42.16916531	    PhysicalBufferCount: 1.	
+00001000	42.16918207	    BufferCount: 1.	
+00001001	42.16920470	    FirstBufferPointer: 2167173928.	
+00001002	42.16922481	    TotalPacketLenth: 1500.	
+00001003	42.16924157	    HeaderSize: 0.	
+00001004	42.16926001	    Protocol: TCP/IP.	
+00001005	42.16926253	    Status: NDIS_STATUS_SUCCESS.	
+00001006	42.17934900	    BytesTransferred: 122	
+00001007	42.17944873	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001008	42.17950573	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001009	42.20614290	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001010	42.20616888	    PacketPointer: 2164619032.	
+00001011	42.20618816	    PhysicalBufferCount: 4.	
+00001012	42.20620576	    BufferCount: 4.	
+00001013	42.20622671	    FirstBufferPointer: 2164469064.	
+00001014	42.20624683	    TotalPacketLenth: 136.	
+00001015	42.20626359	    HeaderSize: 0.	
+00001016	42.20628538	    Protocol: TCP/IP.	
+00001017	42.20630382	    Status: NDIS_STATUS_PENDING.	
+00001018	42.20634488	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001019	42.20638511	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001020	42.20640858	    CurrentAdapterHandle: 2164678408	
+00001021	42.20643121	    MacReceiveHandle: 2167603976	
+00001022	42.20645467	    HeaderBufferPointer: 2167514088	
+00001023	42.20647395	    HeaderBufferSize: 14	
+00001024	42.20649658	    LookAheadBufferPointer: 2167514102	
+00001025	42.20651669	    LookAheadBufferSize: 79	
+00001026	42.20653429	    PacketSize: 79	
+00001027	42.20663738	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001028	42.20670443	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001029	42.21312591	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001030	42.21315189	    PacketPointer: 2164619032.	
+00001031	42.21317117	    PhysicalBufferCount: 4.	
+00001032	42.21318793	    BufferCount: 4.	
+00001033	42.21320972	    FirstBufferPointer: 2164469064.	
+00001034	42.21322983	    TotalPacketLenth: 157.	
+00001035	42.21324660	    HeaderSize: 0.	
+00001036	42.21326922	    Protocol: TCP/IP.	
+00001037	42.21328766	    Status: NDIS_STATUS_PENDING.	
+00001038	42.21333041	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001039	42.21336896	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001040	42.21339242	    CurrentAdapterHandle: 2164678408	
+00001041	42.21341505	    MacReceiveHandle: 2167603976	
+00001042	42.21343768	    HeaderBufferPointer: 2167514192	
+00001043	42.21345696	    HeaderBufferSize: 14	
+00001044	42.21348042	    LookAheadBufferPointer: 2167514206	
+00001045	42.21350054	    LookAheadBufferSize: 128	
+00001046	42.21351814	    PacketSize: 158	
+00001047	42.21356507	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001048	42.21359524	    PacketPointer: 2180488400.	
+00001049	42.21361452	    PhysicalBufferCount: 1.	
+00001050	42.21363212	    BufferCount: 1.	
+00001051	42.21365307	    FirstBufferPointer: 2167173928.	
+00001052	42.21367319	    TotalPacketLenth: 1500.	
+00001053	42.21369162	    HeaderSize: 0.	
+00001054	42.21371006	    Protocol: TCP/IP.	
+00001055	42.21372682	    Status: NDIS_STATUS_SUCCESS.	
+00001056	42.21374694	    BytesTransferred: 138	
+00001057	42.21384416	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001058	42.21390115	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001059	42.21580949	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001060	42.21583463	    PacketPointer: 2164619032.	
+00001061	42.21585391	    PhysicalBufferCount: 4.	
+00001062	42.21587067	    BufferCount: 4.	
+00001063	42.21589246	    FirstBufferPointer: 2164469064.	
+00001064	42.21591258	    TotalPacketLenth: 136.	
+00001065	42.21592934	    HeaderSize: 0.	
+00001066	42.21595113	    Protocol: TCP/IP.	
+00001067	42.21597041	    Status: NDIS_STATUS_PENDING.	
+00001068	42.21601147	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001069	42.21605002	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001070	42.21607349	    CurrentAdapterHandle: 2164678408	
+00001071	42.21609612	    MacReceiveHandle: 2167603976	
+00001072	42.21611959	    HeaderBufferPointer: 2167514372	
+00001073	42.21613886	    HeaderBufferSize: 14	
+00001074	42.21616065	    LookAheadBufferPointer: 2167514386	
+00001075	42.21618161	    LookAheadBufferSize: 79	
+00001076	42.21619837	    PacketSize: 79	
+00001077	42.21629642	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001078	42.21636180	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001079	42.22252347	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001080	42.22255029	    PacketPointer: 2164619032.	
+00001081	42.22256957	    PhysicalBufferCount: 4.	
+00001082	42.22258633	    BufferCount: 4.	
+00001083	42.22260812	    FirstBufferPointer: 2164469064.	
+00001084	42.22262739	    TotalPacketLenth: 157.	
+00001085	42.22264499	    HeaderSize: 0.	
+00001086	42.22266762	    Protocol: TCP/IP.	
+00001087	42.22268606	    Status: NDIS_STATUS_PENDING.	
+00001088	42.22272964	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001089	42.22276903	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001090	42.22279250	    CurrentAdapterHandle: 2164678408	
+00001091	42.22281513	    MacReceiveHandle: 2167603976	
+00001092	42.22283859	    HeaderBufferPointer: 2167514476	
+00001093	42.22285787	    HeaderBufferSize: 14	
+00001094	42.22288050	    LookAheadBufferPointer: 2167514490	
+00001095	42.22290145	    LookAheadBufferSize: 128	
+00001096	42.22291905	    PacketSize: 142	
+00001097	42.22296431	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001098	42.22299280	    PacketPointer: 2180488400.	
+00001099	42.22301208	    PhysicalBufferCount: 1.	
+00001100	42.22302884	    BufferCount: 1.	
+00001101	42.22305063	    FirstBufferPointer: 2167173928.	
+00001102	42.22307075	    TotalPacketLenth: 1500.	
+00001103	42.22308751	    HeaderSize: 0.	
+00001104	42.22310511	    Protocol: TCP/IP.	
+00001105	42.22312355	    Status: NDIS_STATUS_SUCCESS.	
+00001106	42.22314282	    BytesTransferred: 122	
+00001107	42.22323920	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001108	42.22329703	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001109	42.25101535	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001110	42.25104050	    PacketPointer: 2164619032.	
+00001111	42.25106061	    PhysicalBufferCount: 4.	
+00001112	42.25107737	    BufferCount: 4.	
+00001113	42.25109916	    FirstBufferPointer: 2164469064.	
+00001114	42.25112011	    TotalPacketLenth: 136.	
+00001115	42.25113771	    HeaderSize: 0.	
+00001116	42.25115867	    Protocol: TCP/IP.	
+00001117	42.25117710	    Status: NDIS_STATUS_PENDING.	
+00001118	42.25121817	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001119	42.25125924	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001120	42.25128270	    CurrentAdapterHandle: 2164678408	
+00001121	42.25130617	    MacReceiveHandle: 2167603976	
+00001122	42.25132880	    HeaderBufferPointer: 2167514640	
+00001123	42.25134808	    HeaderBufferSize: 14	
+00001124	42.25137070	    LookAheadBufferPointer: 2167514654	
+00001125	42.25139082	    LookAheadBufferSize: 79	
+00001126	42.25140842	    PacketSize: 79	
+00001127	42.25151067	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001128	42.25157771	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001129	42.25786091	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001130	42.25788773	    PacketPointer: 2164619032.	
+00001131	42.25790785	    PhysicalBufferCount: 4.	
+00001132	42.25792461	    BufferCount: 4.	
+00001133	42.25794640	    FirstBufferPointer: 2164469064.	
+00001134	42.25796651	    TotalPacketLenth: 157.	
+00001135	42.25798411	    HeaderSize: 0.	
+00001136	42.25800507	    Protocol: TCP/IP.	
+00001137	42.25802350	    Status: NDIS_STATUS_PENDING.	
+00001138	42.25806792	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001139	42.25810731	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001140	42.25813078	    CurrentAdapterHandle: 2164678408	
+00001141	42.25815425	    MacReceiveHandle: 2167603976	
+00001142	42.25817687	    HeaderBufferPointer: 2167514744	
+00001143	42.25819699	    HeaderBufferSize: 14	
+00001144	42.25821962	    LookAheadBufferPointer: 2167514758	
+00001145	42.25823973	    LookAheadBufferSize: 128	
+00001146	42.25825817	    PacketSize: 158	
+00001147	42.25830427	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001148	42.25833276	    PacketPointer: 2180488400.	
+00001149	42.25835204	    PhysicalBufferCount: 1.	
+00001150	42.25836964	    BufferCount: 1.	
+00001151	42.25839143	    FirstBufferPointer: 2167173928.	
+00001152	42.25841070	    TotalPacketLenth: 1500.	
+00001153	42.25842830	    HeaderSize: 0.	
+00001154	42.25844674	    Protocol: TCP/IP.	
+00001155	42.25846434	    Status: NDIS_STATUS_SUCCESS.	
+00001156	42.25848362	    BytesTransferred: 138	
+00001157	42.25858419	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001158	42.25864118	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001159	42.26059729	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001160	42.26062327	    PacketPointer: 2164619032.	
+00001161	42.26064171	    PhysicalBufferCount: 4.	
+00001162	42.26065847	    BufferCount: 4.	
+00001163	42.26068027	    FirstBufferPointer: 2164469064.	
+00001164	42.26070122	    TotalPacketLenth: 136.	
+00001165	42.26071798	    HeaderSize: 0.	
+00001166	42.26073809	    Protocol: TCP/IP.	
+00001167	42.26075653	    Status: NDIS_STATUS_PENDING.	
+00001168	42.26079676	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001169	42.26083615	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001170	42.26085962	    CurrentAdapterHandle: 2164678408	
+00001171	42.26088308	    MacReceiveHandle: 2167603976	
+00001172	42.26090571	    HeaderBufferPointer: 2167514924	
+00001173	42.26092499	    HeaderBufferSize: 14	
+00001174	42.26094762	    LookAheadBufferPointer: 2167514938	
+00001175	42.26096773	    LookAheadBufferSize: 79	
+00001176	42.26098533	    PacketSize: 79	
+00001177	42.26108087	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001178	42.26114541	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001179	42.26716712	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001180	42.26719226	    PacketPointer: 2164619032.	
+00001181	42.26721154	    PhysicalBufferCount: 4.	
+00001182	42.26722830	    BufferCount: 4.	
+00001183	42.26725009	    FirstBufferPointer: 2164469064.	
+00001184	42.26726937	    TotalPacketLenth: 157.	
+00001185	42.26728781	    HeaderSize: 0.	
+00001186	42.26730960	    Protocol: TCP/IP.	
+00001187	42.26732804	    Status: NDIS_STATUS_PENDING.	
+00001188	42.26737162	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001189	42.26740933	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001190	42.26743364	    CurrentAdapterHandle: 2164678408	
+00001191	42.26745710	    MacReceiveHandle: 2167603976	
+00001192	42.26747973	    HeaderBufferPointer: 2167515028	
+00001193	42.26749817	    HeaderBufferSize: 14	
+00001194	42.26752164	    LookAheadBufferPointer: 2167515042	
+00001195	42.26754259	    LookAheadBufferSize: 128	
+00001196	42.26756019	    PacketSize: 142	
+00001197	42.26760544	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001198	42.26763310	    PacketPointer: 2180488400.	
+00001199	42.26765322	    PhysicalBufferCount: 1.	
+00001200	42.26766998	    BufferCount: 1.	
+00001201	42.26769177	    FirstBufferPointer: 2167173928.	
+00001202	42.26771104	    TotalPacketLenth: 1500.	
+00001203	42.26772864	    HeaderSize: 0.	
+00001204	42.26774708	    Protocol: TCP/IP.	
+00001205	42.26776384	    Status: NDIS_STATUS_SUCCESS.	
+00001206	42.26778396	    BytesTransferred: 122	
+00001207	42.26788034	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001208	42.26793733	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001209	42.27055805	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001210	42.27058487	    PacketPointer: 2164619032.	
+00001211	42.27060331	    PhysicalBufferCount: 4.	
+00001212	42.27062091	    BufferCount: 4.	
+00001213	42.27064270	    FirstBufferPointer: 2164469064.	
+00001214	42.27066282	    TotalPacketLenth: 136.	
+00001215	42.27068042	    HeaderSize: 0.	
+00001216	42.27070137	    Protocol: TCP/IP.	
+00001217	42.27071981	    Status: NDIS_STATUS_PENDING.	
+00001218	42.27076087	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001219	42.27079859	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001220	42.27082289	    CurrentAdapterHandle: 2164678408	
+00001221	42.27084636	    MacReceiveHandle: 2167603976	
+00001222	42.27086899	    HeaderBufferPointer: 2167515192	
+00001223	42.27088743	    HeaderBufferSize: 14	
+00001224	42.27091089	    LookAheadBufferPointer: 2167515206	
+00001225	42.27093101	    LookAheadBufferSize: 79	
+00001226	42.27094777	    PacketSize: 79	
+00001227	42.27104750	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001228	42.27111371	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001229	42.27727706	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001230	42.27730304	    PacketPointer: 2164619032.	
+00001231	42.27732316	    PhysicalBufferCount: 4.	
+00001232	42.27734160	    BufferCount: 4.	
+00001233	42.27736339	    FirstBufferPointer: 2164469064.	
+00001234	42.27738350	    TotalPacketLenth: 157.	
+00001235	42.27740110	    HeaderSize: 0.	
+00001236	42.27742289	    Protocol: TCP/IP.	
+00001237	42.27744133	    Status: NDIS_STATUS_PENDING.	
+00001238	42.27748491	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001239	42.27752430	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001240	42.27754944	    CurrentAdapterHandle: 2164678408	
+00001241	42.27757207	    MacReceiveHandle: 2167603976	
+00001242	42.27759470	    HeaderBufferPointer: 2167515296	
+00001243	42.27761398	    HeaderBufferSize: 14	
+00001244	42.27763661	    LookAheadBufferPointer: 2167515310	
+00001245	42.27765756	    LookAheadBufferSize: 128	
+00001246	42.27767516	    PacketSize: 158	
+00001247	42.27772041	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001248	42.27774975	    PacketPointer: 2180488400.	
+00001249	42.27776902	    PhysicalBufferCount: 1.	
+00001250	42.27778579	    BufferCount: 1.	
+00001251	42.27780758	    FirstBufferPointer: 2167173928.	
+00001252	42.27782769	    TotalPacketLenth: 1500.	
+00001253	42.27784445	    HeaderSize: 0.	
+00001254	42.27786289	    Protocol: TCP/IP.	
+00001255	42.27788133	    Status: NDIS_STATUS_SUCCESS.	
+00001256	42.27790061	    BytesTransferred: 138	
+00001257	42.27799950	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001258	42.27805817	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001259	42.27999417	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001260	42.28002015	    PacketPointer: 2164619032.	
+00001261	42.28003942	    PhysicalBufferCount: 4.	
+00001262	42.28005702	    BufferCount: 4.	
+00001263	42.28007881	    FirstBufferPointer: 2164469064.	
+00001264	42.28009893	    TotalPacketLenth: 136.	
+00001265	42.28011653	    HeaderSize: 0.	
+00001266	42.28013748	    Protocol: TCP/IP.	
+00001267	42.28015592	    Status: NDIS_STATUS_PENDING.	
+00001268	42.28019615	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001269	42.28023386	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001270	42.28025817	    CurrentAdapterHandle: 2164678408	
+00001271	42.28028080	    MacReceiveHandle: 2167603976	
+00001272	42.28030342	    HeaderBufferPointer: 2167515476	
+00001273	42.28032270	    HeaderBufferSize: 14	
+00001274	42.28034533	    LookAheadBufferPointer: 2167515490	
+00001275	42.28036544	    LookAheadBufferSize: 79	
+00001276	42.28038304	    PacketSize: 79	
+00001277	42.28048194	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001278	42.28054731	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001279	42.28670144	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001280	42.28672910	    PacketPointer: 2164619032.	
+00001281	42.28674754	    PhysicalBufferCount: 4.	
+00001282	42.28676430	    BufferCount: 4.	
+00001283	42.28678693	    FirstBufferPointer: 2164469064.	
+00001284	42.28680704	    TotalPacketLenth: 157.	
+00001285	42.28682380	    HeaderSize: 0.	
+00001286	42.28684559	    Protocol: TCP/IP.	
+00001287	42.28686403	    Status: NDIS_STATUS_PENDING.	
+00001288	42.28690761	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001289	42.28694617	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001290	42.28696963	    CurrentAdapterHandle: 2164678408	
+00001291	42.28699310	    MacReceiveHandle: 2167603976	
+00001292	42.28701657	    HeaderBufferPointer: 2167515580	
+00001293	42.28703500	    HeaderBufferSize: 14	
+00001294	42.28705847	    LookAheadBufferPointer: 2167515594	
+00001295	42.28707858	    LookAheadBufferSize: 128	
+00001296	42.28709702	    PacketSize: 142	
+00001297	42.28714312	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001298	42.28717078	    PacketPointer: 2180488400.	
+00001299	42.28719089	    PhysicalBufferCount: 1.	
+00001300	42.28720765	    BufferCount: 1.	
+00001301	42.28723028	    FirstBufferPointer: 2167173928.	
+00001302	42.28724956	    TotalPacketLenth: 1500.	
+00001303	42.28726716	    HeaderSize: 0.	
+00001304	42.28728476	    Protocol: TCP/IP.	
+00001305	42.28730319	    Status: NDIS_STATUS_SUCCESS.	
+00001306	42.28732163	    BytesTransferred: 122	
+00001307	42.28741885	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001308	42.28747584	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001309	42.28973199	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001310	42.28975630	    PacketPointer: 2164619032.	
+00001311	42.28977557	    PhysicalBufferCount: 4.	
+00001312	42.28979234	    BufferCount: 4.	
+00001313	42.28981413	    FirstBufferPointer: 2164469064.	
+00001314	42.28983340	    TotalPacketLenth: 136.	
+00001315	42.28985017	    HeaderSize: 0.	
+00001316	42.28987112	    Protocol: TCP/IP.	
+00001317	42.28989039	    Status: NDIS_STATUS_PENDING.	
+00001318	42.28992978	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001319	42.29107378	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001320	42.29109809	    CurrentAdapterHandle: 2164678408	
+00001321	42.29112072	    MacReceiveHandle: 2167603976	
+00001322	42.29114335	    HeaderBufferPointer: 2167515744	
+00001323	42.29116178	    HeaderBufferSize: 14	
+00001324	42.29118441	    LookAheadBufferPointer: 2167515758	
+00001325	42.29120369	    LookAheadBufferSize: 79	
+00001326	42.29122045	    PacketSize: 79	
+00001327	42.29134030	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001328	42.29140902	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001329	42.42992268	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001330	42.42994782	    PacketPointer: 2164619032.	
+00001331	42.42996710	    PhysicalBufferCount: 3.	
+00001332	42.42998386	    BufferCount: 3.	
+00001333	42.43000565	    FirstBufferPointer: 2164469064.	
+00001334	42.43002492	    TotalPacketLenth: 54.	
+00001335	42.43004169	    HeaderSize: 0.	
+00001336	42.43006348	    Protocol: TCP/IP.	
+00001337	42.43008192	    Status: NDIS_STATUS_PENDING.	
+00001338	42.43012214	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001339	42.46436252	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001340	42.46438934	    PacketPointer: 2164619032.	
+00001341	42.46440778	    PhysicalBufferCount: 4.	
+00001342	42.46442454	    BufferCount: 4.	
+00001343	42.46444633	    FirstBufferPointer: 2164469064.	
+00001344	42.46446644	    TotalPacketLenth: 157.	
+00001345	42.46448321	    HeaderSize: 0.	
+00001346	42.46450500	    Protocol: TCP/IP.	
+00001347	42.46452595	    Status: NDIS_STATUS_PENDING.	
+00001348	42.46456869	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001349	42.46460808	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001350	42.46463155	    CurrentAdapterHandle: 2164678408	
+00001351	42.46465418	    MacReceiveHandle: 2167603976	
+00001352	42.46467764	    HeaderBufferPointer: 2167515848	
+00001353	42.46469608	    HeaderBufferSize: 14	
+00001354	42.46471955	    LookAheadBufferPointer: 2167515862	
+00001355	42.46473966	    LookAheadBufferSize: 128	
+00001356	42.46475810	    PacketSize: 158	
+00001357	42.46480671	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001358	42.46483604	    PacketPointer: 2180488400.	
+00001359	42.46485532	    PhysicalBufferCount: 1.	
+00001360	42.46487208	    BufferCount: 1.	
+00001361	42.46489387	    FirstBufferPointer: 2167173928.	
+00001362	42.46491399	    TotalPacketLenth: 1500.	
+00001363	42.46493159	    HeaderSize: 0.	
+00001364	42.46495002	    Protocol: TCP/IP.	
+00001365	42.46496762	    Status: NDIS_STATUS_SUCCESS.	
+00001366	42.46498690	    BytesTransferred: 138	
+00001367	42.46509418	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001368	42.46515284	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001369	42.46802667	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001370	42.46805265	    PacketPointer: 2164619032.	
+00001371	42.46807193	    PhysicalBufferCount: 4.	
+00001372	42.46808869	    BufferCount: 4.	
+00001373	42.46811048	    FirstBufferPointer: 2164469064.	
+00001374	42.46812976	    TotalPacketLenth: 136.	
+00001375	42.46814652	    HeaderSize: 0.	
+00001376	42.46816747	    Protocol: TCP/IP.	
+00001377	42.46818591	    Status: NDIS_STATUS_PENDING.	
+00001378	42.46822698	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001379	42.46826469	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001380	42.46828816	    CurrentAdapterHandle: 2164678408	
+00001381	42.46831162	    MacReceiveHandle: 2167603976	
+00001382	42.46833425	    HeaderBufferPointer: 2167516028	
+00001383	42.46835353	    HeaderBufferSize: 14	
+00001384	42.46837616	    LookAheadBufferPointer: 2167516042	
+00001385	42.46839543	    LookAheadBufferSize: 79	
+00001386	42.46841387	    PacketSize: 79	
+00001387	42.46851947	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001388	42.46858568	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001389	42.47476579	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001390	42.47479261	    PacketPointer: 2164619032.	
+00001391	42.47481105	    PhysicalBufferCount: 4.	
+00001392	42.47482949	    BufferCount: 4.	
+00001393	42.47485128	    FirstBufferPointer: 2164469064.	
+00001394	42.47487139	    TotalPacketLenth: 157.	
+00001395	42.47488816	    HeaderSize: 0.	
+00001396	42.47490911	    Protocol: TCP/IP.	
+00001397	42.47492755	    Status: NDIS_STATUS_PENDING.	
+00001398	42.47497113	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001399	42.47500968	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001400	42.47503315	    CurrentAdapterHandle: 2164678408	
+00001401	42.47505829	    MacReceiveHandle: 2167603976	
+00001402	42.47508176	    HeaderBufferPointer: 2167516132	
+00001403	42.47510019	    HeaderBufferSize: 14	
+00001404	42.47512282	    LookAheadBufferPointer: 2167516146	
+00001405	42.47514378	    LookAheadBufferSize: 128	
+00001406	42.47516138	    PacketSize: 158	
+00001407	42.47520747	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001408	42.47523597	    PacketPointer: 2180488400.	
+00001409	42.47525524	    PhysicalBufferCount: 1.	
+00001410	42.47527284	    BufferCount: 1.	
+00001411	42.47529463	    FirstBufferPointer: 2167173928.	
+00001412	42.47531391	    TotalPacketLenth: 1500.	
+00001413	42.47533067	    HeaderSize: 0.	
+00001414	42.47534911	    Protocol: TCP/IP.	
+00001415	42.47536671	    Status: NDIS_STATUS_SUCCESS.	
+00001416	42.47538598	    BytesTransferred: 138	
+00001417	42.47548404	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001418	42.47554019	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001419	42.47744686	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001420	42.47747452	    PacketPointer: 2164619032.	
+00001421	42.47749296	    PhysicalBufferCount: 4.	
+00001422	42.47751056	    BufferCount: 4.	
+00001423	42.47753151	    FirstBufferPointer: 2164469064.	
+00001424	42.47755162	    TotalPacketLenth: 136.	
+00001425	42.47756838	    HeaderSize: 0.	
+00001426	42.47759017	    Protocol: TCP/IP.	
+00001427	42.47760861	    Status: NDIS_STATUS_PENDING.	
+00001428	42.47764884	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001429	42.47768572	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001430	42.47770918	    CurrentAdapterHandle: 2164678408	
+00001431	42.47773265	    MacReceiveHandle: 2167603976	
+00001432	42.47775528	    HeaderBufferPointer: 2167516312	
+00001433	42.47777372	    HeaderBufferSize: 14	
+00001434	42.47779718	    LookAheadBufferPointer: 2167516326	
+00001435	42.47781730	    LookAheadBufferSize: 79	
+00001436	42.47783406	    PacketSize: 79	
+00001437	42.47793296	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001438	42.47799749	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001439	42.48419353	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001440	42.48421951	    PacketPointer: 2164619032.	
+00001441	42.48423878	    PhysicalBufferCount: 4.	
+00001442	42.48425638	    BufferCount: 4.	
+00001443	42.48427817	    FirstBufferPointer: 2164469064.	
+00001444	42.48429913	    TotalPacketLenth: 157.	
+00001445	42.48431589	    HeaderSize: 0.	
+00001446	42.48433768	    Protocol: TCP/IP.	
+00001447	42.48435612	    Status: NDIS_STATUS_PENDING.	
+00001448	42.48439886	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001449	42.48443741	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001450	42.48446088	    CurrentAdapterHandle: 2164678408	
+00001451	42.48448351	    MacReceiveHandle: 2167603976	
+00001452	42.48450614	    HeaderBufferPointer: 2167516416	
+00001453	42.48452541	    HeaderBufferSize: 14	
+00001454	42.48454804	    LookAheadBufferPointer: 2167516430	
+00001455	42.48456899	    LookAheadBufferSize: 128	
+00001456	42.48458659	    PacketSize: 142	
+00001457	42.48463185	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001458	42.48466118	    PacketPointer: 2180488400.	
+00001459	42.48468046	    PhysicalBufferCount: 1.	
+00001460	42.48469722	    BufferCount: 1.	
+00001461	42.48471817	    FirstBufferPointer: 2167173928.	
+00001462	42.48473829	    TotalPacketLenth: 1500.	
+00001463	42.48475589	    HeaderSize: 0.	
+00001464	42.48477349	    Protocol: TCP/IP.	
+00001465	42.48479109	    Status: NDIS_STATUS_SUCCESS.	
+00001466	42.48481036	    BytesTransferred: 122	
+00001467	42.48490758	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001468	42.48496374	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001469	42.48712518	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001470	42.48715033	    PacketPointer: 2164619032.	
+00001471	42.48717212	    PhysicalBufferCount: 4.	
+00001472	42.48718888	    BufferCount: 4.	
+00001473	42.48721151	    FirstBufferPointer: 2164469064.	
+00001474	42.48723162	    TotalPacketLenth: 136.	
+00001475	42.48724838	    HeaderSize: 0.	
+00001476	42.48726934	    Protocol: TCP/IP.	
+00001477	42.48728777	    Status: NDIS_STATUS_PENDING.	
+00001478	42.48732884	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001479	42.48736823	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001480	42.48739254	    CurrentAdapterHandle: 2164678408	
+00001481	42.48741516	    MacReceiveHandle: 2167603976	
+00001482	42.48743863	    HeaderBufferPointer: 2167516580	
+00001483	42.48745707	    HeaderBufferSize: 14	
+00001484	42.48747970	    LookAheadBufferPointer: 2167516594	
+00001485	42.48749981	    LookAheadBufferSize: 79	
+00001486	42.48751741	    PacketSize: 79	
+00001487	42.48761547	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001488	42.48768168	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001489	42.49382492	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001490	42.49385090	    PacketPointer: 2164619032.	
+00001491	42.49387017	    PhysicalBufferCount: 4.	
+00001492	42.49388693	    BufferCount: 4.	
+00001493	42.49390872	    FirstBufferPointer: 2164469064.	
+00001494	42.49392800	    TotalPacketLenth: 157.	
+00001495	42.49394560	    HeaderSize: 0.	
+00001496	42.49396655	    Protocol: TCP/IP.	
+00001497	42.49398499	    Status: NDIS_STATUS_PENDING.	
+00001498	42.49402941	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001499	42.49406796	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001500	42.49409143	    CurrentAdapterHandle: 2164678408	
+00001501	42.49411406	    MacReceiveHandle: 2167603976	
+00001502	42.49413752	    HeaderBufferPointer: 2167516684	
+00001503	42.49415596	    HeaderBufferSize: 14	
+00001504	42.49417943	    LookAheadBufferPointer: 2167516698	
+00001505	42.49419954	    LookAheadBufferSize: 128	
+00001506	42.49421714	    PacketSize: 158	
+00001507	42.49426240	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001508	42.49429090	    PacketPointer: 2180488400.	
+00001509	42.49431017	    PhysicalBufferCount: 1.	
+00001510	42.49432693	    BufferCount: 1.	
+00001511	42.49434872	    FirstBufferPointer: 2167173928.	
+00001512	42.49436884	    TotalPacketLenth: 1500.	
+00001513	42.49438560	    HeaderSize: 0.	
+00001514	42.49440404	    Protocol: TCP/IP.	
+00001515	42.49442164	    Status: NDIS_STATUS_SUCCESS.	
+00001516	42.49444092	    BytesTransferred: 138	
+00001517	42.49453813	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001518	42.49459429	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001519	42.62990307	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001520	42.62992988	    PacketPointer: 2164619032.	
+00001521	42.62995922	    PhysicalBufferCount: 4.	
+00001522	42.62997598	    BufferCount: 4.	
+00001523	42.62999861	    FirstBufferPointer: 2164469064.	
+00001524	42.63001956	    TotalPacketLenth: 136.	
+00001525	42.63003632	    HeaderSize: 0.	
+00001526	42.63005895	    Protocol: TCP/IP.	
+00001527	42.63007739	    Status: NDIS_STATUS_PENDING.	
+00001528	42.63012181	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001529	42.63016288	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001530	42.63018718	    CurrentAdapterHandle: 2164678408	
+00001531	42.63021065	    MacReceiveHandle: 2167603976	
+00001532	42.63023328	    HeaderBufferPointer: 2167516864	
+00001533	42.63025255	    HeaderBufferSize: 14	
+00001534	42.63027518	    LookAheadBufferPointer: 2167516878	
+00001535	42.63029529	    LookAheadBufferSize: 79	
+00001536	42.63031373	    PacketSize: 79	
+00001537	42.63042185	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001538	42.63049476	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001539	42.63714588	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001540	42.63717270	    PacketPointer: 2164619032.	
+00001541	42.63719198	    PhysicalBufferCount: 4.	
+00001542	42.63720958	    BufferCount: 4.	
+00001543	42.63723137	    FirstBufferPointer: 2164469064.	
+00001544	42.63725148	    TotalPacketLenth: 157.	
+00001545	42.63726992	    HeaderSize: 0.	
+00001546	42.63729255	    Protocol: TCP/IP.	
+00001547	42.63731015	    Status: NDIS_STATUS_PENDING.	
+00001548	42.63735457	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001549	42.63739228	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001550	42.63741659	    CurrentAdapterHandle: 2164678408	
+00001551	42.63744006	    MacReceiveHandle: 2167603976	
+00001552	42.63746268	    HeaderBufferPointer: 2167516968	
+00001553	42.63748196	    HeaderBufferSize: 14	
+00001554	42.63750543	    LookAheadBufferPointer: 2167516982	
+00001555	42.63752554	    LookAheadBufferSize: 128	
+00001556	42.63754314	    PacketSize: 158	
+00001557	42.63759007	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001558	42.63762108	    PacketPointer: 2180488400.	
+00001559	42.63763952	    PhysicalBufferCount: 1.	
+00001560	42.63765712	    BufferCount: 1.	
+00001561	42.63767891	    FirstBufferPointer: 2167173928.	
+00001562	42.63769986	    TotalPacketLenth: 1500.	
+00001563	42.63771663	    HeaderSize: 0.	
+00001564	42.63773506	    Protocol: TCP/IP.	
+00001565	42.63775266	    Status: NDIS_STATUS_SUCCESS.	
+00001566	42.63777278	    BytesTransferred: 138	
+00001567	42.63787670	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001568	42.63793453	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001569	42.63985209	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001570	42.63987891	    PacketPointer: 2164619032.	
+00001571	42.63989735	    PhysicalBufferCount: 4.	
+00001572	42.63991495	    BufferCount: 4.	
+00001573	42.63993674	    FirstBufferPointer: 2164469064.	
+00001574	42.63996607	    TotalPacketLenth: 136.	
+00001575	42.63998451	    HeaderSize: 0.	
+00001576	42.64000546	    Protocol: TCP/IP.	
+00001577	42.64002390	    Status: NDIS_STATUS_PENDING.	
+00001578	42.64006497	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001579	42.64010268	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001580	42.64012699	    CurrentAdapterHandle: 2164678408	
+00001581	42.64014962	    MacReceiveHandle: 2167603976	
+00001582	42.64017225	    HeaderBufferPointer: 2167517148	
+00001583	42.64019152	    HeaderBufferSize: 14	
+00001584	42.64021415	    LookAheadBufferPointer: 2167517162	
+00001585	42.64023426	    LookAheadBufferSize: 79	
+00001586	42.64025186	    PacketSize: 79	
+00001587	42.64034992	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001588	42.64041613	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001589	42.64655602	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001590	42.64658367	    PacketPointer: 2164619032.	
+00001591	42.64660379	    PhysicalBufferCount: 4.	
+00001592	42.64662139	    BufferCount: 4.	
+00001593	42.64664318	    FirstBufferPointer: 2164469064.	
+00001594	42.64666245	    TotalPacketLenth: 157.	
+00001595	42.64667922	    HeaderSize: 0.	
+00001596	42.64670101	    Protocol: TCP/IP.	
+00001597	42.64671944	    Status: NDIS_STATUS_PENDING.	
+00001598	42.64676303	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001599	42.64680242	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001600	42.64682588	    CurrentAdapterHandle: 2164678408	
+00001601	42.64684935	    MacReceiveHandle: 2167603976	
+00001602	42.64687198	    HeaderBufferPointer: 2167517252	
+00001603	42.64689042	    HeaderBufferSize: 14	
+00001604	42.64691388	    LookAheadBufferPointer: 2167517266	
+00001605	42.64693483	    LookAheadBufferSize: 128	
+00001606	42.64695327	    PacketSize: 142	
+00001607	42.64699853	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001608	42.64702619	    PacketPointer: 2180488400.	
+00001609	42.64704546	    PhysicalBufferCount: 1.	
+00001610	42.64706223	    BufferCount: 1.	
+00001611	42.64708402	    FirstBufferPointer: 2167173928.	
+00001612	42.64710413	    TotalPacketLenth: 1500.	
+00001613	42.64712089	    HeaderSize: 0.	
+00001614	42.64713933	    Protocol: TCP/IP.	
+00001615	42.64715693	    Status: NDIS_STATUS_SUCCESS.	
+00001616	42.64717621	    BytesTransferred: 122	
+00001617	42.64727343	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001618	42.64733125	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001619	42.64949438	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001620	42.64952036	    PacketPointer: 2164619032.	
+00001621	42.64953880	    PhysicalBufferCount: 4.	
+00001622	42.64955556	    BufferCount: 4.	
+00001623	42.64957819	    FirstBufferPointer: 2164469064.	
+00001624	42.64959746	    TotalPacketLenth: 136.	
+00001625	42.64961422	    HeaderSize: 0.	
+00001626	42.64963518	    Protocol: TCP/IP.	
+00001627	42.64965445	    Status: NDIS_STATUS_PENDING.	
+00001628	42.64969468	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001629	42.64973323	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001630	42.64975670	    CurrentAdapterHandle: 2164678408	
+00001631	42.64978017	    MacReceiveHandle: 2167603976	
+00001632	42.64980280	    HeaderBufferPointer: 2167517416	
+00001633	42.64982207	    HeaderBufferSize: 14	
+00001634	42.64984470	    LookAheadBufferPointer: 2167517430	
+00001635	42.64986482	    LookAheadBufferSize: 79	
+00001636	42.64988158	    PacketSize: 79	
+00001637	42.64999221	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001638	42.65005758	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001639	42.65616813	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001640	42.65619495	    PacketPointer: 2164619032.	
+00001641	42.65621422	    PhysicalBufferCount: 4.	
+00001642	42.65623099	    BufferCount: 4.	
+00001643	42.65625278	    FirstBufferPointer: 2164469064.	
+00001644	42.65627289	    TotalPacketLenth: 157.	
+00001645	42.65629133	    HeaderSize: 0.	
+00001646	42.65631228	    Protocol: TCP/IP.	
+00001647	42.65633072	    Status: NDIS_STATUS_PENDING.	
+00001648	42.65637514	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001649	42.65641285	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001650	42.65643716	    CurrentAdapterHandle: 2164678408	
+00001651	42.65645979	    MacReceiveHandle: 2167603976	
+00001652	42.65648241	    HeaderBufferPointer: 2167517520	
+00001653	42.65650169	    HeaderBufferSize: 14	
+00001654	42.65652432	    LookAheadBufferPointer: 2167517534	
+00001655	42.65654527	    LookAheadBufferSize: 128	
+00001656	42.65656287	    PacketSize: 158	
+00001657	42.65660813	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001658	42.65663662	    PacketPointer: 2180488400.	
+00001659	42.65665590	    PhysicalBufferCount: 1.	
+00001660	42.65667266	    BufferCount: 1.	
+00001661	42.65669529	    FirstBufferPointer: 2167173928.	
+00001662	42.65671457	    TotalPacketLenth: 1500.	
+00001663	42.65673217	    HeaderSize: 0.	
+00001664	42.65675060	    Protocol: TCP/IP.	
+00001665	42.65676820	    Status: NDIS_STATUS_SUCCESS.	
+00001666	42.65678748	    BytesTransferred: 138	
+00001667	42.65688554	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001668	42.65694337	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001669	42.83052627	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001670	42.83055142	    PacketPointer: 2164619032.	
+00001671	42.83057069	    PhysicalBufferCount: 3.	
+00001672	42.83058745	    BufferCount: 3.	
+00001673	42.83060841	    FirstBufferPointer: 2164469064.	
+00001674	42.83062768	    TotalPacketLenth: 54.	
+00001675	42.83064444	    HeaderSize: 0.	
+00001676	42.83066791	    Protocol: TCP/IP.	
+00001677	42.83068551	    Status: NDIS_STATUS_PENDING.	
+00001678	42.83072909	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001679	43.55359786	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001680	43.55362552	    PacketPointer: 2164619032.	
+00001681	43.55364479	    PhysicalBufferCount: 4.	
+00001682	43.55366155	    BufferCount: 4.	
+00001683	43.55368418	    FirstBufferPointer: 2164469064.	
+00001684	43.55370430	    TotalPacketLenth: 136.	
+00001685	43.55372190	    HeaderSize: 0.	
+00001686	43.55374369	    Protocol: TCP/IP.	
+00001687	43.55376213	    Status: NDIS_STATUS_PENDING.	
+00001688	43.55380654	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001689	43.55384677	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001690	43.55387024	    CurrentAdapterHandle: 2164678408	
+00001691	43.55389287	    MacReceiveHandle: 2167603976	
+00001692	43.55391550	    HeaderBufferPointer: 2167517700	
+00001693	43.55393393	    HeaderBufferSize: 14	
+00001694	43.55395573	    LookAheadBufferPointer: 2167517714	
+00001695	43.55397584	    LookAheadBufferSize: 79	
+00001696	43.55399260	    PacketSize: 79	
+00001697	43.55410826	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001698	43.55417195	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001699	43.56055991	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001700	43.56058673	    PacketPointer: 2164619032.	
+00001701	43.56060601	    PhysicalBufferCount: 4.	
+00001702	43.56062361	    BufferCount: 4.	
+00001703	43.56064540	    FirstBufferPointer: 2164469064.	
+00001704	43.56066551	    TotalPacketLenth: 157.	
+00001705	43.56068479	    HeaderSize: 0.	
+00001706	43.56070826	    Protocol: TCP/IP.	
+00001707	43.56072753	    Status: NDIS_STATUS_PENDING.	
+00001708	43.56077028	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001709	43.56081051	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001710	43.56083397	    CurrentAdapterHandle: 2164678408	
+00001711	43.56085744	    MacReceiveHandle: 2167603976	
+00001712	43.56088091	    HeaderBufferPointer: 2167517804	
+00001713	43.56090018	    HeaderBufferSize: 14	
+00001714	43.56092281	    LookAheadBufferPointer: 2167517818	
+00001715	43.56094292	    LookAheadBufferSize: 128	
+00001716	43.56096052	    PacketSize: 185	
+00001717	43.56100997	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00001718	43.56104182	    PacketPointer: 2180488400.	
+00001719	43.56106110	    PhysicalBufferCount: 1.	
+00001720	43.56107786	    BufferCount: 1.	
+00001721	43.56109965	    FirstBufferPointer: 2167173928.	
+00001722	43.56112060	    TotalPacketLenth: 1500.	
+00001723	43.56113736	    HeaderSize: 0.	
+00001724	43.56115580	    Protocol: TCP/IP.	
+00001725	43.56117340	    Status: NDIS_STATUS_SUCCESS.	
+00001726	43.56119268	    BytesTransferred: 165	
+00001727	43.56131588	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001728	43.56137538	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001729	43.73184728	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001730	43.73187410	    PacketPointer: 2164619032.	
+00001731	43.73189337	    PhysicalBufferCount: 3.	
+00001732	43.73191014	    BufferCount: 3.	
+00001733	43.73193276	    FirstBufferPointer: 2164469064.	
+00001734	43.73195204	    TotalPacketLenth: 54.	
+00001735	43.73196880	    HeaderSize: 0.	
+00001736	43.73199143	    Protocol: TCP/IP.	
+00001737	43.73200987	    Status: NDIS_STATUS_PENDING.	
+00001738	43.73205345	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001739	43.73988796	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001740	43.73991394	    PacketPointer: 2164619032.	
+00001741	43.73993238	    PhysicalBufferCount: 4.	
+00001742	43.73994914	    BufferCount: 4.	
+00001743	43.73997093	    FirstBufferPointer: 2164469064.	
+00001744	43.73999105	    TotalPacketLenth: 137.	
+00001745	43.74000697	    HeaderSize: 0.	
+00001746	43.74002793	    Protocol: TCP/IP.	
+00001747	43.74004553	    Status: NDIS_STATUS_PENDING.	
+00001748	43.74008492	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001749	43.74012431	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001750	43.74014693	    CurrentAdapterHandle: 2164678408	
+00001751	43.74017040	    MacReceiveHandle: 2167603976	
+00001752	43.74019303	    HeaderBufferPointer: 2167518012	
+00001753	43.74021147	    HeaderBufferSize: 14	
+00001754	43.74023410	    LookAheadBufferPointer: 2167518026	
+00001755	43.74025421	    LookAheadBufferSize: 79	
+00001756	43.74027097	    PacketSize: 79	
+00001757	43.74038160	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001758	43.74044111	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001759	43.93211094	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001760	43.93213692	    PacketPointer: 2164619032.	
+00001761	43.93215704	    PhysicalBufferCount: 3.	
+00001762	43.93217464	    BufferCount: 3.	
+00001763	43.93219559	    FirstBufferPointer: 2164469064.	
+00001764	43.93221571	    TotalPacketLenth: 54.	
+00001765	43.93223331	    HeaderSize: 0.	
+00001766	43.93225593	    Protocol: TCP/IP.	
+00001767	43.93227437	    Status: NDIS_STATUS_PENDING.	
+00001768	43.93231879	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001769	44.00423238	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001770	44.00425836	    PacketPointer: 2164619032.	
+00001771	44.00427764	    PhysicalBufferCount: 4.	
+00001772	44.00429440	    BufferCount: 4.	
+00001773	44.00431619	    FirstBufferPointer: 2164469064.	
+00001774	44.00433630	    TotalPacketLenth: 136.	
+00001775	44.00435307	    HeaderSize: 0.	
+00001776	44.00437402	    Protocol: TCP/IP.	
+00001777	44.00439246	    Status: NDIS_STATUS_PENDING.	
+00001778	44.00443352	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001779	44.00447208	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001780	44.00449554	    CurrentAdapterHandle: 2164678408	
+00001781	44.00451817	    MacReceiveHandle: 2167603976	
+00001782	44.00453996	    HeaderBufferPointer: 2167518116	
+00001783	44.00455840	    HeaderBufferSize: 14	
+00001784	44.00458187	    LookAheadBufferPointer: 2167518130	
+00001785	44.00460114	    LookAheadBufferSize: 79	
+00001786	44.00461874	    PacketSize: 79	
+00001787	44.00473356	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001788	44.00479390	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001789	44.13241316	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001790	44.13244082	    PacketPointer: 2164619032.	
+00001791	44.13246009	    PhysicalBufferCount: 3.	
+00001792	44.13247686	    BufferCount: 3.	
+00001793	44.13249781	    FirstBufferPointer: 2164469064.	
+00001794	44.13251792	    TotalPacketLenth: 54.	
+00001795	44.13253468	    HeaderSize: 0.	
+00001796	44.13255648	    Protocol: TCP/IP.	
+00001797	44.13257408	    Status: NDIS_STATUS_PENDING.	
+00001798	44.13261849	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001799	44.41178714	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001800	44.41181396	    PacketPointer: 2164619032.	
+00001801	44.41183491	    PhysicalBufferCount: 4.	
+00001802	44.41185167	    BufferCount: 4.	
+00001803	44.41187262	    FirstBufferPointer: 2164469064.	
+00001804	44.41189274	    TotalPacketLenth: 92.	
+00001805	44.41190950	    HeaderSize: 0.	
+00001806	44.41193213	    Protocol: TCP/IP.	
+00001807	44.41195057	    Status: NDIS_STATUS_PENDING.	
+00001808	44.41200672	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001809	44.41204695	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001810	44.41207041	    CurrentAdapterHandle: 2164678408	
+00001811	44.41209388	    MacReceiveHandle: 2167603976	
+00001812	44.41211567	    HeaderBufferPointer: 2167518220	
+00001813	44.41213495	    HeaderBufferSize: 14	
+00001814	44.41215674	    LookAheadBufferPointer: 2167518234	
+00001815	44.41217685	    LookAheadBufferSize: 90	
+00001816	44.41219361	    PacketSize: 90	
+00001817	44.41231681	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001818	44.41235704	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001819	47.44794172	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001820	47.44796854	    PacketPointer: 2164619032.	
+00001821	47.44798782	    PhysicalBufferCount: 3.	
+00001822	47.44800626	    BufferCount: 3.	
+00001823	47.44802721	    FirstBufferPointer: 2164469064.	
+00001824	47.44804732	    TotalPacketLenth: 62.	
+00001825	47.44806408	    HeaderSize: 0.	
+00001826	47.44808671	    Protocol: TCP/IP.	
+00001827	47.44810431	    Status: NDIS_STATUS_PENDING.	
+00001828	47.44814706	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001829	47.44818812	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001830	47.44821159	    CurrentAdapterHandle: 2164678408	
+00001831	47.44823422	    MacReceiveHandle: 2167603976	
+00001832	47.44825685	    HeaderBufferPointer: 2167518332	
+00001833	47.44827612	    HeaderBufferSize: 14	
+00001834	47.44829791	    LookAheadBufferPointer: 2167518346	
+00001835	47.44831803	    LookAheadBufferSize: 48	
+00001836	47.44833479	    PacketSize: 48	
+00001837	47.44845380	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001838	47.44851414	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001839	47.44859125	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001840	47.44861471	    PacketPointer: 2164619032.	
+00001841	47.44863231	    PhysicalBufferCount: 3.	
+00001842	47.44864907	    BufferCount: 3.	
+00001843	47.44867003	    FirstBufferPointer: 2164469064.	
+00001844	47.44868930	    TotalPacketLenth: 54.	
+00001845	47.44870523	    HeaderSize: 0.	
+00001846	47.44872450	    Protocol: TCP/IP.	
+00001847	47.44874210	    Status: NDIS_STATUS_PENDING.	
+00001848	47.44877898	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001849	47.45402797	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001850	47.45405395	    PacketPointer: 2164619032.	
+00001851	47.45407239	    PhysicalBufferCount: 4.	
+00001852	47.45408915	    BufferCount: 4.	
+00001853	47.45411094	    FirstBufferPointer: 2164469064.	
+00001854	47.45413022	    TotalPacketLenth: 126.	
+00001855	47.45414698	    HeaderSize: 0.	
+00001856	47.45416709	    Protocol: TCP/IP.	
+00001857	47.45418469	    Status: NDIS_STATUS_PENDING.	
+00001858	47.45422492	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001859	47.46979086	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001860	47.46981517	    CurrentAdapterHandle: 2164678408	
+00001861	47.46983863	    MacReceiveHandle: 2167603976	
+00001862	47.46986126	    HeaderBufferPointer: 2167518404	
+00001863	47.46988138	    HeaderBufferSize: 14	
+00001864	47.46990400	    LookAheadBufferPointer: 2167518418	
+00001865	47.46992496	    LookAheadBufferSize: 100	
+00001866	47.46994256	    PacketSize: 100	
+00001867	47.47007749	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001868	47.47013280	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001869	47.47042530	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001870	47.47045044	    PacketPointer: 2164619032.	
+00001871	47.47046888	    PhysicalBufferCount: 4.	
+00001872	47.47048564	    BufferCount: 4.	
+00001873	47.47050743	    FirstBufferPointer: 2164469064.	
+00001874	47.47052671	    TotalPacketLenth: 210.	
+00001875	47.47054347	    HeaderSize: 0.	
+00001876	47.47056275	    Protocol: TCP/IP.	
+00001877	47.47058119	    Status: NDIS_STATUS_PENDING.	
+00001878	47.47062141	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001879	47.48146888	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001880	47.48149235	    CurrentAdapterHandle: 2164678408	
+00001881	47.48151665	    MacReceiveHandle: 2167603976	
+00001882	47.48153928	    HeaderBufferPointer: 2167518528	
+00001883	47.48155856	    HeaderBufferSize: 14	
+00001884	47.48158118	    LookAheadBufferPointer: 2167518542	
+00001885	47.48160130	    LookAheadBufferSize: 104	
+00001886	47.48161974	    PacketSize: 104	
+00001887	47.48171779	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001888	47.48176640	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001889	47.48217372	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001890	47.48219802	    PacketPointer: 2164619032.	
+00001891	47.48221730	    PhysicalBufferCount: 3.	
+00001892	47.48223406	    BufferCount: 3.	
+00001893	47.48225585	    FirstBufferPointer: 2164469064.	
+00001894	47.48227429	    TotalPacketLenth: 54.	
+00001895	47.48229105	    HeaderSize: 0.	
+00001896	47.48231033	    Protocol: TCP/IP.	
+00001897	47.48232793	    Status: NDIS_STATUS_PENDING.	
+00001898	47.48236564	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001899	47.48240168	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001900	47.48242515	    CurrentAdapterHandle: 2164678408	
+00001901	47.48244777	    MacReceiveHandle: 2167603976	
+00001902	47.48246956	    HeaderBufferPointer: 2167518656	
+00001903	47.48248800	    HeaderBufferSize: 14	
+00001904	47.48251063	    LookAheadBufferPointer: 2167518670	
+00001905	47.48253075	    LookAheadBufferSize: 46	
+00001906	47.48254667	    PacketSize: 46	
+00001907	47.48261539	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001908	47.48265981	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001909	47.48299840	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001910	47.48302271	    CurrentAdapterHandle: 2164678408	
+00001911	47.48304450	    MacReceiveHandle: 2167603976	
+00001912	47.48306713	    HeaderBufferPointer: 2167518724	
+00001913	47.48308556	    HeaderBufferSize: 14	
+00001914	47.48310735	    LookAheadBufferPointer: 2167518738	
+00001915	47.48312663	    LookAheadBufferSize: 46	
+00001916	47.48314339	    PacketSize: 46	
+00001917	47.48329509	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001918	47.48333448	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001919	47.48341745	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001920	47.48344092	    PacketPointer: 2164619032.	
+00001921	47.48345935	    PhysicalBufferCount: 3.	
+00001922	47.48347779	    BufferCount: 3.	
+00001923	47.48349875	    FirstBufferPointer: 2164469064.	
+00001924	47.48351802	    TotalPacketLenth: 54.	
+00001925	47.48353478	    HeaderSize: 0.	
+00001926	47.48355657	    Protocol: TCP/IP.	
+00001927	47.48357501	    Status: NDIS_STATUS_PENDING.	
+00001928	47.48361440	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001929	47.49066865	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001930	47.49069379	    PacketPointer: 2164619032.	
+00001931	47.49071223	    PhysicalBufferCount: 4.	
+00001932	47.49072899	    BufferCount: 4.	
+00001933	47.49074994	    FirstBufferPointer: 2164469064.	
+00001934	47.49076922	    TotalPacketLenth: 92.	
+00001935	47.49078514	    HeaderSize: 0.	
+00001936	47.49080693	    Protocol: TCP/IP.	
+00001937	47.49082453	    Status: NDIS_STATUS_PENDING.	
+00001938	47.49087650	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001939	48.23841208	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001940	48.23843890	    PacketPointer: 2164619032.	
+00001941	48.23845817	    PhysicalBufferCount: 4.	
+00001942	48.23847577	    BufferCount: 4.	
+00001943	48.23849673	    FirstBufferPointer: 2164469064.	
+00001944	48.23851600	    TotalPacketLenth: 92.	
+00001945	48.23853360	    HeaderSize: 0.	
+00001946	48.23855707	    Protocol: TCP/IP.	
+00001947	48.23857551	    Status: NDIS_STATUS_PENDING.	
+00001948	48.23863250	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001949	48.98944503	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001950	48.98947101	    PacketPointer: 2164619032.	
+00001951	48.98949029	    PhysicalBufferCount: 4.	
+00001952	48.98950705	    BufferCount: 4.	
+00001953	48.98952968	    FirstBufferPointer: 2164469064.	
+00001954	48.98954895	    TotalPacketLenth: 92.	
+00001955	48.98956655	    HeaderSize: 0.	
+00001956	48.98959002	    Protocol: TCP/IP.	
+00001957	48.98960930	    Status: NDIS_STATUS_PENDING.	
+00001958	48.98966629	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001959	53.13009415	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001960	53.13012097	    PacketPointer: 2164619032.	
+00001961	53.13014108	    PhysicalBufferCount: 4.	
+00001962	53.13015785	    BufferCount: 4.	
+00001963	53.13017964	    FirstBufferPointer: 2164469064.	
+00001964	53.13019891	    TotalPacketLenth: 136.	
+00001965	53.13021651	    HeaderSize: 0.	
+00001966	53.13023830	    Protocol: TCP/IP.	
+00001967	53.13025758	    Status: NDIS_STATUS_PENDING.	
+00001968	53.13030284	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001969	53.13034390	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001970	53.13036737	    CurrentAdapterHandle: 2164678408	
+00001971	53.13039000	    MacReceiveHandle: 2167603976	
+00001972	53.13041263	    HeaderBufferPointer: 2167518792	
+00001973	53.13043107	    HeaderBufferSize: 14	
+00001974	53.13045369	    LookAheadBufferPointer: 2167518806	
+00001975	53.13047297	    LookAheadBufferSize: 79	
+00001976	53.13048973	    PacketSize: 79	
+00001977	53.13060539	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001978	53.13066908	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001979	53.13502215	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00001980	53.13505903	    PacketPointer: 2164619032.	
+00001981	53.13507830	    PhysicalBufferCount: 4.	
+00001982	53.13509507	    BufferCount: 4.	
+00001983	53.13511769	    FirstBufferPointer: 2164469064.	
+00001984	53.13513697	    TotalPacketLenth: 144.	
+00001985	53.13515373	    HeaderSize: 0.	
+00001986	53.13517552	    Protocol: TCP/IP.	
+00001987	53.13519396	    Status: NDIS_STATUS_PENDING.	
+00001988	53.13523754	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00001989	53.13527609	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00001990	53.13530124	    CurrentAdapterHandle: 2164678408	
+00001991	53.13532387	    MacReceiveHandle: 2167603976	
+00001992	53.13534649	    HeaderBufferPointer: 2167518896	
+00001993	53.13536577	    HeaderBufferSize: 14	
+00001994	53.13538840	    LookAheadBufferPointer: 2167518910	
+00001995	53.13540851	    LookAheadBufferSize: 87	
+00001996	53.13542611	    PacketSize: 87	
+00001997	53.13553255	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00001998	53.13559038	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00001999	53.14045804	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002000	53.14048402	    PacketPointer: 2164619032.	
+00002001	53.14050329	    PhysicalBufferCount: 4.	
+00002002	53.14052005	    BufferCount: 4.	
+00002003	53.14054185	    FirstBufferPointer: 2164469064.	
+00002004	53.14056112	    TotalPacketLenth: 144.	
+00002005	53.14057872	    HeaderSize: 0.	
+00002006	53.14059967	    Protocol: TCP/IP.	
+00002007	53.14061811	    Status: NDIS_STATUS_PENDING.	
+00002008	53.14066253	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002009	53.14070192	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002010	53.14072539	    CurrentAdapterHandle: 2164678408	
+00002011	53.14074885	    MacReceiveHandle: 2167603976	
+00002012	53.14077232	    HeaderBufferPointer: 2167519008	
+00002013	53.14079076	    HeaderBufferSize: 14	
+00002014	53.14081339	    LookAheadBufferPointer: 2167519022	
+00002015	53.14083350	    LookAheadBufferSize: 87	
+00002016	53.14085110	    PacketSize: 87	
+00002017	53.14095419	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002018	53.14101202	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002019	53.14143693	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002020	53.14146207	    PacketPointer: 2164619032.	
+00002021	53.14148051	    PhysicalBufferCount: 4.	
+00002022	53.14149811	    BufferCount: 4.	
+00002023	53.14151990	    FirstBufferPointer: 2164469064.	
+00002024	53.14154002	    TotalPacketLenth: 159.	
+00002025	53.14155678	    HeaderSize: 0.	
+00002026	53.14157605	    Protocol: TCP/IP.	
+00002027	53.14159449	    Status: NDIS_STATUS_PENDING.	
+00002028	53.14163388	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002029	53.14167244	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002030	53.14169674	    CurrentAdapterHandle: 2164678408	
+00002031	53.14171937	    MacReceiveHandle: 2167603976	
+00002032	53.14174284	    HeaderBufferPointer: 2167519120	
+00002033	53.14176211	    HeaderBufferSize: 14	
+00002034	53.14178474	    LookAheadBufferPointer: 2167519134	
+00002035	53.14180485	    LookAheadBufferSize: 106	
+00002036	53.14182329	    PacketSize: 106	
+00002037	53.14191800	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002038	53.14197164	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002039	53.17213635	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002040	53.17216150	    PacketPointer: 2164619032.	
+00002041	53.17218077	    PhysicalBufferCount: 4.	
+00002042	53.17219754	    BufferCount: 4.	
+00002043	53.17221933	    FirstBufferPointer: 2164469064.	
+00002044	53.17223944	    TotalPacketLenth: 136.	
+00002045	53.17225620	    HeaderSize: 0.	
+00002046	53.17227799	    Protocol: TCP/IP.	
+00002047	53.17229643	    Status: NDIS_STATUS_PENDING.	
+00002048	53.17233750	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002049	53.17240287	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002050	53.17242634	    CurrentAdapterHandle: 2164678408	
+00002051	53.17244980	    MacReceiveHandle: 2167603976	
+00002052	53.17247243	    HeaderBufferPointer: 2167519248	
+00002053	53.17249171	    HeaderBufferSize: 14	
+00002054	53.17251434	    LookAheadBufferPointer: 2167519262	
+00002055	53.17253445	    LookAheadBufferSize: 79	
+00002056	53.17255205	    PacketSize: 79	
+00002057	53.17265011	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002058	53.17271799	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002059	53.17890816	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002060	53.17893414	    PacketPointer: 2164619032.	
+00002061	53.17895342	    PhysicalBufferCount: 4.	
+00002062	53.17897102	    BufferCount: 4.	
+00002063	53.17899281	    FirstBufferPointer: 2164469064.	
+00002064	53.17901293	    TotalPacketLenth: 157.	
+00002065	53.17902969	    HeaderSize: 0.	
+00002066	53.17905064	    Protocol: TCP/IP.	
+00002067	53.17906908	    Status: NDIS_STATUS_PENDING.	
+00002068	53.17911182	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002069	53.17915205	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002070	53.17917552	    CurrentAdapterHandle: 2164678408	
+00002071	53.17919814	    MacReceiveHandle: 2167603976	
+00002072	53.17922077	    HeaderBufferPointer: 2167519352	
+00002073	53.17924005	    HeaderBufferSize: 14	
+00002074	53.17926268	    LookAheadBufferPointer: 2167519366	
+00002075	53.17928447	    LookAheadBufferSize: 128	
+00002076	53.17930207	    PacketSize: 185	
+00002077	53.17935152	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00002078	53.17938253	    PacketPointer: 2180488400.	
+00002079	53.17940180	    PhysicalBufferCount: 1.	
+00002080	53.17941940	    BufferCount: 1.	
+00002081	53.17944119	    FirstBufferPointer: 2167173928.	
+00002082	53.17946047	    TotalPacketLenth: 1500.	
+00002083	53.17947807	    HeaderSize: 0.	
+00002084	53.17949567	    Protocol: TCP/IP.	
+00002085	53.17951411	    Status: NDIS_STATUS_SUCCESS.	
+00002086	53.17953338	    BytesTransferred: 165	
+00002087	53.17963479	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002088	53.17969178	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002089	53.18256226	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002090	53.18258824	    PacketPointer: 2164619032.	
+00002091	53.18260668	    PhysicalBufferCount: 4.	
+00002092	53.18262428	    BufferCount: 4.	
+00002093	53.18264691	    FirstBufferPointer: 2164469064.	
+00002094	53.18266618	    TotalPacketLenth: 136.	
+00002095	53.18268378	    HeaderSize: 0.	
+00002096	53.18270473	    Protocol: TCP/IP.	
+00002097	53.18272401	    Status: NDIS_STATUS_PENDING.	
+00002098	53.18276340	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002099	53.18280279	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002100	53.18282710	    CurrentAdapterHandle: 2164678408	
+00002101	53.18285056	    MacReceiveHandle: 2167603976	
+00002102	53.18287403	    HeaderBufferPointer: 2167519560	
+00002103	53.18289247	    HeaderBufferSize: 14	
+00002104	53.18291510	    LookAheadBufferPointer: 2167519574	
+00002105	53.18293605	    LookAheadBufferSize: 79	
+00002106	53.18295281	    PacketSize: 79	
+00002107	53.18304919	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002108	53.18311624	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002109	53.18918069	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002110	53.18920751	    PacketPointer: 2164619032.	
+00002111	53.18922679	    PhysicalBufferCount: 4.	
+00002112	53.18924439	    BufferCount: 4.	
+00002113	53.18926618	    FirstBufferPointer: 2164469064.	
+00002114	53.18928629	    TotalPacketLenth: 159.	
+00002115	53.18930306	    HeaderSize: 0.	
+00002116	53.18932401	    Protocol: TCP/IP.	
+00002117	53.18934245	    Status: NDIS_STATUS_PENDING.	
+00002118	53.18938519	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002119	53.18942374	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002120	53.18944721	    CurrentAdapterHandle: 2164678408	
+00002121	53.18946984	    MacReceiveHandle: 2167603976	
+00002122	53.18949247	    HeaderBufferPointer: 2167519664	
+00002123	53.18951258	    HeaderBufferSize: 14	
+00002124	53.18953521	    LookAheadBufferPointer: 2167519678	
+00002125	53.18955532	    LookAheadBufferSize: 106	
+00002126	53.18957376	    PacketSize: 106	
+00002127	53.18967517	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002128	53.18973216	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002129	53.19181650	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002130	53.19184249	    PacketPointer: 2164619032.	
+00002131	53.19186176	    PhysicalBufferCount: 4.	
+00002132	53.19187852	    BufferCount: 4.	
+00002133	53.19190115	    FirstBufferPointer: 2164469064.	
+00002134	53.19192043	    TotalPacketLenth: 136.	
+00002135	53.19193719	    HeaderSize: 0.	
+00002136	53.19195898	    Protocol: TCP/IP.	
+00002137	53.19197742	    Status: NDIS_STATUS_PENDING.	
+00002138	53.19201765	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002139	53.19205704	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002140	53.19208050	    CurrentAdapterHandle: 2164678408	
+00002141	53.19210397	    MacReceiveHandle: 2167603976	
+00002142	53.19212660	    HeaderBufferPointer: 2167519792	
+00002143	53.19214504	    HeaderBufferSize: 14	
+00002144	53.19216767	    LookAheadBufferPointer: 2167519806	
+00002145	53.19218778	    LookAheadBufferSize: 79	
+00002146	53.19220538	    PacketSize: 79	
+00002147	53.19230092	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002148	53.19236629	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002149	53.19626344	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002150	53.19629109	    PacketPointer: 2164619032.	
+00002151	53.19631037	    PhysicalBufferCount: 4.	
+00002152	53.19632713	    BufferCount: 4.	
+00002153	53.19634892	    FirstBufferPointer: 2164469064.	
+00002154	53.19636820	    TotalPacketLenth: 144.	
+00002155	53.19638496	    HeaderSize: 0.	
+00002156	53.19640675	    Protocol: TCP/IP.	
+00002157	53.19642603	    Status: NDIS_STATUS_PENDING.	
+00002158	53.19646793	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002159	53.19650648	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002160	53.19652995	    CurrentAdapterHandle: 2164678408	
+00002161	53.19655342	    MacReceiveHandle: 2167603976	
+00002162	53.19657605	    HeaderBufferPointer: 2167519896	
+00002163	53.19659532	    HeaderBufferSize: 14	
+00002164	53.19661795	    LookAheadBufferPointer: 2167519910	
+00002165	53.19663890	    LookAheadBufferSize: 87	
+00002166	53.19665567	    PacketSize: 87	
+00002167	53.19675875	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002168	53.19681407	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002169	53.20165406	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002170	53.20168088	    PacketPointer: 2164619032.	
+00002171	53.20170184	    PhysicalBufferCount: 4.	
+00002172	53.20171860	    BufferCount: 4.	
+00002173	53.20174039	    FirstBufferPointer: 2164469064.	
+00002174	53.20175966	    TotalPacketLenth: 144.	
+00002175	53.20177726	    HeaderSize: 0.	
+00002176	53.20179905	    Protocol: TCP/IP.	
+00002177	53.20181749	    Status: NDIS_STATUS_PENDING.	
+00002178	53.20186024	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002179	53.20189963	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002180	53.20192393	    CurrentAdapterHandle: 2164678408	
+00002181	53.20194656	    MacReceiveHandle: 2167603976	
+00002182	53.20196919	    HeaderBufferPointer: 2167520008	
+00002183	53.20198846	    HeaderBufferSize: 14	
+00002184	53.20201193	    LookAheadBufferPointer: 2167520022	
+00002185	53.20203205	    LookAheadBufferSize: 87	
+00002186	53.20204965	    PacketSize: 87	
+00002187	53.20215189	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002188	53.20220888	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002189	53.20262542	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002190	53.20265056	    PacketPointer: 2164619032.	
+00002191	53.20266984	    PhysicalBufferCount: 4.	
+00002192	53.20268744	    BufferCount: 4.	
+00002193	53.20271006	    FirstBufferPointer: 2164469064.	
+00002194	53.20273018	    TotalPacketLenth: 157.	
+00002195	53.20274694	    HeaderSize: 0.	
+00002196	53.20276622	    Protocol: TCP/IP.	
+00002197	53.20278465	    Status: NDIS_STATUS_PENDING.	
+00002198	53.20282405	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002199	53.20286176	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002200	53.20288606	    CurrentAdapterHandle: 2164678408	
+00002201	53.20290953	    MacReceiveHandle: 2167603976	
+00002202	53.20293216	    HeaderBufferPointer: 2167520120	
+00002203	53.20295060	    HeaderBufferSize: 14	
+00002204	53.20297406	    LookAheadBufferPointer: 2167520134	
+00002205	53.20299418	    LookAheadBufferSize: 128	
+00002206	53.20301262	    PacketSize: 185	
+00002207	53.20305704	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00002208	53.20308721	    PacketPointer: 2180488400.	
+00002209	53.20310565	    PhysicalBufferCount: 1.	
+00002210	53.20312325	    BufferCount: 1.	
+00002211	53.20314504	    FirstBufferPointer: 2167173928.	
+00002212	53.20316515	    TotalPacketLenth: 1500.	
+00002213	53.20318107	    HeaderSize: 0.	
+00002214	53.20319951	    Protocol: TCP/IP.	
+00002215	53.20321795	    Status: NDIS_STATUS_SUCCESS.	
+00002216	53.20323806	    BytesTransferred: 165	
+00002217	53.20332774	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002218	53.20338138	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002219	53.20559395	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002220	53.20561825	    PacketPointer: 2164619032.	
+00002221	53.20563837	    PhysicalBufferCount: 4.	
+00002222	53.20565597	    BufferCount: 4.	
+00002223	53.20567692	    FirstBufferPointer: 2164469064.	
+00002224	53.20569704	    TotalPacketLenth: 144.	
+00002225	53.20571464	    HeaderSize: 0.	
+00002226	53.20573559	    Protocol: TCP/IP.	
+00002227	53.20575403	    Status: NDIS_STATUS_PENDING.	
+00002228	53.20579425	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002229	53.20583532	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002230	53.20585879	    CurrentAdapterHandle: 2164678408	
+00002231	53.20588225	    MacReceiveHandle: 2167603976	
+00002232	53.20590488	    HeaderBufferPointer: 2167520328	
+00002233	53.20592416	    HeaderBufferSize: 14	
+00002234	53.20594763	    LookAheadBufferPointer: 2167520342	
+00002235	53.20596774	    LookAheadBufferSize: 87	
+00002236	53.20598618	    PacketSize: 87	
+00002237	53.20608507	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002238	53.20614123	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002239	53.20917262	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002240	53.20919943	    PacketPointer: 2164619032.	
+00002241	53.20921787	    PhysicalBufferCount: 4.	
+00002242	53.20923463	    BufferCount: 4.	
+00002243	53.20925726	    FirstBufferPointer: 2164469064.	
+00002244	53.20927738	    TotalPacketLenth: 144.	
+00002245	53.20929498	    HeaderSize: 0.	
+00002246	53.20931593	    Protocol: TCP/IP.	
+00002247	53.20933521	    Status: NDIS_STATUS_PENDING.	
+00002248	53.20937543	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002249	53.20941399	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002250	53.20943745	    CurrentAdapterHandle: 2164678408	
+00002251	53.20946008	    MacReceiveHandle: 2167603976	
+00002252	53.20948355	    HeaderBufferPointer: 2167520440	
+00002253	53.20950199	    HeaderBufferSize: 14	
+00002254	53.20952545	    LookAheadBufferPointer: 2167520454	
+00002255	53.20954641	    LookAheadBufferSize: 87	
+00002256	53.20956317	    PacketSize: 87	
+00002257	53.20966793	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002258	53.20972408	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002259	53.21016157	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002260	53.21018923	    PacketPointer: 2164619032.	
+00002261	53.21020766	    PhysicalBufferCount: 4.	
+00002262	53.21022526	    BufferCount: 4.	
+00002263	53.21024705	    FirstBufferPointer: 2164469064.	
+00002264	53.21026717	    TotalPacketLenth: 136.	
+00002265	53.21028309	    HeaderSize: 0.	
+00002266	53.21030488	    Protocol: TCP/IP.	
+00002267	53.21032332	    Status: NDIS_STATUS_PENDING.	
+00002268	53.21036355	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002269	53.21040043	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002270	53.21042473	    CurrentAdapterHandle: 2164678408	
+00002271	53.21044736	    MacReceiveHandle: 2167603976	
+00002272	53.21046999	    HeaderBufferPointer: 2167520552	
+00002273	53.21048926	    HeaderBufferSize: 14	
+00002274	53.21051189	    LookAheadBufferPointer: 2167520566	
+00002275	53.21053201	    LookAheadBufferSize: 79	
+00002276	53.21054961	    PacketSize: 79	
+00002277	53.21064096	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002278	53.21070465	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002279	53.21452804	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002280	53.21455486	    PacketPointer: 2164619032.	
+00002281	53.21457498	    PhysicalBufferCount: 4.	
+00002282	53.21459174	    BufferCount: 4.	
+00002283	53.21461353	    FirstBufferPointer: 2164469064.	
+00002284	53.21463448	    TotalPacketLenth: 144.	
+00002285	53.21465124	    HeaderSize: 0.	
+00002286	53.21467303	    Protocol: TCP/IP.	
+00002287	53.21469147	    Status: NDIS_STATUS_PENDING.	
+00002288	53.21473421	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002289	53.21477277	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002290	53.21479623	    CurrentAdapterHandle: 2164678408	
+00002291	53.21481886	    MacReceiveHandle: 2167603976	
+00002292	53.21484149	    HeaderBufferPointer: 2167520656	
+00002293	53.21486077	    HeaderBufferSize: 14	
+00002294	53.21488340	    LookAheadBufferPointer: 2167520670	
+00002295	53.21490351	    LookAheadBufferSize: 87	
+00002296	53.21492027	    PacketSize: 87	
+00002297	53.21502252	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002298	53.21507783	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002299	53.21999326	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002300	53.22001924	    PacketPointer: 2164619032.	
+00002301	53.22003852	    PhysicalBufferCount: 4.	
+00002302	53.22005528	    BufferCount: 4.	
+00002303	53.22007707	    FirstBufferPointer: 2164469064.	
+00002304	53.22009719	    TotalPacketLenth: 144.	
+00002305	53.22011395	    HeaderSize: 0.	
+00002306	53.22013658	    Protocol: TCP/IP.	
+00002307	53.22015501	    Status: NDIS_STATUS_PENDING.	
+00002308	53.22019860	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002309	53.22934557	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002310	53.22937071	    CurrentAdapterHandle: 2164678408	
+00002311	53.22939417	    MacReceiveHandle: 2167603976	
+00002312	53.22941680	    HeaderBufferPointer: 2167520768	
+00002313	53.22943608	    HeaderBufferSize: 14	
+00002314	53.22945955	    LookAheadBufferPointer: 2167520782	
+00002315	53.22948050	    LookAheadBufferSize: 87	
+00002316	53.22949810	    PacketSize: 87	
+00002317	53.22962549	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002318	53.22968918	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002319	53.23011745	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002320	53.23014176	    PacketPointer: 2164619032.	
+00002321	53.23016019	    PhysicalBufferCount: 4.	
+00002322	53.23017779	    BufferCount: 4.	
+00002323	53.23019875	    FirstBufferPointer: 2164469064.	
+00002324	53.23021886	    TotalPacketLenth: 159.	
+00002325	53.23023646	    HeaderSize: 0.	
+00002326	53.23025741	    Protocol: TCP/IP.	
+00002327	53.23027585	    Status: NDIS_STATUS_PENDING.	
+00002328	53.23031608	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002329	53.23035379	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002330	53.23037726	    CurrentAdapterHandle: 2164678408	
+00002331	53.23040073	    MacReceiveHandle: 2167603976	
+00002332	53.23042336	    HeaderBufferPointer: 2167520880	
+00002333	53.23044263	    HeaderBufferSize: 14	
+00002334	53.23046526	    LookAheadBufferPointer: 2167520894	
+00002335	53.23048537	    LookAheadBufferSize: 106	
+00002336	53.23050381	    PacketSize: 106	
+00002337	53.23059768	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002338	53.23065216	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002339	53.23300301	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002340	53.23302899	    PacketPointer: 2164619032.	
+00002341	53.23304743	    PhysicalBufferCount: 4.	
+00002342	53.23306503	    BufferCount: 4.	
+00002343	53.23308598	    FirstBufferPointer: 2164469064.	
+00002344	53.23310610	    TotalPacketLenth: 136.	
+00002345	53.23312286	    HeaderSize: 0.	
+00002346	53.23314465	    Protocol: TCP/IP.	
+00002347	53.23316309	    Status: NDIS_STATUS_PENDING.	
+00002348	53.23320415	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002349	53.23324271	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002350	53.23326701	    CurrentAdapterHandle: 2164678408	
+00002351	53.23329048	    MacReceiveHandle: 2167603976	
+00002352	53.23331311	    HeaderBufferPointer: 2167521008	
+00002353	53.23333238	    HeaderBufferSize: 14	
+00002354	53.23335501	    LookAheadBufferPointer: 2167521022	
+00002355	53.23337513	    LookAheadBufferSize: 79	
+00002356	53.23339273	    PacketSize: 79	
+00002357	53.23348995	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002358	53.23355867	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002359	53.23973543	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002360	53.23976225	    PacketPointer: 2164619032.	
+00002361	53.23978236	    PhysicalBufferCount: 4.	
+00002362	53.23979913	    BufferCount: 4.	
+00002363	53.23982092	    FirstBufferPointer: 2164469064.	
+00002364	53.23984019	    TotalPacketLenth: 157.	
+00002365	53.23985695	    HeaderSize: 0.	
+00002366	53.23987874	    Protocol: TCP/IP.	
+00002367	53.23989718	    Status: NDIS_STATUS_PENDING.	
+00002368	53.23993993	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002369	53.23997932	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002370	53.24000278	    CurrentAdapterHandle: 2164678408	
+00002371	53.24002625	    MacReceiveHandle: 2167603976	
+00002372	53.24004972	    HeaderBufferPointer: 2167521112	
+00002373	53.24006815	    HeaderBufferSize: 14	
+00002374	53.24009078	    LookAheadBufferPointer: 2167521126	
+00002375	53.24011173	    LookAheadBufferSize: 128	
+00002376	53.24012933	    PacketSize: 185	
+00002377	53.24017627	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00002378	53.24020644	    PacketPointer: 2180488400.	
+00002379	53.24022572	    PhysicalBufferCount: 1.	
+00002380	53.24024332	    BufferCount: 1.	
+00002381	53.24026511	    FirstBufferPointer: 2167173928.	
+00002382	53.24028438	    TotalPacketLenth: 1500.	
+00002383	53.24030198	    HeaderSize: 0.	
+00002384	53.24031958	    Protocol: TCP/IP.	
+00002385	53.24033802	    Status: NDIS_STATUS_SUCCESS.	
+00002386	53.24035730	    BytesTransferred: 165	
+00002387	53.24045703	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002388	53.24051402	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002389	53.25521253	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002390	53.25524689	    PacketPointer: 2164619032.	
+00002391	53.25526701	    PhysicalBufferCount: 4.	
+00002392	53.25528461	    BufferCount: 4.	
+00002393	53.25530724	    FirstBufferPointer: 2164469064.	
+00002394	53.25532735	    TotalPacketLenth: 218.	
+00002395	53.25534411	    HeaderSize: 0.	
+00002396	53.25536674	    Protocol: TCP/IP.	
+00002397	53.25538602	    Status: NDIS_STATUS_PENDING.	
+00002398	53.25542792	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002399	53.25546815	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002400	53.25549162	    CurrentAdapterHandle: 2164678408	
+00002401	53.25551508	    MacReceiveHandle: 2167603976	
+00002402	53.25553771	    HeaderBufferPointer: 2167521320	
+00002403	53.25555783	    HeaderBufferSize: 14	
+00002404	53.25557962	    LookAheadBufferPointer: 2167521334	
+00002405	53.25560057	    LookAheadBufferSize: 95	
+00002406	53.25561817	    PacketSize: 95	
+00002407	53.25572545	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002408	53.25578411	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002409	53.26891958	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002410	53.26894472	    PacketPointer: 2164619032.	
+00002411	53.26896400	    PhysicalBufferCount: 4.	
+00002412	53.26898076	    BufferCount: 4.	
+00002413	53.26900339	    FirstBufferPointer: 2164469064.	
+00002414	53.26902266	    TotalPacketLenth: 95.	
+00002415	53.26903943	    HeaderSize: 0.	
+00002416	53.26905954	    Protocol: TCP/IP.	
+00002417	53.26907714	    Status: NDIS_STATUS_PENDING.	
+00002418	53.26911737	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002419	53.26915592	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002420	53.26917855	    CurrentAdapterHandle: 2164678408	
+00002421	53.26920118	    MacReceiveHandle: 2167603976	
+00002422	53.26922381	    HeaderBufferPointer: 2167521440	
+00002423	53.26924224	    HeaderBufferSize: 14	
+00002424	53.26926404	    LookAheadBufferPointer: 2167521454	
+00002425	53.26928415	    LookAheadBufferSize: 99	
+00002426	53.26930091	    PacketSize: 99	
+00002427	53.26939143	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002428	53.26944674	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002429	53.44588001	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002430	53.44590599	    PacketPointer: 2164619032.	
+00002431	53.44592610	    PhysicalBufferCount: 3.	
+00002432	53.44594203	    BufferCount: 3.	
+00002433	53.44596382	    FirstBufferPointer: 2164469064.	
+00002434	53.44598309	    TotalPacketLenth: 54.	
+00002435	53.44600069	    HeaderSize: 0.	
+00002436	53.44602248	    Protocol: TCP/IP.	
+00002437	53.44604008	    Status: NDIS_STATUS_PENDING.	
+00002438	53.44608367	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002439	53.57251534	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002440	53.57254132	    PacketPointer: 2164619032.	
+00002441	53.57256395	    PhysicalBufferCount: 4.	
+00002442	53.57258071	    BufferCount: 4.	
+00002443	53.57260502	    FirstBufferPointer: 2164469064.	
+00002444	53.57262429	    TotalPacketLenth: 107.	
+00002445	53.57264106	    HeaderSize: 0.	
+00002446	53.57266704	    Protocol: TCP/IP.	
+00002447	53.57268547	    Status: NDIS_STATUS_PENDING.	
+00002448	53.57273911	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002449	53.57290087	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002450	53.57292768	    CurrentAdapterHandle: 2164678408	
+00002451	53.57295031	    MacReceiveHandle: 2167603976	
+00002452	53.57297629	    HeaderBufferPointer: 2167521564	
+00002453	53.57299473	    HeaderBufferSize: 14	
+00002454	53.57301736	    LookAheadBufferPointer: 2167521578	
+00002455	53.57303747	    LookAheadBufferSize: 79	
+00002456	53.57305759	    PacketSize: 79	
+00002457	53.57318498	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002458	53.57326125	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002459	53.64204874	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002460	53.64207556	    PacketPointer: 2164619032.	
+00002461	53.64209986	    PhysicalBufferCount: 4.	
+00002462	53.64211746	    BufferCount: 4.	
+00002463	53.64214261	    FirstBufferPointer: 2164469064.	
+00002464	53.64216272	    TotalPacketLenth: 141.	
+00002465	53.64218284	    HeaderSize: 0.	
+00002466	53.64220463	    Protocol: TCP/IP.	
+00002467	53.64222725	    Status: NDIS_STATUS_PENDING.	
+00002468	53.64227503	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002469	53.64270329	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002470	53.64273263	    CurrentAdapterHandle: 2164678408	
+00002471	53.64275525	    MacReceiveHandle: 2167603976	
+00002472	53.64278207	    HeaderBufferPointer: 2167521668	
+00002473	53.64280135	    HeaderBufferSize: 14	
+00002474	53.64282984	    LookAheadBufferPointer: 2167521682	
+00002475	53.64285583	    LookAheadBufferSize: 128	
+00002476	53.64287426	    PacketSize: 1332	
+00002477	53.64293042	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00002478	53.64299160	    PacketPointer: 2180488400.	
+00002479	53.64301171	    PhysicalBufferCount: 1.	
+00002480	53.64302931	    BufferCount: 1.	
+00002481	53.64305613	    FirstBufferPointer: 2167173928.	
+00002482	53.64308295	    TotalPacketLenth: 1500.	
+00002483	53.64310055	    HeaderSize: 0.	
+00002484	53.64311983	    Protocol: TCP/IP.	
+00002485	53.64314413	    Status: NDIS_STATUS_SUCCESS.	
+00002486	53.64316424	    BytesTransferred: 1312	
+00002487	53.64330169	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002488	53.64337293	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002489	53.64529133	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002490	53.64532066	    PacketPointer: 2164619032.	
+00002491	53.64533994	    PhysicalBufferCount: 4.	
+00002492	53.64535838	    BufferCount: 4.	
+00002493	53.64538017	    FirstBufferPointer: 2164469064.	
+00002494	53.64540280	    TotalPacketLenth: 116.	
+00002495	53.64541956	    HeaderSize: 0.	
+00002496	53.64544386	    Protocol: TCP/IP.	
+00002497	53.64546314	    Status: NDIS_STATUS_PENDING.	
+00002498	53.64550672	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002499	53.64554946	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002500	53.64557712	    CurrentAdapterHandle: 2164678408	
+00002501	53.64559975	    MacReceiveHandle: 2167603976	
+00002502	53.64562489	    HeaderBufferPointer: 2167523024	
+00002503	53.64564417	    HeaderBufferSize: 14	
+00002504	53.64567099	    LookAheadBufferPointer: 2167523038	
+00002505	53.64569110	    LookAheadBufferSize: 99	
+00002506	53.64571289	    PacketSize: 99	
+00002507	53.64582520	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002508	53.64589560	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002509	53.64649735	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002510	53.64652249	    PacketPointer: 2164619032.	
+00002511	53.64654596	    PhysicalBufferCount: 4.	
+00002512	53.64656440	    BufferCount: 4.	
+00002513	53.64658870	    FirstBufferPointer: 2164469064.	
+00002514	53.64660882	    TotalPacketLenth: 116.	
+00002515	53.64662893	    HeaderSize: 0.	
+00002516	53.64664904	    Protocol: TCP/IP.	
+00002517	53.64666916	    Status: NDIS_STATUS_PENDING.	
+00002518	53.64671358	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002519	53.64675632	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002520	53.64678146	    CurrentAdapterHandle: 2164678408	
+00002521	53.64680744	    MacReceiveHandle: 2167603976	
+00002522	53.64683007	    HeaderBufferPointer: 2167523148	
+00002523	53.64684935	    HeaderBufferSize: 14	
+00002524	53.64687198	    LookAheadBufferPointer: 2167523162	
+00002525	53.64689461	    LookAheadBufferSize: 99	
+00002526	53.64691221	    PacketSize: 99	
+00002527	53.64700775	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002528	53.64707563	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002529	53.64843419	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002530	53.64845849	    PacketPointer: 2164619032.	
+00002531	53.64848112	    PhysicalBufferCount: 4.	
+00002532	53.64849788	    BufferCount: 4.	
+00002533	53.64852554	    FirstBufferPointer: 2164469064.	
+00002534	53.64854482	    TotalPacketLenth: 145.	
+00002535	53.64856242	    HeaderSize: 0.	
+00002536	53.64859007	    Protocol: TCP/IP.	
+00002537	53.64860851	    Status: NDIS_STATUS_PENDING.	
+00002538	53.64865377	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002539	53.64928737	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002540	53.64931754	    CurrentAdapterHandle: 2164678408	
+00002541	53.64934352	    MacReceiveHandle: 2167603976	
+00002542	53.64936615	    HeaderBufferPointer: 2167523272	
+00002543	53.64938794	    HeaderBufferSize: 14	
+00002544	53.64941141	    LookAheadBufferPointer: 2167523286	
+00002545	53.64943487	    LookAheadBufferSize: 109	
+00002546	53.64945247	    PacketSize: 109	
+00002547	53.64957064	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002548	53.64964272	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002549	53.65095518	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002550	53.65098116	    PacketPointer: 2164619032.	
+00002551	53.65099960	    PhysicalBufferCount: 4.	
+00002552	53.65101971	    BufferCount: 4.	
+00002553	53.65104066	    FirstBufferPointer: 2164469064.	
+00002554	53.65106497	    TotalPacketLenth: 99.	
+00002555	53.65108173	    HeaderSize: 0.	
+00002556	53.65110184	    Protocol: TCP/IP.	
+00002557	53.65117727	    Status: NDIS_STATUS_PENDING.	
+00002558	53.65122085	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002559	53.65254421	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002560	53.65257102	    CurrentAdapterHandle: 2164678408	
+00002561	53.65259365	    MacReceiveHandle: 2167603976	
+00002562	53.65262047	    HeaderBufferPointer: 2167523404	
+00002563	53.65263975	    HeaderBufferSize: 14	
+00002564	53.65266573	    LookAheadBufferPointer: 2167523418	
+00002565	53.65268584	    LookAheadBufferSize: 79	
+00002566	53.65270596	    PacketSize: 79	
+00002567	53.65281994	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002568	53.65289285	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002569	53.65358512	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002570	53.65361194	    PacketPointer: 2164619032.	
+00002571	53.65363121	    PhysicalBufferCount: 4.	
+00002572	53.65365217	    BufferCount: 4.	
+00002573	53.65367396	    FirstBufferPointer: 2164469064.	
+00002574	53.65369659	    TotalPacketLenth: 145.	
+00002575	53.65371419	    HeaderSize: 0.	
+00002576	53.65374017	    Protocol: TCP/IP.	
+00002577	53.65375861	    Status: NDIS_STATUS_PENDING.	
+00002578	53.65380135	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002579	53.65442154	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002580	53.65444584	    CurrentAdapterHandle: 2164678408	
+00002581	53.65447182	    MacReceiveHandle: 2167603976	
+00002582	53.65449529	    HeaderBufferPointer: 2167523508	
+00002583	53.65451792	    HeaderBufferSize: 14	
+00002584	53.65454139	    LookAheadBufferPointer: 2167523522	
+00002585	53.65456653	    LookAheadBufferSize: 109	
+00002586	53.65458413	    PacketSize: 109	
+00002587	53.65468219	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002588	53.65475007	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002589	53.65538954	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002590	53.65541971	    PacketPointer: 2164619032.	
+00002591	53.65543815	    PhysicalBufferCount: 4.	
+00002592	53.65545491	    BufferCount: 4.	
+00002593	53.65548005	    FirstBufferPointer: 2164469064.	
+00002594	53.65550017	    TotalPacketLenth: 95.	
+00002595	53.65551944	    HeaderSize: 0.	
+00002596	53.65554040	    Protocol: TCP/IP.	
+00002597	53.65556135	    Status: NDIS_STATUS_PENDING.	
+00002598	53.65560158	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002599	53.65563761	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002600	53.65566695	    CurrentAdapterHandle: 2164678408	
+00002601	53.65569293	    MacReceiveHandle: 2167603976	
+00002602	53.65571556	    HeaderBufferPointer: 2167523640	
+00002603	53.65573735	    HeaderBufferSize: 14	
+00002604	53.65575998	    LookAheadBufferPointer: 2167523654	
+00002605	53.65578344	    LookAheadBufferSize: 101	
+00002606	53.65581026	    PacketSize: 101	
+00002607	53.65590413	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002608	53.65596447	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002609	53.65658131	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002610	53.65661064	    PacketPointer: 2164619032.	
+00002611	53.65662908	    PhysicalBufferCount: 4.	
+00002612	53.65664920	    BufferCount: 4.	
+00002613	53.65667182	    FirstBufferPointer: 2164469064.	
+00002614	53.65669278	    TotalPacketLenth: 113.	
+00002615	53.65671038	    HeaderSize: 0.	
+00002616	53.65673468	    Protocol: TCP/IP.	
+00002617	53.65675312	    Status: NDIS_STATUS_PENDING.	
+00002618	53.65679502	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002619	53.65683609	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002620	53.65685956	    CurrentAdapterHandle: 2164678408	
+00002621	53.65688470	    MacReceiveHandle: 2167603976	
+00002622	53.65690649	    HeaderBufferPointer: 2167523764	
+00002623	53.65693163	    HeaderBufferSize: 14	
+00002624	53.65695342	    LookAheadBufferPointer: 2167523778	
+00002625	53.65697940	    LookAheadBufferSize: 128	
+00002626	53.65699700	    PacketSize: 169	
+00002627	53.65704561	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00002628	53.65707914	    PacketPointer: 2180488400.	
+00002629	53.65709925	    PhysicalBufferCount: 1.	
+00002630	53.65711518	    BufferCount: 1.	
+00002631	53.65714200	    FirstBufferPointer: 2167173928.	
+00002632	53.65716211	    TotalPacketLenth: 1500.	
+00002633	53.65717887	    HeaderSize: 0.	
+00002634	53.65720150	    Protocol: TCP/IP.	
+00002635	53.65721910	    Status: NDIS_STATUS_SUCCESS.	
+00002636	53.65724173	    BytesTransferred: 149	
+00002637	53.65733643	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002638	53.65739175	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002639	53.65803540	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002640	53.65806390	    PacketPointer: 2164619032.	
+00002641	53.65808234	    PhysicalBufferCount: 4.	
+00002642	53.65810245	    BufferCount: 4.	
+00002643	53.65812508	    FirstBufferPointer: 2164469064.	
+00002644	53.65814855	    TotalPacketLenth: 99.	
+00002645	53.65816615	    HeaderSize: 0.	
+00002646	53.65822398	    Protocol: TCP/IP.	
+00002647	53.65824828	    Status: NDIS_STATUS_PENDING.	
+00002648	53.65829186	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002649	53.65833293	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002650	53.65835723	    CurrentAdapterHandle: 2164678408	
+00002651	53.65838154	    MacReceiveHandle: 2167603976	
+00002652	53.65840500	    HeaderBufferPointer: 2167523956	
+00002653	53.65842931	    HeaderBufferSize: 14	
+00002654	53.65845697	    LookAheadBufferPointer: 2167523970	
+00002655	53.65847708	    LookAheadBufferSize: 79	
+00002656	53.65849468	    PacketSize: 79	
+00002657	53.65860112	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002658	53.65866733	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002659	53.65966550	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002660	53.65969399	    PacketPointer: 2164619032.	
+00002661	53.65971327	    PhysicalBufferCount: 4.	
+00002662	53.65973422	    BufferCount: 4.	
+00002663	53.65975518	    FirstBufferPointer: 2164469064.	
+00002664	53.65977613	    TotalPacketLenth: 116.	
+00002665	53.65979373	    HeaderSize: 0.	
+00002666	53.65981803	    Protocol: TCP/IP.	
+00002667	53.65983731	    Status: NDIS_STATUS_PENDING.	
+00002668	53.65987754	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002669	53.65991860	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002670	53.65994207	    CurrentAdapterHandle: 2164678408	
+00002671	53.65996721	    MacReceiveHandle: 2167603976	
+00002672	53.65999068	    HeaderBufferPointer: 2167524060	
+00002673	53.66001415	    HeaderBufferSize: 14	
+00002674	53.66003678	    LookAheadBufferPointer: 2167524074	
+00002675	53.66006192	    LookAheadBufferSize: 99	
+00002676	53.66007868	    PacketSize: 99	
+00002677	53.66017339	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002678	53.66023205	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002679	53.66072820	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002680	53.66075335	    PacketPointer: 2164619032.	
+00002681	53.66077346	    PhysicalBufferCount: 4.	
+00002682	53.66079106	    BufferCount: 4.	
+00002683	53.66081620	    FirstBufferPointer: 2164469064.	
+00002684	53.66083548	    TotalPacketLenth: 116.	
+00002685	53.66085224	    HeaderSize: 0.	
+00002686	53.66087906	    Protocol: TCP/IP.	
+00002687	53.66089834	    Status: NDIS_STATUS_PENDING.	
+00002688	53.66094443	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002689	53.66098885	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002690	53.66101735	    CurrentAdapterHandle: 2164678408	
+00002691	53.66104333	    MacReceiveHandle: 2167603976	
+00002692	53.66106596	    HeaderBufferPointer: 2167524184	
+00002693	53.66109361	    HeaderBufferSize: 14	
+00002694	53.66116066	    LookAheadBufferPointer: 2167524198	
+00002695	53.66118161	    LookAheadBufferSize: 99	
+00002696	53.66119838	    PacketSize: 99	
+00002697	53.66129559	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002698	53.66136180	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002699	53.66272371	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002700	53.66274885	    PacketPointer: 2164619032.	
+00002701	53.66276897	    PhysicalBufferCount: 4.	
+00002702	53.66278573	    BufferCount: 4.	
+00002703	53.66281171	    FirstBufferPointer: 2164469064.	
+00002704	53.66283098	    TotalPacketLenth: 145.	
+00002705	53.66284775	    HeaderSize: 0.	
+00002706	53.66287540	    Protocol: TCP/IP.	
+00002707	53.66289384	    Status: NDIS_STATUS_PENDING.	
+00002708	53.66293910	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002709	53.66350230	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002710	53.66352744	    CurrentAdapterHandle: 2164678408	
+00002711	53.66355175	    MacReceiveHandle: 2167603976	
+00002712	53.66357354	    HeaderBufferPointer: 2167524308	
+00002713	53.66359868	    HeaderBufferSize: 14	
+00002714	53.66362131	    LookAheadBufferPointer: 2167524322	
+00002715	53.66364729	    LookAheadBufferSize: 109	
+00002716	53.66366489	    PacketSize: 109	
+00002717	53.66377636	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002718	53.66384424	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002719	53.66451137	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002720	53.66453818	    PacketPointer: 2164619032.	
+00002721	53.66455662	    PhysicalBufferCount: 4.	
+00002722	53.66457255	    BufferCount: 4.	
+00002723	53.66459937	    FirstBufferPointer: 2164469064.	
+00002724	53.66461864	    TotalPacketLenth: 99.	
+00002725	53.66463959	    HeaderSize: 0.	
+00002726	53.66465971	    Protocol: TCP/IP.	
+00002727	53.66468066	    Status: NDIS_STATUS_PENDING.	
+00002728	53.66471921	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002729	53.66475525	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002730	53.66478458	    CurrentAdapterHandle: 2164678408	
+00002731	53.66480973	    MacReceiveHandle: 2167603976	
+00002732	53.66483152	    HeaderBufferPointer: 2167524440	
+00002733	53.66485498	    HeaderBufferSize: 14	
+00002734	53.66487845	    LookAheadBufferPointer: 2167524454	
+00002735	53.66490108	    LookAheadBufferSize: 79	
+00002736	53.66491784	    PacketSize: 79	
+00002737	53.66501171	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002738	53.66507121	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002739	53.66572493	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002740	53.66575007	    PacketPointer: 2164619032.	
+00002741	53.66577354	    PhysicalBufferCount: 4.	
+00002742	53.66579030	    BufferCount: 4.	
+00002743	53.66582466	    FirstBufferPointer: 2164469064.	
+00002744	53.66584394	    TotalPacketLenth: 145.	
+00002745	53.66586657	    HeaderSize: 0.	
+00002746	53.66588752	    Protocol: TCP/IP.	
+00002747	53.66591182	    Status: NDIS_STATUS_PENDING.	
+00002748	53.66595624	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002749	53.66642557	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002750	53.66647586	    CurrentAdapterHandle: 2164678408	
+00002751	53.66650603	    MacReceiveHandle: 2167603976	
+00002752	53.66653034	    HeaderBufferPointer: 2167524544	
+00002753	53.66654961	    HeaderBufferSize: 14	
+00002754	53.66657643	    LookAheadBufferPointer: 2167524558	
+00002755	53.66659822	    LookAheadBufferSize: 109	
+00002756	53.66662085	    PacketSize: 109	
+00002757	53.66674237	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002758	53.66681864	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002759	53.66745643	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002760	53.66748241	    PacketPointer: 2164619032.	
+00002761	53.66750085	    PhysicalBufferCount: 4.	
+00002762	53.66751845	    BufferCount: 4.	
+00002763	53.66754192	    FirstBufferPointer: 2164469064.	
+00002764	53.66756119	    TotalPacketLenth: 95.	
+00002765	53.66758215	    HeaderSize: 0.	
+00002766	53.66760142	    Protocol: TCP/IP.	
+00002767	53.66762237	    Status: NDIS_STATUS_PENDING.	
+00002768	53.66766428	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002769	53.66770032	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002770	53.66772630	    CurrentAdapterHandle: 2164678408	
+00002771	53.66775563	    MacReceiveHandle: 2167603976	
+00002772	53.66777742	    HeaderBufferPointer: 2167524676	
+00002773	53.66780089	    HeaderBufferSize: 14	
+00002774	53.66782352	    LookAheadBufferPointer: 2167524690	
+00002775	53.66784615	    LookAheadBufferSize: 101	
+00002776	53.66786291	    PacketSize: 101	
+00002777	53.66795342	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002778	53.66800957	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002779	53.66855685	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002780	53.66858618	    PacketPointer: 2164619032.	
+00002781	53.66860546	    PhysicalBufferCount: 4.	
+00002782	53.66862557	    BufferCount: 4.	
+00002783	53.66864653	    FirstBufferPointer: 2164469064.	
+00002784	53.66867083	    TotalPacketLenth: 113.	
+00002785	53.66868759	    HeaderSize: 0.	
+00002786	53.66871106	    Protocol: TCP/IP.	
+00002787	53.66872950	    Status: NDIS_STATUS_PENDING.	
+00002788	53.66877308	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002789	53.66881247	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002790	53.66883677	    CurrentAdapterHandle: 2164678408	
+00002791	53.66886527	    MacReceiveHandle: 2167603976	
+00002792	53.66889209	    HeaderBufferPointer: 2167524800	
+00002793	53.66891136	    HeaderBufferSize: 14	
+00002794	53.66893735	    LookAheadBufferPointer: 2167524814	
+00002795	53.66895746	    LookAheadBufferSize: 128	
+00002796	53.66897925	    PacketSize: 169	
+00002797	53.66902451	*** XPASSHTRU.SYS ***==>Passthru Miniport MPTransferData	
+00002798	53.66905384	    PacketPointer: 2180488400.	
+00002799	53.66907731	    PhysicalBufferCount: 1.	
+00002800	53.66909491	    BufferCount: 1.	
+00002801	53.66911837	    FirstBufferPointer: 2167173928.	
+00002802	53.66913849	    TotalPacketLenth: 1500.	
+00002803	53.66916028	    HeaderSize: 0.	
+00002804	53.66917872	    Protocol: TCP/IP.	
+00002805	53.66919799	    Status: NDIS_STATUS_SUCCESS.	
+00002806	53.66922314	    BytesTransferred: 149	
+00002807	53.66932203	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002808	53.66938908	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002809	53.67003776	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002810	53.67006794	    PacketPointer: 2164619032.	
+00002811	53.67008721	    PhysicalBufferCount: 4.	
+00002812	53.67010397	    BufferCount: 4.	
+00002813	53.67013163	    FirstBufferPointer: 2164469064.	
+00002814	53.67015091	    TotalPacketLenth: 99.	
+00002815	53.67017354	    HeaderSize: 0.	
+00002816	53.67019365	    Protocol: TCP/IP.	
+00002817	53.67021460	    Status: NDIS_STATUS_PENDING.	
+00002818	53.67025735	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002819	53.67029674	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002820	53.67032020	    CurrentAdapterHandle: 2164678408	
+00002821	53.67034786	    MacReceiveHandle: 2167603976	
+00002822	53.67037133	    HeaderBufferPointer: 2167524992	
+00002823	53.67039312	    HeaderBufferSize: 14	
+00002824	53.67041575	    LookAheadBufferPointer: 2167525006	
+00002825	53.67044005	    LookAheadBufferSize: 79	
+00002826	53.67045681	    PacketSize: 79	
+00002827	53.67055152	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002828	53.67061856	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002829	53.84634951	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002830	53.84637633	    PacketPointer: 2164619032.	
+00002831	53.84639477	    PhysicalBufferCount: 3.	
+00002832	53.84641153	    BufferCount: 3.	
+00002833	53.84643248	    FirstBufferPointer: 2164469064.	
+00002834	53.84645259	    TotalPacketLenth: 54.	
+00002835	53.84646936	    HeaderSize: 0.	
+00002836	53.84649115	    Protocol: TCP/IP.	
+00002837	53.84650875	    Status: NDIS_STATUS_PENDING.	
+00002838	53.84655149	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002839	64.01114164	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002840	64.01116846	    PacketPointer: 2164619032.	
+00002841	64.01118857	    PhysicalBufferCount: 4.	
+00002842	64.01120533	    BufferCount: 4.	
+00002843	64.01122964	    FirstBufferPointer: 2164469064.	
+00002844	64.01124807	    TotalPacketLenth: 93.	
+00002845	64.01126567	    HeaderSize: 0.	
+00002846	64.01128914	    Protocol: TCP/IP.	
+00002847	64.01130842	    Status: NDIS_STATUS_PENDING.	
+00002848	64.01135367	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002849	64.01139474	*** XPASSHTRU.SYS ***==> Passthru Protocol PtReceive	
+00002850	64.01141905	    CurrentAdapterHandle: 2164678408	
+00002851	64.01144251	    MacReceiveHandle: 2167603976	
+00002852	64.01146514	    HeaderBufferPointer: 2167525096	
+00002853	64.01148526	    HeaderBufferSize: 14	
+00002854	64.01150788	    LookAheadBufferPointer: 2167525110	
+00002855	64.01152800	    LookAheadBufferSize: 79	
+00002856	64.01154560	    PacketSize: 79	
+00002857	64.01165958	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceive	
+00002858	64.01171992	*** XPASSHTRU.SYS ***<== Passthru Protocol PtReceiveComplete	
+00002859	64.16117491	*** XPASSHTRU.SYS ***==> Passthru Protocol PtSendComplete	
+00002860	64.16120005	    PacketPointer: 2164619032.	
+00002861	64.16122017	    PhysicalBufferCount: 3.	
+00002862	64.16123693	    BufferCount: 3.	
+00002863	64.16125788	    FirstBufferPointer: 2164469064.	
+00002864	64.16127799	    TotalPacketLenth: 54.	
+00002865	64.16129559	    HeaderSize: 0.	
+00002866	64.16131906	    Protocol: TCP/IP.	
+00002867	64.16133750	    Status: NDIS_STATUS_PENDING.	
+00002868	64.16138108	*** XPASSHTRU.SYS ***<== Passthru Protocol PtSendComplete	
+00002869	73.93595361	*** XPASSHTRU.SYS ***==> Passthru Protocol PtPNPHandler	
+00002870	73.93598713	*** XPASSHTRU.SYS ***==> Passthru PtUnbindAdapter	
+00002871	73.93669113	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00002872	73.93682355	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00002873	73.93686378	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00002874	73.97350698	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00002875	73.97356480	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00002876	73.97361341	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00002877	73.97365197	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00002878	73.97376008	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00002879	73.97379947	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00002880	73.97383718	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00002881	73.97388747	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00002882	73.97392602	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00002883	73.97396206	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00002884	73.97401318	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00002885	73.97405509	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00002886	73.97408861	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00002887	73.97414141	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00002888	73.97418751	*** XPASSHTRU.SYS ***==>Passthru Miniport MPQueryInformation	
+00002889	73.97422103	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00002890	73.97425456	*** XPASSHTRU.SYS ***==>Passthru Miniport MPIsSendOID	
+00002891	73.97429227	*** XPASSHTRU.SYS ***<== Passthru Protocol PtRequestComplete	
+00002892	73.98252656	*** XPASSHTRU.SYS ***==>Passthru Miniport MPHalt	
+00002893	73.98288191	*** XPASSHTRU.SYS ***<== Passthru Protocol PtCloseAdapterComplete	
+00002894	73.98300762	*** XPASSHTRU.SYS ***<==Passthru Minport Halt	
+00002895	73.98318362	*** XPASSHTRU.SYS ***<==Passthru UnbindAdapter	

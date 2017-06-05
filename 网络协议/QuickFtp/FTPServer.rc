@@ -1,0 +1,464 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_APPLICATION DIALOGEX 0, 0, 399, 261
+STYLE DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "QuickFtp"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_DIALOG_AREA,"Static",SS_GRAYFRAME | NOT 
+                    WS_VISIBLE,2,33,397,228,WS_EX_TRANSPARENT
+END
+
+IDD_PROPPAGE_TRACE DIALOG DISCARDABLE  0, 0, 280, 162
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_TRACE,0,0,279,161,LBS_OWNERDRAWVARIABLE | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_PROPPAGE_ONLINE DIALOG DISCARDABLE  0, 0, 280, 162
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_ONLINE_USERS,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,0,279,161
+END
+
+IDD_PROPPAGE_CONFIGURATION DIALOG DISCARDABLE  0, 0, 275, 197
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "欢迎消息:",IDC_STATIC,3,57,65,8
+    LTEXT           "再见消息:",IDC_STATIC,3,73,65,8
+    LTEXT           "端口号:",IDC_STATIC,3,9,60,8
+    EDITTEXT        IDC_PORT,75,5,50,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "在Windows启动时启动服务器",IDC_LAUNCH_ON_STARTUP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,108,181,10
+    CONTROL         "启动时最小化到系统托盘",IDC_START_IN_TRAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,121,173,10
+    LTEXT           "最大用户数:",IDC_STATIC,3,25,61,8
+    EDITTEXT        IDC_MAX_USERS,75,23,50,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "连接超时:",IDC_STATIC,3,41,40,8
+    EDITTEXT        IDC_TIMEOUT,75,39,50,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_WELCOME_MSG,75,55,194,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GOODBYE_MSG,75,71,194,12,ES_AUTOHSCROLL
+    LTEXT           "分钟",IDC_STATIC,130,41,27,8
+    CONTROL         "服务器在启动时自动激活",IDC_AUTOACTIVATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,134,200,10
+    COMBOBOX        IDC_LOGLEVEL,75,87,50,48,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "日志级别:",IDC_STATIC,3,89,52,8
+    PUSHBUTTON      "查看日志",IDC_VIEW,165,87,50,14
+    PUSHBUTTON      "清空日志",IDC_CLEAR,219,87,50,14
+    PUSHBUTTON      "应用",IDC_APPLY,219,183,50,14
+    LTEXT           "应用程序名称:",IDC_STATIC,3,152,70,8
+    EDITTEXT        IDC_APPLICATIONNAME,75,150,194,12,ES_AUTOHSCROLL
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 234, 178
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "FTP服务器 关于窗口 - 版本号 1.0 "
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_PROPPAGE_STATISTICS DIALOG DISCARDABLE  0, 0, 280, 162
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_STATISTICS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,0,0,279,161
+END
+
+IDD_ADD_USERINFO DIALOG DISCARDABLE  0, 0, 200, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加用户信息"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,194,50,14
+    PUSHBUTTON      "取消",IDCANCEL,147,194,50,14
+    GROUPBOX        "物理目录",IDC_STATIC,7,71,186,36
+    EDITTEXT        IDC_PATH,15,85,156,12,ES_AUTOHSCROLL
+    GROUPBOX        "用户权限",IDC_STATIC,7,111,190,77
+    PUSHBUTTON      "..",IDC_BROWSE,175,85,16,13
+    CONTROL         "允许下载",IDC_DOWNLOAD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,124,85,10
+    CONTROL         "允许上传",IDC_UPLOAD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,136,79,10
+    CONTROL         "允许重命名",IDC_RENAME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,148,73,10
+    CONTROL         "允许删除",IDC_DELETE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,160,83,10
+    CONTROL         "允许创建目录",IDC_CREATE_DIR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,172,115,10
+    LTEXT           "用  户  名：",IDC_STATIC,7,17,42,8
+    LTEXT           "密        码：",IDC_STATIC,7,34,40,8
+    EDITTEXT        IDC_EDIT_USERNAME,51,14,135,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERPASS,51,32,135,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "确认密码：",IDC_STATIC,7,52,42,8
+    EDITTEXT        IDC_EDIT_USERPASSAGAIN,51,50,135,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_USERACCOUNTS DIALOG DISCARDABLE  0, 0, 330, 229
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "Microsoft Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,209,208,50,14
+    PUSHBUTTON      "取消",IDCANCEL,273,208,50,14
+    CONTROL         "List1",IDC_USERSLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SORTASCENDING | WS_BORDER | 
+                    WS_TABSTOP,7,7,316,174
+    PUSHBUTTON      "添加用户",IDC_BTNADDUSERACCOUNT,7,186,50,14
+    PUSHBUTTON      "修改",IDC_BTNEDITUSERACCOUNT,74,186,50,14
+    PUSHBUTTON      "删除",IDC_BTNEDELUSERACCOUNT,141,186,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_TRACE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_PROPPAGE_ONLINE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_PROPPAGE_STATISTICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_ADD_USERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_USERACCOUNTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRACE_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "trace"
+    BEGIN
+        MENUITEM "清除",                        ID_TRACE_CLEAR
+    END
+END
+
+IDR_ONLINE_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "online"
+    BEGIN
+        MENUITEM "断开该用户",                  IDC_KICK_USER
+        MENUITEM "修改用户账户",                IDC_EDIT_USER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPPAGE_CONFIGURATION DLGINIT
+BEGIN
+    IDC_LOGLEVEL, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_LOGLEVEL, 0x403, 6, 0
+0x7245, 0x6f72, 0x0072, 
+    IDC_LOGLEVEL, 0x403, 8, 0
+0x6157, 0x6e72, 0x6e69, 0x0067, 
+    IDC_LOGLEVEL, 0x403, 6, 0
+0x7254, 0x6361, 0x0065, 
+    0
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FTPServer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,12
+ PRODUCTVERSION 1,0,0,12
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Programmed by BCY\0"
+            VALUE "CompanyName", "BCY Software Solutions\0"
+            VALUE "FileDescription", "FTPServer MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 12\0"
+            VALUE "InternalName", "QuickFtp\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "QuickFtp.EXE\0"
+            VALUE "PrivateBuild", "Version 1.12\0"
+            VALUE "ProductName", "QuickFtp Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 12\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR             BITMAP  DISCARDABLE     "res\\toolbar.bmp"
+IDB_TOOLBARHOT          BITMAP  DISCARDABLE     "res\\toolbar_h.bmp"
+IDB_TOOLBARDISABLE      BITMAP  DISCARDABLE     "res\\toolbar_d.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\xptheme.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      ID_SERVER_START
+    BUTTON      ID_SERVER_STOP
+    BUTTON      ID_TRACEPAGE
+    BUTTON      ID_VIEW_ONLINEUSERS
+    BUTTON      ID_VIEW_STATISTICS
+    BUTTON      ID_VIEW_CONFIGURATION
+    BUTTON      ID_USER_ACCOUNTS
+    BUTTON      ID_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_FTPSERVER           ICON    DISCARDABLE     "res\\ftpserver (2).ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About FTPServer..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_DATA_RECEIVED "0 bytes received"
+    ID_INDICATOR_ONLINELED  " "
+    ID_INDICATOR_OFFLINELED " "
+    ID_INDICATOR_DATA_SEND  "0 bytes sent"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SERVER_START         "Start FTP Server\nStart FTP Server"
+    ID_SERVER_STOP          "Stop FTP Server\nStop FTP Server"
+    ID_HELP_ABOUT           "Aboutbox\nAboutbox"
+    ID_USER_ACCOUNTS        "Add/Edit User Accounts\nAdd/Edit User Accounts"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HEADERTITLE1        "Account Name"
+    IDS_HEADERTITLE2        "Account Password"
+    IDS_HEADERTITLE3        "Home Directory"
+    IDS_HEADERTITLE4        "Permissions"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_USERS               "Edit User Accounts\nEdit User Accounts"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_ABOUT               "Aboutbox\nAboutbox"
+    ID_ACCOUNT_WIZARD       "User Account Wizard\nUser Account Wizard"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FTPServer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

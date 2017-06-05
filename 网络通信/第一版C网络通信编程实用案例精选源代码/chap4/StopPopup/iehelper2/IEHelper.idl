@@ -1,0 +1,38 @@
+// IEHelper.idl : IDL source for IEHelper.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (IEHelper.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+	[
+		object,
+		uuid(CE7C3CEF-4B15-11D1-ABED-709549C10000),
+		dual,
+		helpstring("IIEHlprObj Interface"),
+		pointer_default(unique)
+	]
+	interface IIEHlprObj : IDispatch
+	{
+	};
+[
+	uuid(CE7C3CE2-4B15-11D1-ABED-709549C10000),
+	version(1.0),
+	helpstring("IEHelper 1.0 Type Library")
+]
+library IEHELPERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(CE7C3CF0-4B15-11D1-ABED-709549C10000),
+		helpstring("IEHlprObj Class")
+	]
+	coclass IEHlprObj
+	{
+		[default] interface IIEHlprObj;
+	};
+};

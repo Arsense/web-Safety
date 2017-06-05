@@ -1,0 +1,2 @@
+4         ,Copyright (c) 2001-2005 XStudio Technology All Right Reserved.
+4         ,6,BUG通告：根据网友反馈，xfilter1.0安装后可能会引起IE无规律非法操作，如果对您造成影响，请卸载xfilter，如果问题依旧则原因不在xfilter。因此对您造成的不便，我们深表歉意！xstudio

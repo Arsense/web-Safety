@@ -1,0 +1,56 @@
+﻿生成启动时间为 2016/4/21 19:22:20。
+     1>项目“H:\mycode\QQ\QQServer2\QQServer2\QQServer2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\QQServer2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         F:\网络安全\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\QQServer2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt QQServer2Dlg.cpp
+         QQServer2Dlg.cpp
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(188): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(378): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(379): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(626): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(694): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(695): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(696): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(697): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(702): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(704): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(709): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\mycode\qq\qqserver2\qqserver2\qqserver2dlg.cpp(711): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\网络安全\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         F:\网络安全\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\mycode\QQ\QQServer2\Debug\QQServer2.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\QQServer2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\mycode\QQ\QQServer2\Debug\QQServer2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\mycode\QQ\QQServer2\Debug\QQServer2.lib" /MACHINE:X86 Debug\QQServer2.res
+         Debug\QQServer2.exe.embed.manifest.res
+         Debug\QQServer2.obj
+         Debug\QQServer2Dlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\QQServer2.exe.embed.manifest" /manifest Debug\QQServer2.exe.intermediate.manifest "F:\网络安全\VS2010\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         QQServer2.vcxproj -> H:\mycode\QQ\QQServer2\Debug\QQServer2.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\QQServer2.unsuccessfulbuild”。
+         正在对“Debug\QQServer2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\mycode\QQ\QQServer2\QQServer2\QQServer2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.92

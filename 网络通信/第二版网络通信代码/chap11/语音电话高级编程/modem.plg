@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: modem - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/modem.res" /d "NDEBUG" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\串口\modem\modem.rc"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/modem.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\串口\modem\modem.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\串口\modem\modemDlg.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSPC.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/modem.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\串口\modem\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSPD.tmp"" 
+Creating command line "link.exe winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/modem.pdb" /machine:I386 /out:"Release/modem.exe"  ".\Release\modem.obj" ".\Release\modemDlg.obj" ".\Release\StdAfx.obj" ".\Release\modem.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+modem.cpp
+modemDlg.cpp
+H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\串口\modem\modemDlg.cpp(270) : warning C4101: 'strOutNumber' : unreferenced local variable
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+modem.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

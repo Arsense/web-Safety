@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ProxyServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ProxyServer.res" /d "_DEBUG" /d "_AFXDLL" "G:\caucy\Work\VC+Network\《－－第十一章的内容－－》\《－－程序2－－》一个HTTP代理服务程序的实现\ProxyServer.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP52.tmp" with contents
+[
+WS2_32.LIB /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ProxyServer.pdb" /debug /machine:I386 /out:"Debug/ProxyServer.exe" /pdbtype:sept 
+".\Debug\ProxyServer.obj"
+".\Debug\ProxyServer1.obj"
+".\Debug\ProxyServerDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ProxyServer.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP52.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+ProxyServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

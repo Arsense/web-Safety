@@ -1,0 +1,558 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Property.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Property.ico"
+IDI_ACL_MEMO            ICON    DISCARDABLE     "res\\MEMO.ICO"
+IDI_ALERT_SET           ICON    DISCARDABLE     "res\\ALERTSET.ICO"
+IDI_APP_SET             ICON    DISCARDABLE     "res\\APPSET.ICO"
+IDI_BASE_SET            ICON    DISCARDABLE     "res\\BASESET.ICO"
+IDI_COMMON_SET          ICON    DISCARDABLE     "res\\COMMONSET.ICO"
+IDI_PACKET_MONITOR      ICON    DISCARDABLE     "res\\Monitor.ico"
+IDI_NET_SET             ICON    DISCARDABLE     "res\\NETSET.ICO"
+IDI_SUPER_SET           ICON    DISCARDABLE     "res\\SUPERSET.ICO"
+IDI_TIME_SET            ICON    DISCARDABLE     "res\\TIMESET.ICO"
+IDI_XFILTER             ICON    DISCARDABLE     "res\\Xfilter.ico"
+IDI_IP_SET              ICON    DISCARDABLE     "res\\IPSET.ICO"
+IDI_EMAIL               ICON    DISCARDABLE     "res\\Email.ico"
+IDI_LOG_QUERY_RESULT    ICON    DISCARDABLE     "res\\QueryResult.ico"
+IDI_LOG_QUERY_SET       ICON    DISCARDABLE     "res\\QuerySet.ICO"
+IDI_USER_INFO           ICON    DISCARDABLE     "res\\UserInfo.ico"
+IDI_ACL_SET             ICON    DISCARDABLE     "res\\ACLSET.ICO"
+IDI_SMALL_MESSAGE       ICON    DISCARDABLE     "res\\Message.ico"
+IDI_SMALL_NULL          ICON    DISCARDABLE     "res\\NULL.ico"
+IDI_SMALL_ALERT         ICON    DISCARDABLE     "res\\Alert.ico"
+IDI_SMALL_QUERY         ICON    DISCARDABLE     "res\\QueryEx1.ico"
+IDI_SMALL_PASS          ICON    DISCARDABLE     "res\\PassEx1.ico"
+IDI_SMALL_DENY          ICON    DISCARDABLE     "res\\DenyEx1.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Property Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Property\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Property.EXE\0"
+            VALUE "ProductName", "Property 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_ACL DIALOG DISCARDABLE  0, 0, 269, 291
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_COMBO_APPLICATION,60,31,179,164,CBS_DROPDOWN | 
+                    CBS_SORT | CBS_UPPERCASE | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_REMOTE_NET,60,47,179,85,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ACCESS_TIME,60,63,179,87,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ACTION,60,79,179,69,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_DIRECTION,60,124,179,69,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SERVICE_TYPE,60,140,179,113,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_SERVICE_PORT,60,156,179,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_MEMO,59,198,201,65,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,157,273,50,14
+    PUSHBUTTON      "取消",IDCANCEL,211,273,50,14
+    PUSHBUTTON      "...",IDC_BUTTON_APPLICATION,243,31,18,13
+    PUSHBUTTON      "...",IDC_BUTTON_NET,243,47,18,13
+    PUSHBUTTON      "...",IDC_BUTTON_TIME,243,63,18,13
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,25,267,1
+    ICON            IDI_BASE_SET,IDC_PACKET_MONITOR,3,2,20,20
+    LTEXT           "基本设置",IDC_ACL_BASE_SET_LABLE,31,8,230,16
+    LTEXT           "应用程序：",IDC_ACL_APPLICATION_LABLE,16,32,44,10
+    LTEXT           "远端网络：",IDC_ACL_REMOTE_NET_LABLE,16,48,44,10
+    LTEXT           "访问时间：",IDC_ACL_ACCESS_TIME_LABLE,16,64,44,10
+    LTEXT           "管制动作：",IDC_ACL_ACTION_LABLE,16,80,44,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,118,267,1
+    ICON            IDI_SUPER_SET,IDC_PACKET_MONITOR3,3,95,20,20
+    LTEXT           "高级设置",IDC_ACL_SUPER_SET_LABLE,31,105,232,10
+    LTEXT           "进出方向：",IDC_ACL_DERECTION_LABLE,16,124,44,10
+    LTEXT           "服务类型：",IDC_ACL_SERVICE_TYPE_LABLE,16,140,44,10
+    LTEXT           "服务端口：",IDC_ACL_SERVICE_PORT_LABLE,16,156,44,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,194,267,1
+    ICON            IDI_ACL_MEMO,IDC_PACKET_MONITOR4,3,171,20,20
+    LTEXT           "备注",IDC_ACL_MEMO_LABLE,31,181,232,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,268,267,1
+END
+
+IDD_DIALOG_REGISTER DIALOG DISCARDABLE  0, 0, 344, 229
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户登录 / 注册"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_REG_EDIT_EMAIL,89,47,234,13,ES_LOWERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_EDIT_NAME,89,105,81,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_REG_COMBO_GENDER,241,105,81,123,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_REG_TIME_BIRTHDAY,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,89,120,
+                    81,13
+    COMBOBOX        IDC_REG_COMBO_DEGREE,241,120,81,164,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_REG_COMBO_METIER,89,135,81,184,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_REG_EDIT_DUTY,241,135,81,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_EDIT_INC,89,150,81,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_REG_COMBO_SALARY,241,150,81,169,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_REG_EDIT_QQ,89,165,81,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_EDIT_ZIP,241,165,81,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_REG_EDIT_ADDRESS,89,181,234,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,226,212,50,14
+    PUSHBUTTON      "取消",IDCANCEL,280,212,50,14
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,1,38,342,1
+    ICON            IDI_EMAIL,IDC_PACKET_MONITOR,7,1,20,20
+    LTEXT           "本软件出售源代码，详细信息请浏览下面的网址。软件本身是完全免费的，只要输入 Email 地址，您就成为本软件的合法用户。",
+                    IDC_REG_LABEL_INFO_1,41,5,295,16
+    LTEXT           "Email：*",IDC_REG_LABEL_EMAIL,41,48,44,10
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,1,99,342,1
+    ICON            IDI_USER_INFO,IDC_PACKET_MONITOR3,8,76,20,20
+    LTEXT           "注册以下信息您将可以在第一时间得到本软件的升级程序，并有可能成为幸运用户免费获得源代码。 ",
+                    IDC_REG_LABEL_INFO_2,41,80,294,18
+    LTEXT           "姓名：",IDC_REG_LABEL_NAME,41,107,44,10
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,1,207,342,1
+    LTEXT           "姓别：",IDC_REG_LABEL_GENDER,189,107,44,10
+    LTEXT           "邮编：",IDC_REG_LABEL_ZIP,189,167,44,10
+    LTEXT           "生日：",IDC_REG_LABEL_BIRTHDAY,41,121,44,10
+    LTEXT           "职业：",IDC_REG_LABEL_METIER,41,136,44,10
+    LTEXT           "地址：",IDC_REG_LABEL_ADDRESS,41,181,44,10
+    LTEXT           "职务：",IDC_REG_LABEL_DUTY,189,136,44,10
+    LTEXT           "http://www.xfilt.com/",IDC_REG_LABEL_WEB_STATION,4,214,
+                    104,10
+    LTEXT           "学历：",IDC_REG_LABEL_DEGREE,189,121,44,10
+    LTEXT           "月薪：",IDC_REG_LABEL_SALARY,189,151,44,10
+    LTEXT           "单位：",IDC_REG_LABEL_INC,41,151,44,10
+    LTEXT           "QQ号码：",IDC_REG_LABEL_QQ,41,166,44,10
+    LTEXT           "请确保 Email 的真实性，这将作为技术支持的主要途径。",
+                    IDC_REG_LABEL_INFO_3,41,25,295,10
+END
+
+IDD_PACKET_MONITOR DIALOGEX 0, 0, 380, 220
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "封包监视"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST_PACKET_MONITOR,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    WS_TABSTOP,0,23,379,196,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "清除",IDC_BUTTON_CLEAR,203,7,54,13
+    PUSHBUTTON      "停止滚动",IDC_BUTTON_SCROLL,261,7,54,13
+    PUSHBUTTON      "停止监视",IDC_BUTTON_MONITOR,319,7,54,13
+    ICON            IDI_PACKET_MONITOR,IDC_PACKET_MONITOR,3,1,20,20
+    LTEXT           "封包监视列表：",IDC_PACKET_MONITOR_LABLE,31,9,129,10
+END
+
+IDD_LOG_QUERY DIALOGEX 0, 0, 380, 220
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "日志查询"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "DateTimePicker1",IDC_START_DATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,68,27,
+                    73,13
+    CONTROL         "DateTimePicker1",IDC_START_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,141,27,48,
+                    13
+    CONTROL         "DateTimePicker1",IDC_STOP_DATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,255,27,
+                    73,13
+    CONTROL         "DateTimePicker1",IDC_STOP_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,329,27,48,
+                    13
+    PUSHBUTTON      "开始查询(&Q)",IDC_LOG_QUERY_BUTTON_QUERY,323,50,54,13
+    PUSHBUTTON      "清除(&D)",IDC_LOG_QUERY_BUTTON_DELETE,152,50,54,13
+    PUSHBUTTON      "上一页(&B)",IDC_LOG_QUERY_BUTTON_BACK,209,50,54,13
+    PUSHBUTTON      "下一页(&N)",IDC_LOG_QUERY_BUTTON_NEXT,266,50,54,13
+    CONTROL         "List1",IDC_LIST_LOG,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_TABSTOP,0,68,379,
+                    151,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,0,23,379,1
+    ICON            IDI_LOG_QUERY_SET,IDC_PACKET_MONITOR,3,0,20,20
+    LTEXT           "查询条件设置",IDC_LOG_QUERY_SET_LABLE,31,10,129,10
+    LTEXT           "开始日期/时间：",IDC_LOG_QUERY_SET_START_TIME_LABLE,6,
+                    30,60,10
+    LTEXT           "结束日期/时间：",IDC_LOG_QUERY_SET_END_TIME_LABLE,195,
+                    30,60,10
+    ICON            IDI_LOG_QUERY_RESULT,IDC_PACKET_MONITOR2,3,44,20,20
+    LTEXT           "第%u页，共%u页，每页%u笔",
+                    IDC_LOG_QUERY_RESULT_LIST_LABLE,29,48,117,16
+END
+
+IDD_ACL DIALOGEX 0, 0, 380, 220
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "控管规则"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "放行所有",IDC_ACL_RADIO_PASS,"Button",
+                    BS_AUTORADIOBUTTON,30,30,92,12
+    CONTROL         "询问",IDC_ACL_RADIO_QUERY,"Button",BS_AUTORADIOBUTTON,
+                    123,30,71,12
+    CONTROL         "拒绝所有",IDC_ACL_RADIO_DENY,"Button",
+                    BS_AUTORADIOBUTTON,201,30,92,12
+    PUSHBUTTON      "添加(&A)",IDC_ACL_BUTTON_ADD,204,50,54,13
+    PUSHBUTTON      "修改(&E)",IDC_ACL_BUTTON_EDIT,261,50,54,13,WS_DISABLED
+    PUSHBUTTON      "删除(&D)",IDC_ACL_BUTTON_DELETE,318,50,54,13,
+                    WS_DISABLED
+    CONTROL         "List1",IDC_ACL_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_TABSTOP,0,66,379,
+                    153,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,0,23,379,1
+    ICON            IDI_APP_SET,IDC_PACKET_MONITOR,3,0,20,20
+    LTEXT           "应用程序设置",IDC_ACL_APPLICATION_SET_LABLE,31,11,129,
+                    10
+    ICON            IDI_ACL_SET,IDC_PACKET_MONITOR2,3,43,20,20
+    LTEXT           "控管规则设置",IDC_ACL_SET_LABLE,31,54,129,10
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 380, 220
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "关于"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "邮件地址：",IDC_ABOUT_LABLE_EMAIL_LABLE,85,99,42,10
+    LTEXT           "XFILTER 个人防火墙 2.0 版",IDC_ABOUT_LABLE_COPYRIGHT1,
+                    85,30,250,10
+    LTEXT           "Copyright (C) 2001-2002 XSTUDIO Technology",
+                    IDC_ABOUT_LABLE_COPYRIGHT2,86,184,250,10
+    LTEXT           "All rights reserved.",IDC_ABOUT_LABLE_COPYRIGHT3,86,195,
+                    250,10
+    LTEXT           "本软件授权给 %s 使用，授权码 %s。",
+                    IDC_ABOUT_LABLE_ACCREDIT_TO,85,43,250,10
+    LTEXT           "网址：",IDC_ABOUT_LABLE_WEB_ADDRESS_LABLE,85,87,42,10
+    LTEXT           "http://www.xstudio.com",IDC_ABOUT_LABLE_WEB_ADDRESS,127,
+                    87,171,10
+    LTEXT           "z78518@public2.zz.ha.cn",IDC_ABOUT_LABLE_EMAIL,127,99,
+                    171,11
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,2,23,377,1
+    ICON            IDI_XFILTER,IDC_PACKET_MONITOR,3,1,21,21
+    LTEXT           "关于 XFILTER 个人防火墙",IDC_ABOUT_LABLE_TITLE,31,9,129,
+                    10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,81,114,297,1
+    LTEXT           "警告：本电脑程序受著作权法的保护。凡未经授权而擅自复制、盗用或散布此程序或部分程序，将遭到民事赔偿及刑事的处罚，并将依法以最高刑罚进行追诉。",
+                    IDC_ABOUT_LABLE_WARNING,85,149,284,27
+    CONTROL         209,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,2,29,73,
+                    176
+    LTEXT           "此软件出售源代码，详细信息请浏览上面的网址。网站上列出了产品价格和付款方式，或者直接发送 Email 进行咨询。",
+                    IDC_ABOUT_LABLE_INFO,85,119,284,18
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,79,24,1,195
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,81,179,297,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,81,69,297,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,81,143,297,1
+    LTEXT           "作者：    朱雁辉、朱雁冰",IDC_ABOUT_LABLE_AUTHOR,85,75,
+                    250,10
+    LTEXT           "版权所有(C) 2001-2002 X 工作室",
+                    IDC_ABOUT_LABLE_COPYRIGHT,85,56,250,10
+END
+
+IDD_SET_NET DIALOGEX 0, 0, 298, 169
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "网络设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_SET_NET_TREE,"SysTreeView32",
+                    TVS_SHOWSELALWAYS | WS_TABSTOP,0,2,88,167,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "List1",IDC_SET_NET_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_TABSTOP,89,23,208,
+                    146,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "添加(&A)",IDC_SET_NET_BUTTON_ADD,158,6,44,14
+    PUSHBUTTON      "修改(&E)",IDC_SET_NET_BUTTON_EDIT,205,6,44,14
+    PUSHBUTTON      "删除(&D)",IDC_SET_NET_BUTTON_DELETE,252,6,44,14
+    ICON            IDI_NET_SET,IDC_PACKET_MONITOR,92,0,20,20
+    LTEXT           "网络信息：",IDC_SET_NET_NET_LABLE,116,10,40,10
+END
+
+IDD_SET_TIME DIALOGEX 0, 0, 298, 169
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "时间设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_SET_TIME_TREE,"SysTreeView32",
+                    TVS_SHOWSELALWAYS | WS_TABSTOP,0,2,88,167,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "星期日",IDC_SET_TIME_CHECK_SUNDAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,99,27,40,9
+    CONTROL         "星期日",IDC_SET_TIME_CHECK_MONDAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,144,27,40,9
+    CONTROL         "星期日",IDC_SET_TIME_CHECK_TUESDAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,189,27,40,9
+    CONTROL         "星期日",IDC_SET_TIME_CHECK_WEDNESDAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,234,27,40,9
+    CONTROL         "星期日",IDC_SET_TIME_CHECK_THURSDAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,99,41,40,9
+    CONTROL         "星期日",IDC_SET_TIME_CHECK_FRIDAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,144,41,40,9
+    CONTROL         "星期日",IDC_SET_TIME_CHECK_SATURDAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,189,41,40,9
+    CONTROL         "DateTimePicker1",IDC_SET_TIME_TIME_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,144,76,106,12
+    CONTROL         "DateTimePicker1",IDC_SET_TIME_TIME_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,144,93,106,12
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,90,23,207,1
+    ICON            IDI_TIME_SET,IDC_PACKET_MONITOR,92,0,20,20
+    LTEXT           "星期与时间",IDC_SET_TIME_WEEK_TIME_LABLE,120,10,129,10
+    LTEXT           "时间：",IDC_SET_TIME_TIME_LABLE,91,61,43,10
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,90,53,206,1
+    LTEXT           "开始时间：",IDC_SET_TIME_LABLE_START_TIME,100,77,43,10
+    LTEXT           "结束时间：",IDC_SET_TIME_LABLE_END_TIME,100,94,43,10
+END
+
+IDD_NET_IP_ARIA DIALOG DISCARDABLE  0, 0, 174, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "IP 地址段"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "IPAddress1",IDC_NET_IP_ARIA_IP_START,"SysIPAddress32",
+                    WS_TABSTOP,59,31,95,11
+    CONTROL         "IPAddress1",IDC_NET_IP_ARIA_IP_END,"SysIPAddress32",
+                    WS_TABSTOP,59,47,95,11
+    DEFPUSHBUTTON   "确定",IDOK,74,73,44,14
+    PUSHBUTTON      "取消(&C)",IDCANCEL,122,73,44,14
+    ICON            IDI_IP_SET,IDC_PACKET_MONITOR,8,1,20,20
+    LTEXT           "远端网络 IP 地址段",IDC_NET_IP_ARIA_LABLE,36,11,129,10
+    LTEXT           "开始 IP：",IDC_NET_IP_ARIA_LABLE_START_IP,11,31,43,10
+    LTEXT           "结束 IP：",IDC_NET_IP_ARIA_LABLE_END_IP,11,48,43,10
+    CONTROL         "",-1,"Static",SS_ETCHEDHORZ,4,65,164,1
+END
+
+IDD_SYSTEM_SET DIALOG DISCARDABLE  0, 0, 380, 220
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "系统设置"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "记录日志，日志文件大小为",IDC_SYSTEM_SET_CHECK_LOG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,63,32,112,10
+    COMBOBOX        IDC_SYSTEM_SET_LIST_LOG_SIZE,175,31,25,143,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Windows 启动时自动启动 XFILTER。",
+                    IDC_SYSTEM_SET_CHECK_AUTOSTART,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,63,48,144,10
+    CONTROL         "Xfilter 启动时显示欢迎界面。",
+                    IDC_SYSTEM_SET_CHECK_SPLASH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,63,64,128,10
+    CONTROL         "拦截时 PC 喇叭发出报警声音。",
+                    IDC_SYSTEM_SET_CHECK_ALERT_PCSPEAKER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,63,104,159,10
+    CONTROL         "拦截时弹出对话框报警。",
+                    IDC_SYSTEM_SET_CHECK_ALERT_DIALOG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,63,120,144,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,0,23,379,1
+    ICON            IDI_COMMON_SET,IDC_PACKET_MONITOR,3,0,20,20
+    LTEXT           "公共设置",IDC_SYSTEM_SET_COMMON_SET_LABLE,31,10,129,10
+    LTEXT           "M。",IDC_SYSTEM_SET_UNIT_LABLE,203,34,20,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,0,95,379,1
+    ICON            IDI_ALERT_SET,IDC_PACKET_MONITOR2,3,72,20,20
+    LTEXT           "报警设置",IDC_SYSTEM_SET_ALERT_SET_LABLE,31,82,129,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_ACL, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 268
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_DIALOG_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 343
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_PACKET_MONITOR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 379
+        BOTTOMMARGIN, 219
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "关于(&A)",                    ID_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "显示主界面(&C)",              ID_CONTROL_FRAME
+        MENUITEM "封包监视(&M)",                ID_PACKET_MONITOR
+        MENUITEM "日志查询(&Q)",                ID_LOG_QUERY
+        MENUITEM "控管规则(&L)",                ID_ACL_SET
+        MENUITEM "系统设置(&S)",                ID_SYSTEM_SET
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT               BITMAP  DISCARDABLE     "res\\about.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\splash.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Property(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Property.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

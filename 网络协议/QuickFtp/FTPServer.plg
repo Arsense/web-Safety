@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FTPServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSP1B0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FTPServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ΰ\Desktop\QuickFtp\ApplicationDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\ΰ\AppData\Local\Temp\RSP1B0.tmp"" 
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSP1B1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FTPServer.pdb" /debug /machine:I386 /out:"Debug/FTPServer.exe" /pdbtype:sept 
+".\Debug\AddUserInfoDlg.obj"
+".\Debug\ApplicationDlg.obj"
+".\Debug\ColorListBox.obj"
+".\Debug\ConfigurationPage.obj"
+".\Debug\ConnectSocket.obj"
+".\Debug\ConnectThread.obj"
+".\Debug\DataSocket.obj"
+".\Debug\FTPEventSink.obj"
+".\Debug\FTPServer.obj"
+".\Debug\FTPServerApp.obj"
+".\Debug\ListenSocket.obj"
+".\Debug\LogFile.obj"
+".\Debug\OnlineUserPage.obj"
+".\Debug\StatisticsPage.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TracePage.obj"
+".\Debug\UserAccountsDlg.obj"
+".\Debug\UserManager.obj"
+".\Debug\FTPServer.res"
+]
+Creating command line "link.exe @"C:\Users\ΰ\AppData\Local\Temp\RSP1B1.tmp""
+<h3>Output Window</h3>
+Compiling...
+ApplicationDlg.cpp
+Linking...
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSP7CD.tmp" with contents
+[
+/nologo /o"Debug/FTPServer.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AddUserInfoDlg.sbr"
+".\Debug\ApplicationDlg.sbr"
+".\Debug\ColorListBox.sbr"
+".\Debug\ConfigurationPage.sbr"
+".\Debug\ConnectSocket.sbr"
+".\Debug\ConnectThread.sbr"
+".\Debug\DataSocket.sbr"
+".\Debug\FTPEventSink.sbr"
+".\Debug\FTPServer.sbr"
+".\Debug\FTPServerApp.sbr"
+".\Debug\ListenSocket.sbr"
+".\Debug\LogFile.sbr"
+".\Debug\OnlineUserPage.sbr"
+".\Debug\StatisticsPage.sbr"
+".\Debug\TracePage.sbr"
+".\Debug\UserAccountsDlg.sbr"
+".\Debug\UserManager.sbr"]
+Creating command line "bscmake.exe @"C:\Users\ΰ\AppData\Local\Temp\RSP7CD.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FTPServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

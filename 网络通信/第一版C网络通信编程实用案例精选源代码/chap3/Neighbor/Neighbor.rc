@@ -1,0 +1,283 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Neighbor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Neighbor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Neighbor"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Neighbor 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2003 caucy",IDC_STATIC,40,25,119,8
+END
+
+IDD_NEIGHBOR_DIALOG DIALOGEX 0, 0, 359, 321
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Neighbor"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "列取网上邻居",IDC_LISTBUTTON,23,241,77,16
+    PUSHBUTTON      "网上邻居浏览对话框",IDC_NAVIGATOR,199,151,86,18
+    PUSHBUTTON      "映射网络驱动器",IDC_REDIRECT,180,202,78,18
+    PUSHBUTTON      "断开网络驱动器映射",IDC_DISCONNECTDIRECT,263,201,80,19
+    PUSHBUTTON      "主机->IP",IDC_IPBUTTON,187,267,70,16
+    PUSHBUTTON      "IP->主机",IDC_IPTOHOSTNAME,271,267,66,16
+    PUSHBUTTON      "发送消息",IDC_NETSEND,275,73,65,18
+    EDITTEXT        IDC_MESSAGE,176,38,88,90,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,114,294,50,14
+    LISTBOX         IDC_LIST,18,20,140,212,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "发送消息",IDC_STATIC,171,13,181,119
+    GROUPBOX        "列取网上邻居",IDC_STATIC,13,7,157,263
+    GROUPBOX        "主机与IP地址的对应",IDC_STATIC,181,248,165,44
+    GROUPBOX        "网上邻居对话框",IDC_STATIC,176,137,125,44
+    GROUPBOX        "网络驱动器关联",IDC_STATIC,177,185,169,50
+    EDITTEXT        IDC_SEND_ADDRESS,269,35,72,16,ES_AUTOHSCROLL
+    LTEXT           "消息内容",IDC_STATIC,175,28,49,9
+    LTEXT           "发送目的地(机器名或者IP)",IDC_STATIC,247,20,99,12
+END
+
+IDD_DIRECTDRIVER DIALOG DISCARDABLE  0, 0, 227, 142
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "映射网络驱动器"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_REMOTENAME,133,14,64,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOCALNAME,133,43,64,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USERNAME,131,69,64,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,134,95,64,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,84,123,41,12
+    LTEXT           "远程文件名称(如: ""\\\\MachineName\\Directory"")",
+                    IDC_STATIC,13,13,114,26
+    LTEXT           "映射成本地名称(如:""Q:"")",IDC_STATIC,13,46,97,18
+    LTEXT           "网络用户名",IDC_STATIC,16,71,53,14
+    LTEXT           "密码",IDC_STATIC,16,96,56,14
+END
+
+IDD_LOCALNAME DIALOGEX 0, 0, 163, 57
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "网络驱动器"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,111,13,37,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "OK",IDOK,50,40,50,10
+    LTEXT           "需要断开的驱动器名称:",IDC_STATIC,13,13,83,13
+END
+
+IDD_HOSTNAME DIALOG DISCARDABLE  0, 0, 187, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "输入主机名称"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,71,42,50,12
+    EDITTEXT        IDC_EDIT1,94,13,57,14,ES_AUTOHSCROLL
+    LTEXT           "主机名称",IDC_STATICEDIT,20,14,53,13
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Neighbor Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Neighbor\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Neighbor.EXE\0"
+            VALUE "ProductName", "Neighbor 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_NEIGHBOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 314
+    END
+
+    IDD_DIRECTDRIVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_LOCALNAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_HOSTNAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Neighbor(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Neighbor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,388 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include <winsock.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include <winsock.h>\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""res\\wsterm.rc2""  // non-App Studio edited resources\r\n"
+    "\r\n"
+    "#include ""afxres.rc""  \t// Standard components\r\n"
+    "#include ""afxprint.rc""\t// printing/print preview resources\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "RES\\WSTERM.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "RES\\TOOLBAR.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "C&lear Buffer",               ID_EDIT_CLEARBUFFER
+    END
+    POPUP "连接"
+    BEGIN
+        MENUITEM "&Connect",                    ID_SOCKET_CONNECT
+        MENUITEM "C&lose",                      ID_SOCKET_CLOSE
+    END
+    POPUP "视图"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Socket &Notifications",       ID_VIEW_SOCKETNOTIFICATIONS
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于",                        ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 185, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "本程序由大熊改编",IDC_STATIC,40,23,73,8
+    DEFPUSHBUTTON   "OK",IDOK,121,20,50,14,WS_GROUP
+END
+
+IDD_CONNECT DIALOG DISCARDABLE  0, 0, 158, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "连接服务器"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "主机",IDC_STATIC,7,7,16,8
+    EDITTEXT        IDC_HOSTNAME,35,5,115,13,ES_AUTOHSCROLL
+    LTEXT           "端口",IDC_STATIC,7,25,20,8
+    COMBOBOX        IDC_PORT,35,23,48,52,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "连接",IDOK,100,37,50,14
+    PUSHBUTTON      "取消",IDCANCEL,100,55,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CONNECT DLGINIT
+BEGIN
+    IDC_PORT, 0x403, 5, 0
+0x4d53, 0x5054, "\000" 
+    IDC_PORT, 0x403, 5, 0
+0x4f50, 0x3350, "\000" 
+    IDC_PORT, 0x403, 5, 0
+0x4e4e, 0x5054, "\000" 
+    IDC_PORT, 0x403, 1, 0
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "终端高级开发\nTCP.IP\nWSTerm Document\n\n\nWSTerm.Document\nWSterm Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Wsterm Windows Application"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document"
+    ID_FILE_OPEN            "Open an existing document"
+    ID_FILE_CLOSE           "Close the active document"
+    ID_FILE_SAVE            "Save the active document"
+    ID_FILE_SAVE_AS         "Save the active document with a new name"
+    ID_FILE_PAGE_SETUP      "Change the printing options"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options"
+    ID_FILE_PRINT           "Print the active document"
+    ID_FILE_PRINT_PREVIEW   "Display full pages"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright"
+    ID_APP_EXIT             "Quit the application; prompts to save documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane"
+    ID_PREV_PANE            "Switch back to the previous window pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection"
+    ID_EDIT_CLEAR_ALL       "Erase everything"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard"
+    ID_EDIT_FIND            "Find the specified text"
+    ID_EDIT_PASTE           "Insert Clipboard contents"
+    ID_EDIT_REPEAT          "Repeat the last action"
+    ID_EDIT_REPLACE         "Replace specific text with different text"
+    ID_EDIT_SELECT_ALL      "Select the entire document"
+    ID_EDIT_UNDO            "Undo the last action"
+    ID_EDIT_REDO            "Redo the previously undone action"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    IDP_SOCKETS_INIT_FAILED "WinSock Initialization Failed"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSAEINTR                "WSAEINTR: Interrupted function call"
+    WSAEBADF                "WSAEBADF: Bad file number"
+    WSAEACCES               "WSAEACCES: Permission denied"
+    WSAEFAULT               "WSAEFAULT: Address fault"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSAEINVAL               "WSAEINVAL: Invalid argument"
+    WSAEMFILE               "WSAEMFILE: Too many open files"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSAEWOULDBLOCK          "WSAEWOULDBLOCK: Resource temporarily unavailable (Would block)"
+    WSAEINPROGRESS          "WSAEINPROGRESS: Operation now in progress"
+    WSAEALREADY             "WSAEALREADY: Operation already in progress"
+    WSAENOTSOCK             "WSAENOTSOCK: Socket operation on non-socket"
+    WSAEDESTADDRREQ         "WSAEDESTADDRREQ: Destination address required"
+    WSAEMSGSIZE             "WSAEMSGSIZE: Message too long"
+    WSAEPROTOTYPE           "WSAEPROTOTYPE: Protocol wrong type for socket"
+    WSAENOPROTOOPT          "WSAENOPROTOOPT: Bad protocol option"
+    WSAEPROTONOSUPPORT      "WSAEPROTONOSUPPORT: Protocol not supported"
+    WSAESOCKTNOSUPPORT      "WSAESOCKTNOSUPPORT: Socket type not supported"
+    WSAEOPNOTSUPP           "WSAEOPNOTSUPP: Operation not supported"
+    WSAEPFNOSUPPORT         "WSAEPFNOSUPPORT: Protocol family not supported"
+    WSAEAFNOSUPPORT         "WSAEAFNOSUPPORT: Address family not supported by protocol family"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSAEADDRINUSE           "WSAEADDRINUSE: Address already in use"
+    WSAEADDRNOTAVAIL        "WSAEADDRNOTAVAIL: Cannot assign requested address"
+    WSAENETDOWN             "WSAENETDOWN: Network is down"
+    WSAENETUNREACH          "WSAENETUNREACH: Network is unreachable"
+    WSAENETRESET            "WSAENETRESET: Network dropped connection on reset"
+    WSAECONNABORTED         "WSAECONNABORTED: Software caused connection abort"
+    WSAECONNRESET           "WSAECONNRESET: Connection reset by peer"
+    WSAENOBUFS              "WSAENOBUFS: No buffer space available"
+    WSAEISCONN              "WSAEISCONN: Socket is already connected"
+    WSAENOTCONN             "WSAENOTCONN: Socket is not connected"
+    WSAESHUTDOWN            "WSAESHUTDOWN: Cannot send after socket shutdown"
+    WSAETOOMANYREFS         "WSAETOOMANYREFS: Too many references"
+    WSAETIMEDOUT            "WSAETIMEDOUT: Connection timed out"
+    WSAECONNREFUSED         "WSAECONNREFUSED: Connection refused"
+    WSAELOOP                "WSAELOOP: Loop"
+    WSAENAMETOOLONG         "WSAENAMETOOLONG: Name too long"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSAEHOSTDOWN            "WSAEHOSTDOWN: Host is down"
+    WSAEHOSTUNREACH         "WSAEHOSTUNREACH: No route to host"
+    WSAENOTEMPTY            "WSAENOTEMPTY: Directory not empty"
+    WSAEPROCLIM             "WSAEPROCLIM: Too many processes"
+    WSAEUSERS               "WSAEUSERS: Too many users"
+    WSAEDQUOT               "WSAEDQUOT: Disk quota"
+    WSAESTALE               "WSAESTALE: Stale"
+    WSAEREMOTE              "WSAEREMOTE: Remote"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSASYSNOTREADY          "WSASYSNOTREADY: Network subsystem is unavailable"
+    WSAVERNOTSUPPORTED      "WSAVERNOTSUPPORTED: WINSOCK.DLL version out of range"
+    WSANOTINITIALISED       "WSANOTINITIALISED: Successful WSAStartup() not yet performed"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSAEDISCON              "WSAEDISCON: Graceful shutdown in progress"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WSAHOST_NOT_FOUND       "WSAHOST_NOT_FOUND: Host not found"
+    WSATRY_AGAIN            "WSATRY_AGAIN: Non-authoritative host not found"
+    WSANO_RECOVERY          "WSANO_RECOVERY: Non-recoverable error"
+    WSANO_DATA              "WSANO_DATA: Valid name no data record of requested type"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\wsterm.rc2"  // non-App Studio edited resources
+
+#include "afxres.rc"  	// Standard components
+#include "afxprint.rc"	// printing/print preview resources
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

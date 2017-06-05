@@ -1,0 +1,38 @@
+0Microsoft Windows ÍøÂç  
+1MSHOME  
+1SCADGROUP  
+2\\NETGATE  
+2\\SCAD-10  Scad-10
+3\\SCAD-10\863  
+3\\SCAD-10\¹²ÏíÎÄµµ  
+3\\SCAD-10\Music  
+2\\SCAD-12  
+2\\SCAD-123  
+2\\SCAD-15  
+2\\SCAD-162  
+2\\SCAD-23  
+2\\SCAD-5  
+2\\SCAD-55  
+2\\SCAD-66  
+3\\SCAD-66\way  
+3\\SCAD-66\xunqin  
+3\\SCAD-66\co-op  
+3\\SCAD-66\mp3  
+3\\SCAD-66\»ÆÍ¨ÀË  
+2\\SCAD-8  
+2\\SCAD-88  way
+3\\SCAD-88\Downloads  
+2\\SCAD10  
+1WORKGROUP  
+2\\CALIFORLAB  
+2\\CGI-2G1A760KEZI  
+2\\CGIM-0D6402BCB6  
+2\\FFF  
+2\\IVAN  
+2\\ONDESIGN7  
+2\\SCAD-13  
+2\\SCAD-26  
+2\\SCAD-33  
+2\\STONES  
+2\\YH  
+2\\YZD-SERVER  

@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SendEMail - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/SendEMail.res" /d "_DEBUG" /d "_AFXDLL" "F:\Work\VC+Network\《－－第八章的内容－－》\EMAIL\《－－发送邮件程序－－》\SendEMail\SendEMail.rc"" 
+Creating temporary file "C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP41.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SendEMail.pdb" /debug /machine:I386 /out:"Debug/SendEMail.exe" /pdbtype:sept 
+".\Debug\ESocket.obj"
+".\Debug\MessBox.obj"
+".\Debug\SendEMail.obj"
+".\Debug\SendEMailDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SendEMail.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\dingzh\LOCALS~1\Temp\RSP41.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+SendEMail.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

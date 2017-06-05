@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WebServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/WebServer.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap6\Web服务器\WebServer.rc"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WebServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap6\Web服务器\GenericServer.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap6\Web服务器\HTTPServer.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap6\Web服务器\Log.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap6\Web服务器\WebServer.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap6\Web服务器\WebServerDlg.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP69.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP6A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WebServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap6\Web服务器\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP6A.tmp"" 
+Creating temporary file "C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP6B.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WebServer.pdb" /debug /machine:I386 /out:"Debug/WebServer.exe" /pdbtype:sept 
+".\Debug\GenericServer.obj"
+".\Debug\HTTPServer.obj"
+".\Debug\Log.obj"
+".\Debug\StdAfx.obj"
+".\Debug\WebServer.obj"
+".\Debug\WebServerDlg.obj"
+".\Debug\WebServer.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\钻石王~1\LOCALS~1\Temp\RSP6B.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GenericServer.cpp
+HTTPServer.cpp
+Log.cpp
+WebServer.cpp
+WebServerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+WebServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

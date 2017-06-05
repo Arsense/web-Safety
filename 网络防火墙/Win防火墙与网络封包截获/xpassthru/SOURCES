@@ -1,0 +1,26 @@
+
+TARGETNAME=XPASSTHRU
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+TARGETLIBS=$(DDK_LIB_PATH)\ndis.lib
+C_DEFINES=$(C_DEFINES) -DNDIS40 -DNDIS_MINIPORT_DRIVER -DNDIS40_MINIPORT
+
+INCLUDES=..\..\inc
+
+SOURCES= xpassthru.c    \
+         minihook.c		\
+         prothook.c		\
+		 send.c			\
+		 recv.c			\
+		 packet.c		\
+         xpassthru.rc
+
+MSC_WARNING_LEVEL=/W3 /WX
+
+PRECOMPILED_INCLUDE=prexsim.h
+PRECOMPILED_PCH=prexsim.pch
+PRECOMPILED_OBJ=prexsim.obj
+
+                           
+

@@ -1,0 +1,239 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SMTPwithAttach.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SMTPwithAttach.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SMTPwithAttach"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SMTPwithAttach 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SMTPWITHATTACH_DIALOG DIALOGEX 0, 0, 309, 405
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "带附件发送功能的SMTP程序"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "结束",IDCANCEL,243,41,45,14
+    LTEXT           "收信人地址",IDC_STATIC,13,173,41,8
+    LTEXT           "抄送地址",IDC_STATIC,13,191,33,8
+    LTEXT           "暗送地址",IDC_STATIC,13,209,33,8
+    LTEXT           "附件列表",IDC_STATIC,13,253,33,8
+    EDITTEXT        IDC_EDIT_RECEIVER,55,171,160,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CC,55,189,159,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BCC,55,207,234,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",IDC_BrowerFile,223,251,37,14
+    LTEXT           "邮件标题",IDC_STATIC,13,231,34,8
+    EDITTEXT        IDC_EDIT_TITLE,55,226,161,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LETTER,7,279,293,119,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "信件内容",IDC_STATIC,7,265,33,8
+    LTEXT           "发信姓名:",IDC_STATIC,19,105,37,8
+    LTEXT           "发信地址:",IDC_STATIC,20,117,37,8
+    EDITTEXT        IDC_EDIT_NAME,71,119,94,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADDRESS,71,101,94,14,ES_AUTOHSCROLL
+    LTEXT           "SMTP服务器地址:",IDC_STATIC,23,31,61,8
+    LTEXT           "服务器端口号:",IDC_STATIC,24,49,53,8
+    EDITTEXT        IDC_EDIT_SERVER,86,27,94,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PORT,87,46,24,14,ES_AUTOHSCROLL
+    LTEXT           "SMTP验证方式:",IDC_STATIC,22,67,53,8
+    COMBOBOX        IDC_AUTHENTICATE,88,67,98,30,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "用户名",IDC_STATIC,179,103,25,8
+    LTEXT           "密  码",IDC_STATIC,178,121,25,8
+    EDITTEXT        IDC_EDIT_UID,207,101,52,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,207,119,52,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IP,71,143,94,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Attachment,56,249,161,14,ES_AUTOHSCROLL
+    LTEXT           "本地绑定地址:",IDC_STATIC,17,146,53,8
+    EDITTEXT        IDC_EDIT3,185,142,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "SMTP服务器设置",IDC_STATIC,15,13,206,73
+    GROUPBOX        "发信人设置",IDC_STATIC,15,87,276,77
+    DEFPUSHBUTTON   "发送",IDC_SEND,241,21,46,13
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SMTPwithAttach Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SMTPwithAttach\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SMTPwithAttach.EXE\0"
+            VALUE "ProductName", "SMTPwithAttach 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SMTPWITHATTACH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 398
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SMTPwithAttach(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SMTPwithAttach.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type"       content="text/html;       charset=iso-8859-1">
+<meta name="GENERATOR" content="/www/htdocs/earthwalkdesigns/cgi-bin/EWDHtml.cgi">
+<!--                                                       -->
+<!--      *******************************************      -->
+<!--      *                                         *      -->
+<!--      * EarthWalk Designs Programming Services. *      -->
+<!--      *        WWW.EarthWalkDesigns.Com         *      -->
+<!--      *                                         *      -->
+<!--      *  Jay Wheeler (Jay@EarthWalkDesigns.com) *      -->
+<!--      *              December 1997              *      -->
+<!--      *                                         *      -->
+<!--      *******************************************      -->
+<!--                                                       -->
+<!-- This page was designed by Jay Wheeler. -->
+<title>EWDPing - Ping/TraceRoute</title>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#990033" vlink="#333399" alink="#ff0000">
+<font size=" 3 " face=" Century Schoolbook ">
+<center>
+<a href="http://www.earthwalkdesigns.com/EWSoftware/EWDPing/"><img src="EarthWalk.gif" border="0" align="center" ></a>
+<br>
+<font size="+2">
+<b>EWDPing Ping/TraceRoute Application
+</b></font>
+<br>
+<img src="Colorbar.gif" border="0" align="center" ><br>
+</center>
+<a name="Variables"><b>EWDPing Variables</b></b></a>
+EWDPing contains the following variables in EWDPingDlg:
+<p>
+<ul>
+  <a href="#CurrentHostName">CurrentHostName</a>
+  <br>
+  <a href="#DefHost">DefHost</a>
+  <br>
+  <a href="#HostName">HostName</a>
+  <br>
+  <a href="#icmpBuffer">icmpBuffer</a>
+  <br>
+  <a href="#icmpDataLen">icmpDataLen</a>
+  <br>
+  <a href="#icmpIntervalCount">icmpIntervalCount</a>
+  <br>
+  <a href="#icmpMaxIntervals">icmpMaxIntervals</a>
+  <br>
+  <a href="#icmpPingTTL">icmpPingTTL</a>
+  <br>
+  <a href="#icmpTracing">icmpTracing</a>
+  <br>
+  <a href="#IconState">IconState</a>
+  <br>
+  <a href="#largeImageList">largeImageList</a>
+  <br>
+  <a href="#LocalDomainName">LocalDomainName</a>
+  <br>
+  <a href="#LocalNameServer">LocalNameServer</a>
+  <br>
+  <a href="#pIcmpBuffer">pIcmpBuffer</a>
+  <br>
+  <a href="#PingSocket">PingSocket</a>
+  <br>
+  <a href="#smallImageList">smallImageList</a>
+  <br>
+  <a href="#TimerActive">TimerActive</a>
+  <br>
+  <a href="#TimerInterval">TimerInterval</a>
+  <br>
+  <a href="#TimerNumber">TimerNumber</a>
+  <br>
+  <a href="#TraceTarget">TraceTarget</a>
+  <br>
+  <a href="#wsaData">wsaData</a>
+  <br>
+  </ul>
+<p>
+<dl>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="CurrentHostName">char CurrentHostName[MAXHOSTNAME]</b></a>
+  <dd>
+    <ul>
+      <li>Local host name from system registry;
+      <li>Valid for Microsoft WindowsNT 4.0 Winsock 2;
+      <li>Might not be valid with other Winsock providers.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="DefHost">CString DefHost</b></a>
+  <dd>
+    <ul>
+      <li>Default host name for PING operations;
+      <li>Set in EWDPingOptionsDlg.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="HostName">char HostName[MAXHOSTNAME]</b></a>
+  <dd>
+    <ul>
+      <li>Name of host to PING;
+      <li>From EWDPingDlg entry.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="icmpBuffer">char icmpBuffer[MAX_PACKET]</b></a>
+  <dd>
+    <ul>
+      <li>General purpose buffer for ICMP operations.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="icmpDataLen">int icmpDataLen</b></a>
+  <dd>
+    <ul>
+      <li>Length of ICMP <i>data</i> in icmpBuffer;
+      <li>Does not include length of ICMP header.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="icmpIntervalCount">unsigned long icmpIntervalCount</b></a>
+  <dd>
+    <ul>
+      <li>Number of times TimerInterval has been reached during an operation.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="icmpMaxIntervals">unsigned long icmpMaxIntervals</b></a>
+  <dd>
+    <ul>
+      <li>Maximum icmpIntervalCount.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="icmpPingTTL">int icmpPingTTL</b></a>
+  <dd>
+    <ul>
+      <li>TTL index for next trace operation;
+      <li>Set to 0 for PING operation;
+      <li>Selects next node in the Internet tree to PING on the way to the TraceTarget.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="icmpTracing">BOOL icmpTracing</b></a>
+  <dd>
+    <ul>
+      <li>TRUE = trace operation;
+      <li>FALSE = PING operation.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="IconState">int IconState</b></a>
+  <dd>
+    <ul>
+      <li>The next animated icon to display;
+      <li>Used as an index into the Icon's making up the animated icon.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="largeImageList">CImageList largeImageList</b></a>
+  <dd>
+    <ul>
+      <li>Large icon (32 x 32) list;
+      <li>Used by m_TraceList.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="LocalDomainName">CString LocalDomainName</b></a>
+  <dd>
+    <ul>
+      <li>Domain Name for local host from system registry;
+      <li>Valid for Microsoft WindowsNT 4.0 Winsock 2;
+      <li>Might not be valid with other Winsock providers.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="LocalNameServer">CString LocalNameServer</b></a>
+  <dd>
+    <ul>
+      <li>Local Name Server name from system registry;
+      <li>Valid for Microsoft WindowsNT 4.0 Winsock 2;
+      <li>Might not be valid with other Winsock providers.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="pIcmpBuffer">LPSTR pIcmpBuffer</b></a>
+  <dd>
+    <ul>
+      <li>FAR pointer to icmpBuffer.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="pIcmpHeader">LPIcmpHeader pIcmpHeader</b></a>
+  <dd>
+    <ul>
+      <li>Pointer to an IcmpHeader structure;
+      <li>Mapped to the current ICMP buffer.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="PingSocket">CIcmp PingSocket</b></a>
+  <dd>
+    <ul>
+      <li><a href="/earcgi/EWDHtml.cgi?/EWSoftware/CIcmp/index">CIcmp</a> object;
+      <li>Derived from CSocket object;
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="smallImageList">CImageList smallImageList</b></a>
+  <dd>
+    <ul>
+      <li>List of small (16 x 16) icons;
+      <li>Used by m_TraceList.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="TimerActive">BOOL TimerActive</b></a>
+  <dd>
+    <ul>
+      <li>TRUE = timer operation is running;
+      <li>FALSE = timer is idle.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="TimerInterval">int TimerInterval</b></a>
+  <dd>
+    <ul>
+      <li>Time, in mSec., for timer count.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="TimerNumber">int TimerNumber</b></a>
+  <dd>
+    <ul>
+      <li>Timer assigned by operating system;
+      <li>Valid only when TimerActive is TRUE.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="TraceTarget">struct in_addr TraceTarget</b></a>
+  <dd>
+    <ul>
+      <li>Address of the endpoint of a trace operation;
+      <li>Initialized to HostName at start of trace operation.
+    </ul>
+</dt>
+
+<p>
+<Center>
+<hr width="50%">
+</center>
+<p>
+
+<dt><b><a name="wsaData">WSADATA wsaData</b></a>
+  <dd>
+    <ul>
+      <li>Winsock data returned from operating system.
+    </ul>
+</dt>
+
+</dl>
+
+<p>
+<center>
+<img src="Colorbar.gif" border="0" align="center" ><br>
+</center>
+<font size="-1">
+Copyright (c) 1997,1998. EarthWalk Designs.
+<br>
+Direct all inquiries to:<a href="mailto:jay@earthwalkdesigns.com">Jay Wheeler</a>
+at EarthWalkDesigns.com
+</font>
+</body>
+</html>
+

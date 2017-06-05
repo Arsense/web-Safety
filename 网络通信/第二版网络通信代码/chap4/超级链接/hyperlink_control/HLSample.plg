@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HLSample - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/HLSample.res" /d "_DEBUG" /d "_AFXDLL" "H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\超级链接\hyperlink_control\HLSample.rc"" 
+Creating temporary file "C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/HLSample.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\超级链接\hyperlink_control\HLSample.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\超级链接\hyperlink_control\HLSampleDlg.cpp"
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\超级链接\hyperlink_control\HyperLink.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP69.tmp"" 
+Creating temporary file "C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP6A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/HLSample.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"H:\汪晓平\学习资料\artile\求是工作室\未完图书\vc高级网络通信编程\书\最后\代码\chap4\超级链接\hyperlink_control\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP6A.tmp"" 
+Creating temporary file "C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP6B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HLSample.pdb" /debug /machine:I386 /out:"Debug/HLSample.exe" /pdbtype:sept 
+".\Debug\HLSample.obj"
+".\Debug\HLSampleDlg.obj"
+".\Debug\HyperLink.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HLSample.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\万里牛\LOCALS~1\Temp\RSP6B.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HLSample.cpp
+HLSampleDlg.cpp
+HyperLink.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+HLSample.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WebServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/WebServer.res" /d "_DEBUG" /d "_AFXDLL" "H:\源代码\网络通信\第二版网络通信代码\chap6\Web服务器\WebServer.rc"" 
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSP8996.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WebServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\源代码\网络通信\第二版网络通信代码\chap6\Web服务器\GenericServer.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\Web服务器\HTTPServer.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\Web服务器\Log.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\Web服务器\WebServer.cpp"
+"H:\源代码\网络通信\第二版网络通信代码\chap6\Web服务器\WebServerDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\伟\AppData\Local\Temp\RSP8996.tmp"" 
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSP8997.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WebServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\源代码\网络通信\第二版网络通信代码\chap6\Web服务器\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\伟\AppData\Local\Temp\RSP8997.tmp"" 
+Creating temporary file "C:\Users\伟\AppData\Local\Temp\RSP8998.tmp" with contents
+[
+ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WebServer.pdb" /debug /machine:I386 /out:"Debug/WebServer.exe" /pdbtype:sept 
+".\Debug\GenericServer.obj"
+".\Debug\HTTPServer.obj"
+".\Debug\Log.obj"
+".\Debug\StdAfx.obj"
+".\Debug\WebServer.obj"
+".\Debug\WebServerDlg.obj"
+".\Debug\WebServer.res"
+]
+Creating command line "link.exe @"C:\Users\伟\AppData\Local\Temp\RSP8998.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GenericServer.cpp
+HTTPServer.cpp
+Log.cpp
+WebServer.cpp
+WebServerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+WebServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Mini Ftpserver说明：
+
+1.帐号密码为toldo;
+2.主目录为c:/temp,在连接之前请先建立;

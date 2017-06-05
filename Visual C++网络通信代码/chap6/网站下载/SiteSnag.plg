@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SiteSnag - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSPE43E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SiteSnag.pdb" /machine:I386 /out:"Release/SiteSnag.exe" 
+".\Release\Document.obj"
+".\Release\Frame.obj"
+".\Release\inet.obj"
+".\Release\Options.obj"
+".\Release\parser.obj"
+".\Release\progress.obj"
+".\Release\Project.obj"
+".\Release\SiteSnag.obj"
+".\Release\snagpars.obj"
+".\Release\StdAfx.obj"
+".\Release\TREE.OBJ"
+".\Release\urldlg.obj"
+".\Release\View.obj"
+".\Release\Wait.obj"
+".\Release\SiteSnag.res"
+]
+Creating command line "link.exe @"C:\Users\ΰ\AppData\Local\Temp\RSPE43E.tmp""
+<h3>Output Window</h3>
+Linking...
+Creating temporary file "C:\Users\ΰ\AppData\Local\Temp\RSPE548.tmp" with contents
+[
+/nologo /o"Release/SiteSnag.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\Document.sbr"
+".\Release\Frame.sbr"
+".\Release\inet.sbr"
+".\Release\Options.sbr"
+".\Release\parser.sbr"
+".\Release\progress.sbr"
+".\Release\Project.sbr"
+".\Release\SiteSnag.sbr"
+".\Release\snagpars.sbr"
+".\Release\TREE.SBR"
+".\Release\urldlg.sbr"
+".\Release\View.sbr"
+".\Release\Wait.sbr"]
+Creating command line "bscmake.exe @"C:\Users\ΰ\AppData\Local\Temp\RSPE548.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SiteSnag.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

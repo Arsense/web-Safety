@@ -1,0 +1,118 @@
+; -- xpassthru.inf --
+;
+; Sample Filter INF file
+;
+; Copyright (c) 2001-2002, xstudio technology
+; ----------------------------------------------------------------------
+
+[Version]
+Signature  = "$Windows NT$"
+Class      = NetService
+ClassGUID  = {4D36E974-E325-11CE-BFC1-08002BE10318}
+Provider   = %Msft%
+DriverVer  = 12/24/2001,1.00.0.1
+
+
+[Manufacturer]
+%Msft% = MSFT
+
+[ControlFlags]
+
+[MSFT]
+%xfilter_Desc% = xfilter.ndi, xs_xfilter
+
+[xfilter.ndi]
+AddReg = xfilter.ndi.AddReg, xfilter.AddReg
+; Note:
+; 1. The NCF_* flags are defined in netcfgx.h
+; 2. NCF_HAS_UI (0x80) is required only if the filter has a Notify object
+;    and it supports custom property pages.
+Characteristics = 0x490 ; NCF_HAS_UI | NCF_FILTER | NCF_NO_SERVICE !!--Filter Specific--!!
+CopyFiles       = xfilter.CopyFiles.Init, xfilter.CopyFiles.Sys, xfilter.CopyFiles.Inf
+
+; ----------------------------------------------------------------------
+; File copy
+;
+[SourceDisksNames]
+1=%DiskDescription%,"",,
+
+[SourceDisksFiles]
+xsfilter.dll=1
+xpassthru.sys=1
+xftowin.inf=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+xfilter.CopyFiles.Init  = 11   ; %windir%\System32
+xfilter.CopyFiles.Sys   = 12   ; %windir%\System32\drivers
+xfilter.CopyFiles.Inf   = 17   ; %windir%\inf
+
+; Copying of xsfilter.dll is required only if the filter has a Notify object
+[xfilter.CopyFiles.Init]
+xsfilter.dll,,,2
+
+[xfilter.CopyFiles.Sys]
+xpassthru.sys,,,2
+
+[xfilter.CopyFiles.Inf]
+xftowin.inf,,,2
+
+; ----------------------------------------------------------------------
+; Filter Install
+;
+
+[xfilter.ndi.AddReg]
+HKR, Ndi, HelpText, , %xfilter_HELP%
+
+; ----------------------------------------------------------------------
+; Keys required if a Notify object is present
+; These keys should be omitted if the Filter does not have any Notify object
+;
+; Note:
+; 1. Only include the following lines if your filter has configuration UI
+;    that needs to be displayed.  Otherwise, you should not need a notify
+;    object.
+; 2. If you write your own notifyobject, use a different GUID for ClsID!!
+;    (Generate this with uuidgen.exe)
+;
+HKR, Ndi, ClsID,        , {df2e4f67-e93a-11d1-bb14-0000f8779051}
+HKR, Ndi, ComponentDll, , xsfilter.dll
+
+; ----------------------------------------------------------------------
+; !!--Filter Specific--!!
+;
+; Note:
+; 1. Other components may also have UpperRange/LowerRange but for filters
+;    the value of both of them must be noupper/nolower
+; 2. The value FilterClass is required.
+; 3. The value Service is required
+; 4. FilterDeviceInfId is the InfId of the filter device (miniport) that will
+;    be installed for each filtered adapter.
+;    In this case this is xs_xfiltermp (refer to xftowin.inf)
+;
+HKR, Ndi,            FilterClass,         , failover
+HKR, Ndi,            FilterDeviceInfFile, , xftowin.inf
+HKR, Ndi,            FilterDeviceInfId,   , xfiltermp
+HKR, Ndi,            Service,             , xfilter
+HKR, Ndi\Interfaces, UpperRange,          , noupper
+HKR, Ndi\Interfaces, LowerRange,          , nolower
+HKR, Ndi\Interfaces, FilterMediaTypes,    , "ethernet, tokenring, fddi"
+
+[xfilter.AddReg]
+; The following key is Required
+; The following key is xfilter specific
+HKR, Parameters, Param1, 0, 4
+
+[xfilter.Ndi.Remove.Services]
+    DelService = xfilter
+
+; ----------------------------------------------------------------------
+[Strings]
+Msft = "xstudio"
+DiskDescription = "xstudio Sample Filter Disk"
+
+xfilter_Desc = "Xstudio Sample Filter"
+xfilter_HELP = "Xstudio Sample Filter"
+
+
+
